@@ -1,0 +1,1388 @@
+n JD-WordPress 2.0 RC2 - Remote File Inclusion                           | php/webapps/9890.py
+Joomla! Plugin JD-WordPress 2.0-1.0 RC2 - 'wp-comments-post.php' Remote File Inclusio | php/webapps/28295.txt
+Joomla! Plugin JD-WordPress 2.0-1.0 RC2 - 'wp-feed.php' Remote File Inclusion         | php/webapps/28296.txt
+Joomla! Plugin JD-WordPress 2.0-1.0 RC2 - 'wp-trackback.php' Remote File Inclusion    | php/webapps/28297.txt
+Mulitple WordPress Themes - 'admin-ajax.php?img' Arbitrary File Download              | php/webapps/34511.txt
+Multiple WordPress Orange Themes - Cross-Site Request Forgery (Arbitrary File Upload) | php/webapps/29946.txt
+Multiple WordPress Plugins (TimThumb 2.8.13 / WordThumb 1.07) - 'WebShot' Remote Code | php/webapps/33851.txt
+Multiple WordPress Plugins - 'timthumb.php' File Upload                               | php/webapps/17872.txt
+Multiple WordPress Plugins - Arbitrary File Upload                                    | php/webapps/41540.py
+Multiple WordPress Themes - 'upload.php' Arbitrary File Upload                        | php/webapps/37417.php
+Multiple WordPress UpThemes Themes - Arbitrary File Upload                            | php/webapps/36611.txt
+Multiple WordPress WooThemes Themes - 'test.php' Cross-Site Scripting                 | php/webapps/35830.txt
+Multiple WordPress WPScientist Themes - Arbitrary File Upload                         | php/webapps/38167.php
+NEX-Forms WordPress plugin < 7.9.7 - Authenticated SQLi                               | php/webapps/51042.txt
+Paid Memberships Pro  v2.9.8 (WordPress Plugin) - Unauthenticated SQL Injection       | php/webapps/51235.py
+phpWordPress 3.0 - Multiple SQL Injections                                            | php/webapps/26608.txt
+Translatepress Multilinugal WordPress plugin < 2.3.3 - Authenticated SQL Injection    | php/webapps/51043.txt
+Wordpress 4.9.6 - Arbitrary File Deletion (Authenticated) (2)                         | php/webapps/50456.js
+WordPress 5.0.0 - Image Remote Code Execution                                         | php/webapps/49512.py
+WordPress 5.7 - 'Media Library' XML External Entity Injection (XXE) (Authenticated)   | php/webapps/50304.sh
+WordPress Core - 'load-scripts.php' Denial of Service                                 | php/dos/43968.py
+WordPress Core / MU / Plugins - '/admin.php' Privileges Unchecked / Multiple Informat | php/webapps/9110.txt
+WordPress Core 0.6/0.7 - 'Blog.header.php' SQL Injection                              | php/webapps/23213.txt
+WordPress Core 1.0.7 - 'Pool index.php' Cross-Site Scripting                          | php/webapps/30520.txt
+WordPress Core 1.2 - 'admin-header.php?redirect_url' Cross-Site Scripting             | php/webapps/24642.txt
+WordPress Core 1.2 - 'bookmarklet.php' Multiple Cross-Site Scripting Vulnerabilities  | php/webapps/24643.txt
+WordPress Core 1.2 - 'categories.php?cat_ID' Cross-Site Scripting                     | php/webapps/24644.txt
+WordPress Core 1.2 - 'edit-comments.php' Multiple Cross-Site Scripting Vulnerabilitie | php/webapps/24646.txt
+WordPress Core 1.2 - 'edit.php?s' Cross-Site Scripting                                | php/webapps/24645.txt
+WordPress Core 1.2 - 'wp-login.php' HTTP Response Splitting                           | php/webapps/24667.txt
+WordPress Core 1.2 - 'wp-login.php' Multiple Cross-Site Scripting Vulnerabilities     | php/webapps/24641.txt
+WordPress Core 1.2 - HTTP Splitting                                                   | php/webapps/570.txt
+WordPress Core 1.2.1/1.2.2 - '/wp-admin/post.php?content' Cross-Site Scripting        | php/webapps/24988.txt
+WordPress Core 1.2.1/1.2.2 - '/wp-admin/templates.php?file' Cross-Site Scripting      | php/webapps/24989.txt
+WordPress Core 1.2.1/1.2.2 - 'link-add.php' Multiple Cross-Site Scripting Vulnerabili | php/webapps/24990.txt
+WordPress Core 1.2.1/1.2.2 - 'link-categories.php?cat_id' Cross-Site Scripting        | php/webapps/24991.txt
+WordPress Core 1.2.1/1.2.2 - 'link-manager.php' Multiple Cross-Site Scripting Vulnera | php/webapps/24992.txt
+WordPress Core 1.2.1/1.2.2 - 'moderation.php?item_approved' Cross-Site Scripting      | php/webapps/24993.txt
+WordPress Core 1.5 - 'post.php' Cross-Site Scripting                                  | php/webapps/25682.txt
+WordPress Core 1.5.1.1 - 'add new admin' SQL Injection                                | php/webapps/1059.pl
+WordPress Core 1.5.1.1 - SQL Injection                                                | php/webapps/1033.pl
+WordPress Core 1.5.1.1 < 2.2.2 - Multiple Vulnerabilities                             | php/webapps/4397.rb
+WordPress Core 1.5.1.2 - 'xmlrpc' Interface SQL Injection                             | php/webapps/1077.pl
+WordPress Core 1.5.1.3 - 'cache_lastpostdate' Arbitrary Code Execution (Metasploit)   | php/webapps/16895.rb
+WordPress Core 1.5.1.3 - Remote Code Execution                                        | php/webapps/1142.php
+WordPress Core 1.5.1.3 - Remote Code Execution (Metasploit)                           | php/webapps/1145.pm
+WordPress Core 1.x/2.0.x - 'template.php' HTML Injection                              | php/webapps/29356.txt
+WordPress Core 1.x/2.0.x - 'Templates.php' Cross-Site Scripting                       | php/webapps/29598.txt
+WordPress Core 1.x/2.0.x - Pingback SourceURI Denial of Service / Information Disclos | php/webapps/29522.py
+WordPress Core 2.0 - 'wp-register.php' Multiple Cross-Site Scripting Vulnerabilities  | php/webapps/30602.html
+WordPress Core 2.0 - Comment Post HTML Injection                                      | php/webapps/27227.txt
+WordPress Core 2.0 < 2.7.1 - 'admin.php' Module Configuration Security Bypass         | php/webapps/10088.txt
+WordPress Core 2.0.11 - '/wp-admin/options-discussion.php' Script Cross-Site Request  | php/webapps/38924.txt
+WordPress Core 2.0.2 - 'cache' Remote Shell Injection                                 | php/webapps/6.php
+WordPress Core 2.0.5 - 'functions.php' Remote File Inclusion                          | php/webapps/28980.txt
+WordPress Core 2.0.5 - Trackback UTF-7 SQL Injection                                  | php/webapps/3095.py
+WordPress Core 2.0.6 - 'wp-trackback.php' SQL Injection                               | php/webapps/3109.php
+WordPress Core 2.1.1 - '/wp-includes/theme.php?iz' Arbitrary Command Execution        | php/webapps/29702.txt
+WordPress Core 2.1.1 - 'post.php' Cross-Site Scripting                                | php/webapps/29682.txt
+WordPress Core 2.1.1 - Arbitrary Command Execution                                    | php/webapps/29701.txt
+WordPress Core 2.1.1 - Multiple Cross-Site Scripting Vulnerabilities                  | php/webapps/29684.txt
+WordPress Core 2.1.2 - 'xmlrpc' SQL Injection                                         | php/webapps/3656.pl
+WordPress Core 2.1.3 - 'admin-ajax.php' SQL Injection Blind Fishing                   | php/webapps/3960.php
+WordPress Core 2.2 - 'Request_URI' Cross-Site Scripting                               | php/webapps/30166.txt
+WordPress Core 2.2 - 'wp-app.php' Arbitrary File Upload                               | php/webapps/4113.pl
+WordPress Core 2.2 - 'xmlrpc.php' SQL Injection                                       | php/webapps/4039.txt
+WordPress Core 2.2.3 - '/wp-admin/edit.php?backup' Cross-Site Scripting               | php/webapps/30979.txt
+WordPress Core 2.2.3 - '/wp-admin/page-new.php?popuptitle' Cross-Site Scripting       | php/webapps/30978.txt
+WordPress Core 2.2.3 - '/wp-admin/post.php?popuptitle' Cross-Site Scripting           | php/webapps/30977.txt
+WordPress Core 2.3 - 'Edit-Post-Rows.php' Cross-Site Scripting                        | php/webapps/30715.txt
+WordPress Core 2.3.1 - Charset SQL Injection                                          | php/webapps/4721.txt
+WordPress Core 2.3.1 - Unauthorized Post Access                                       | php/webapps/30889.txt
+WordPress Core 2.3.2 - '/wp-admin/invites.php?to' Cross-Site Scripting                | php/webapps/31357.txt
+WordPress Core 2.3.2 - '/wp-admin/users.php?inviteemail' Cross-Site Scripting         | php/webapps/31356.txt
+WordPress Core 2.3.3 - 'cat' Directory Traversal                                      | php/webapps/31670.txt
+WordPress Core 2.5.1 - 'press-this.php' Multiple Cross-Site Scripting Vulnerabilities | php/webapps/32053.txt
+WordPress Core 2.6.1 - Admin Takeover (SQL Column Truncation)                         | php/webapps/6421.php
+WordPress Core 2.6.1 - SQL Column Truncation                                          | php/webapps/6397.txt
+WordPress Core 2.8.1 - 'url' Cross-Site Scripting                                     | php/webapps/9250.sh
+WordPress Core 2.8.3 - Remote Admin Reset Password                                    | php/webapps/9410.txt
+WordPress Core 2.9 - Denial of Service                                                | php/dos/10825.sh
+WordPress Core 2.9 - Failure to Restrict URL Access                                   | php/webapps/11441.txt
+WordPress Core 3.0.1 - 'do_trackbacks()' SQL Injection                                | php/webapps/15684.txt
+WordPress Core 3.0.3 - Persistent Cross-Site Scripting (Internet Explorer 6/7 / NS8.1 | php/webapps/15858.txt
+WordPress Core 3.1.3 - SQL Injection                                                  | php/webapps/17465.txt
+WordPress Core 3.3.1 - Multiple Cross-Site Request Forgery Vulnerabilities            | php/webapps/18791.txt
+WordPress Core 3.3.1 - Multiple Vulnerabilities                                       | php/webapps/18417.txt
+WordPress Core 3.4.2 - Cross-Site Request Forgery                                     | php/webapps/37835.html
+WordPress Core 3.4.2 - Multiple Path Disclosure Vulnerabilities                       | php/webapps/37826.txt
+WordPress Core 4.0 - Denial of Service                                                | php/dos/35413.php
+WordPress Core 4.2 - Persistent Cross-Site Scripting                                  | php/webapps/36844.txt
+WordPress Core 4.5.3 - Directory Traversal / Denial of Service                        | php/webapps/40288.txt
+WordPress Core 4.6 - Remote Code Execution                                            | linux/webapps/41962.sh
+WordPress Core 4.7.0/4.7.1 - Content Injection                                        | linux/webapps/41223.py
+WordPress Core 4.7.0/4.7.1 - Content Injection (Ruby)                                 | linux/webapps/41224.rb
+WordPress Core 5.0 - Remote Code Execution                                            | php/webapps/46511.js
+WordPress Core 5.0.0 - Crop-image Shell Upload (Metasploit)                           | php/remote/46662.rb
+Wordpress Core 5.2.2 - 'post previews' XSS                                            | php/webapps/49338.txt
+WordPress Core 5.2.3 - Cross-Site Host Modification                                   | php/webapps/47361.pl
+WordPress Core 5.2.4 - Cross-Origin Resource Sharing                                  | php/webapps/47557.txt
+WordPress Core 5.3 - User Disclosure                                                  | php/webapps/47720.txt
+WordPress Core 5.8.2 - 'WP_Query' SQL Injection                                       | php/webapps/50663.txt
+WordPress Core < 2.1.2 - 'PHP_Self' Cross-Site Scripting                              | php/webapps/29754.html
+WordPress Core < 2.8.5 - Unrestricted Arbitrary File Upload / Arbitrary PHP Code Exec | php/webapps/10089.txt
+WordPress Core < 4.0.1 - Denial of Service                                            | php/dos/35414.txt
+WordPress Core < 4.7.1 - Username Enumeration                                         | php/webapps/41497.php
+WordPress Core < 4.7.4 - Unauthorized Password Reset                                  | linux/webapps/41963.txt
+WordPress Core < 4.9.6 - (Authenticated) Arbitrary File Deletion                      | php/webapps/44949.txt
+WordPress Core < 5.2.3 - Viewing Unauthenticated/Password/Private Posts               | multiple/webapps/47690.md
+WordPress Core < 5.3.x - 'xmlrpc.php' Denial of Service                               | php/dos/47800.py
+Wordpress Epsilon Framework Multiple Themes - Unauthenticated Function Injection      | php/webapps/49327.js
+WordPress MU 1.2.2 < 1.3.1 - '/wp-includes/wpmu-functions.php' Cross-Site Scripting   | php/webapps/10090.txt
+WordPress MU 1.2/1.3 - '/wp-admin/wpmu-blogs.php' Multiple Cross-Site Scripting Vulne | php/webapps/32444.txt
+WordPress MU < 1.3.2 - 'active_plugins' Code Execution                                | php/webapps/5066.php
+WordPress MU < 2.7 - 'HOST' HTTP Header Cross-Site Scripting                          | php/webapps/8196.txt
+WordPress Plugin / Joomla! Component XCloner - Multiple Vulnerabilities               | php/webapps/35212.txt
+WordPress Plugin 0.9.7 / Joomla! Component 2.0.0 Creative Contact Form - Arbitrary Fi | php/webapps/35057.py
+WordPress Plugin 1 Flash Gallery 0.2.5 - Cross-Site Scripting / SQL Injection         | php/webapps/35430.txt
+WordPress Plugin 1 Flash Gallery 1.30 < 1.5.7a - Arbitrary File Upload (Metasploit)   | php/webapps/17801.rb
+WordPress Plugin 1-jquery-photo-gallery-Slideshow-flash 1.01 - Cross-Site Scripting   | php/webapps/36382.txt
+WordPress Plugin 2 Click Social Media Buttons 0.32.2 - Multiple Cross-Site Scripting  | php/webapps/37178.txt
+Wordpress Plugin 3dady real-time web stats 1.0 - Stored Cross Site Scripting (XSS)    | php/webapps/51021.txt
+Wordpress Plugin 3DPrint Lite 1.9.1.4 - Arbitrary File Upload                         | php/webapps/50321.py
+WordPress Plugin 404 Redirection Manager 1.0 - SQL Injection                          | php/webapps/40941.txt
+Wordpress Plugin 404 to 301 2.0.2 - SQL-Injection (Authenticated)                     | php/webapps/50698.py
+WordPress Plugin 404 to 301 2.2.8 - Persistent Cross-Site Scripting                   | php/webapps/40732.txt
+WordPress Plugin A to Z Category Listing 1.3 - SQL Injection                          | php/webapps/17809.txt
+WordPress Plugin AAWP 3.16 - 'tab' Reflected Cross Site Scripting (XSS) (Authenticate | php/webapps/50643.txt
+WordPress Plugin ABC Test - 'id' Cross-Site Scripting                                 | php/webapps/37896.txt
+WordPress Plugin Abtest - Local File Inclusion                                        | php/webapps/39577.txt
+WordPress Plugin Accept Signups 0.1 - 'email' Cross-Site Scripting                    | php/webapps/35136.txt
+WordPress Plugin Accept Signups 0.1 - Cross-Site Scripting                            | php/webapps/15808.txt
+WordPress Plugin AccessPress Social Icons 1.8.2 - 'icon title' Stored Cross-Site Scri | php/webapps/50515.txt
+WordPress Plugin ACF Frontend Display 2.0.5 - Arbitrary File Upload                   | php/webapps/37514.txt
+WordPress Plugin Activity Log 2.3.1 - Persistent Cross-Site Scripting                 | php/webapps/40083.txt
+WordPress Plugin Activity Log 2.4.0 - Cross-Site Scripting                            | php/webapps/44409.txt
+WordPress Plugin Activity Log 2.4.0 - Stored Cross-Site Scripting                     | php/webapps/44437.txt
+WordPress Plugin Acunetix WP Security Plugin 3.0.3 - Cross-Site Scripting             | php/webapps/39761.txt
+WordPress Plugin Ad Inserter 1.5.2 - Cross-Site Request Forgery                       | php/webapps/36961.txt
+WordPress Plugin Ad Manager WD 1.0.11 - Arbitrary File Download                       | php/webapps/46252.txt
+WordPress Plugin Add From Server < 3.3.2 - Cross-Site Request Forgery (Arbitrary File | php/webapps/40220.txt
+WordPress Plugin Add Mime Types 2.2.1 - Cross-Site Request Forgery                    | php/webapps/47295.html
+WordPress Plugin Adicon Server 1.2 - 'selectedPlace' SQL Injection                    | php/webapps/46066.txt
+WordPress Plugin ADIF Log Search Widget - 'logbook_search.php' Cross-Site Scripting   | php/webapps/38537.txt
+WordPress Plugin Admin Management Xtended 2.4.0 - Privilege escalation                | php/webapps/38966.txt
+WordPress Plugin Admin Menu Tree Page View 2.6.9 - Cross-Site Request Forgery / Privi | php/webapps/43486.txt
+WordPress Plugin admin-word-count-column 2.2 - Local File Read                        | php/webapps/50845.txt
+WordPress Plugin Adminimize 1.7.21 - 'page' Cross-Site Scripting                      | php/webapps/36325.txt
+WordPress Plugin Adning Advertising 1.5.5 - Arbitrary File Upload                     | php/webapps/49332.txt
+WordPress Plugin AdRotate 3.6.5 - SQL Injection                                       | php/webapps/17888.txt
+WordPress Plugin AdRotate 3.6.6 - SQL Injection                                       | php/webapps/18114.txt
+WordPress Plugin AdRotate 3.9.4 - 'clicktracker.ph?track' SQL Injection               | php/webapps/31834.txt
+WordPress Plugin Ads Box - 'count' SQL Injection                                      | php/webapps/38060.txt
+WordPress Plugin Ads Pro < 3.4 - Cross-Site Scripting / SQL Injection                 | php/webapps/42380.txt
+WordPress Plugin Adserve 0.2 - 'adclick.php' SQL Injection                            | php/webapps/5013.php
+WordPress Plugin Advanced Custom Fields - Remote File Inclusion (Metasploit)          | php/remote/23856.rb
+WordPress Plugin Advanced Dewplayer - 'download-file.php' Script Directory Traversal  | php/webapps/38936.txt
+WordPress Plugin Advanced Order Export For WooCommerce 3.1.7 - Reflected Cross-Site S | php/webapps/50324.txt
+WordPress Plugin Advanced Order Export For WooCommerce < 1.5.4 - CSV Injection        | php/webapps/44931.txt
+WordPress Plugin Advanced Text Widget 2.0 - 'page' Cross-Site Scripting               | php/webapps/36324.txt
+WordPress Plugin Advanced uploader 2.10 - Multiple Vulnerabilities                    | php/webapps/38867.txt
+WordPress Plugin Advanced Uploader 4.2 - Arbitrary File Upload (Authenticated)        | php/webapps/50895.txt
+WordPress Plugin Advanced Video 1.0 - Local File Inclusion                            | php/webapps/39646.py
+WordPress Plugin Advanced-Custom-Fields 5.7.7 - Cross-Site Scripting                  | php/webapps/45935.txt
+WordPress Plugin Advertizer 1.0 - SQL Injection                                       | php/webapps/17750.txt
+WordPress Plugin Age Verification 0.4 - 'redirect_to' Open Redirection                | php/webapps/36540.txt
+WordPress Plugin Age Verification 0.4 - Open Redirect                                 | php/webapps/18350.txt
+WordPress Plugin Ajax Category Dropdown 0.1.5 - Multiple Vulnerabilities              | php/webapps/17207.txt
+WordPress Plugin Ajax Gallery 3.0 - SQL Injection                                     | php/webapps/17686.txt
+WordPress Plugin Ajax Load More 2.8.1.1 - PHP Upload (Metasploit)                     | php/remote/38660.rb
+WordPress Plugin Ajax Load More 5.3.1 - '#1' Authenticated SQL Injection              | php/webapps/48475.txt
+WordPress Plugin Ajax Load More < 2.8.2 - Arbitrary File Upload                       | php/webapps/38484.rb
+WordPress Plugin Ajax Pagination 1.1 - Local File Inclusion                           | php/webapps/32622.txt
+WordPress Plugin Ajax Store Locator 1.2 - Arbitrary File Download                     | php/webapps/35493.txt
+WordPress Plugin Ajax Store Locator 1.2 - SQL Injection                               | php/webapps/36777.txt
+WordPress Plugin Akismet - Multiple Cross-Site Scripting Vulnerabilities              | php/webapps/37902.php
+WordPress Plugin Akismet 2.1.3 - Cross-Site Scripting                                 | php/webapps/30036.html
+WordPress Plugin Albo Pretorio Online 3.2 - Multiple Vulnerabilities                  | php/webapps/37464.txt
+WordPress Plugin Alert Before Your Post - 'name' Cross-Site Scripting                 | php/webapps/36323.txt
+WordPress Plugin All In One Favicon 4.6 - (Authenticated) Cross-Site Scripting        | php/webapps/45056.txt
+WordPress Plugin All in One SEO Pack 2.3.6.1 - Persistent Cross-Site Scripting        | php/webapps/40082.txt
+WordPress Plugin All In One WP Security & Firewall 3.8.3 - Persistent Cross-Site Scri | php/webapps/34854.txt
+WordPress Plugin All In One WP Security & Firewall 3.9.0 - SQL Injection              | php/webapps/36671.txt
+WordPress Plugin All In One WP Security 3.8.2 - SQL Injection                         | php/webapps/34781.txt
+WordPress Plugin All Video Gallery 1.1 - SQL Injection                                | php/webapps/22427.txt
+WordPress Plugin All-in-One Event Calendar 1.4 - 'agenda-widget-form.php?title' Cross | php/webapps/37075.txt
+WordPress Plugin All-in-One Event Calendar 1.4 - 'agenda-widget.php' Multiple Cross-S | php/webapps/37078.txt
+WordPress Plugin All-in-One Event Calendar 1.4 - 'box_publish_button.php?button_value | php/webapps/37076.txt
+WordPress Plugin All-in-One Event Calendar 1.4 - 'save_successful.php?msg' Cross-Site | php/webapps/37077.txt
+WordPress Plugin All-in-One Video Gallery plugin 2.4.9 - Local File Inclusion (LFI)   | php/webapps/50562.txt
+WordPress Plugin Allow PHP in Posts and Pages 2.0.0.RC1 - SQL Injection               | php/webapps/17688.txt
+WordPress Plugin AllWebMenus 1.1.3 - Remote File Inclusion                            | php/webapps/17861.txt
+WordPress Plugin AllWebMenus < 1.1.9 Menu Plugin - Arbitrary File Upload              | php/webapps/18407.txt
+WordPress Plugin ALO EasyMail NewsLetter 2.6.01 - Cross-Site Request Forgery          | php/webapps/39451.txt
+WordPress Plugin ALO EasyMail NewsLetter 2.9.2 - Cross-Site Request Forgery (Add/Impo | php/webapps/40191.txt
+WordPress Plugin amministrazione-aperta 3.7.3 - Local File Read - Unauthenticated     | php/webapps/50838.txt
+WordPress Plugin Annonces 1.2.0.0 - Remote File Inclusion                             | php/webapps/17863.txt
+WordPress Plugin Another WordPress Classifieds Plugin - SQL Injection                 | php/webapps/35204.txt
+WordPress Plugin Answer My Question 1.3 - SQL Injection                               | php/webapps/40771.txt
+WordPress Plugin Anti-Malware Security and Brute-Force Firewall 4.18.63 - Local File  | php/webapps/46618.txt
+WordPress Plugin Anti-Malware Security and Bruteforce Firewall 4.20.59 - Directory Tr | php/webapps/50107.py
+WordPress Plugin Appointment Booking Calendar 1.3.34 - CSV Injection                  | php/webapps/48204.txt
+WordPress Plugin Apptha Slider Gallery 1.0 - Arbitrary File Download                  | php/webapps/41568.txt
+WordPress Plugin Apptha Slider Gallery 1.0 - SQL Injection                            | php/webapps/41567.txt
+WordPress Plugin ARforms 3.7.1 - Arbitrary File Deletion                              | php/webapps/47443.rb
+WordPress Plugin Arforms 3.7.1 - Directory Traversal                                  | php/webapps/47492.rb
+WordPress Plugin Arigato Autoresponder and Newsletter 2.5 - Blind SQL Injection / Ref | php/webapps/45434.txt
+WordPress Plugin aspose-doc-exporter 1.0 - Arbitrary File Download                    | php/webapps/36559.txt
+WordPress Plugin Asset Manager 0.2 - Arbitrary File Upload                            | php/webapps/18993.php
+WordPress Plugin Asset-Manager - Arbitrary '.PHP' File Upload (Metasploit)            | php/remote/23652.rb
+WordPress Plugin Auctions 1.8.8 - 'wpa_id' SQL Injection                              | php/webapps/36135.txt
+WordPress Plugin Audio 0.5.1 - 'showfile' Cross-Site Scripting                        | php/webapps/35258.txt
+WordPress Plugin Audio Gallery Playlist 0.12 - SQL Injection                          | php/webapps/17756.txt
+WordPress Plugin Audio Player - 'playerID' Cross-Site Scripting                       | php/webapps/38300.txt
+WordPress Plugin Audio Record 1.0 - Arbitrary File Upload                             | php/webapps/46055.txt
+WordPress Plugin Automatic 2.0.3 - SQL Injection                                      | php/webapps/19187.txt
+Wordpress Plugin Autoptimize 2.7.6 - Arbitrary File Upload (Authenticated)            | php/webapps/48770.txt
+WordPress Plugin Autoptimize 2.7.6 - Authenticated Arbitrary File Upload (Metasploit) | php/webapps/49399.rb
+WordPress Plugin AutoSuggest 0.24 - 'wpas_keys' SQL Injection                         | php/webapps/45977.txt
+WordPress Plugin Aviary Image Editor Addon For Gravity Forms 3.0 Beta - Arbitrary Fil | php/webapps/37275.txt
+WordPress Plugin Background Takeover < 4.1.4 - Directory Traversal                    | php/webapps/44417.txt
+WordPress Plugin Backup 2.0.1 - Information Disclosure                                | php/webapps/19524.txt
+WordPress Plugin Backup and Restore 1.0.3 - Arbitrary File Deletion                   | php/webapps/50503.txt
+Wordpress Plugin Backup Guard 1.5.8 - Remote Code Execution (Authenticated)           | php/webapps/50093.py
+WordPress Plugin BackUpWordPress 0.4.2b - Remote File Inclusion                       | php/webapps/4593.txt
+WordPress Plugin BackWPup - Remote Code Execution / Local Code Execution              | php/webapps/17056.txt
+WordPress Plugin BackWPup 1.4 - Multiple Information Disclosure Vulnerabilities       | php/webapps/35400.txt
+WordPress Plugin BackWPUp 2.1.4 - Code Execution                                      | php/webapps/17987.txt
+WordPress Plugin Baggage Freight Shipping Australia 0.1.0 - Arbitrary File Upload     | php/webapps/46061.txt
+WordPress Plugin Bannerize 2.8.6 - SQL Injection                                      | php/webapps/17764.txt
+WordPress Plugin Bannerize 2.8.7 - SQL Injection                                      | php/webapps/17906.txt
+WordPress Plugin Banners Lite - 'wpbanners_show.php' HTML Injection                   | php/webapps/38410.txt
+WordPress Plugin bbPress - Multiple Vulnerabilities                                   | php/webapps/22396.txt
+WordPress Plugin BBPress 2.5 - Unauthenticated Privilege Escalation                   | php/webapps/48534.py
+WordPress Plugin BBS e-Franchise 1.1.1 - SQL Injection                                | php/webapps/40782.txt
+WordPress Plugin Beer Recipes 1.0 - Cross-Site Scripting                              | php/webapps/17453.txt
+WordPress Plugin Best Web Soft Captcha 4.1.5 - Multiple Vulnerabilities               | php/webapps/39547.txt
+WordPress Plugin Better WP Security 3.4.8/3.4.9/3.4.10/3.5.2/3.5.3 - Persistent Cross | php/webapps/27290.txt
+WordPress Plugin BezahlCode Generator 1.0 - 'gen_name' Cross-Site Scripting           | php/webapps/35286.txt
+WordPress Plugin Block-Spam-By-Math-Reloaded - Bypass                                 | php/webapps/17702.rb
+WordPress Plugin Blue Admin 21.06.01 - Cross-Site Request Forgery (CSRF)              | php/webapps/50925.html
+WordPress Plugin Blue Wrench Video Widget - Cross-Site Request Forgery                | php/webapps/38844.html
+WordPress Plugin Booking Calendar 3.0.0 - SQL Injection / Cross-Site Scripting        | php/webapps/44769.txt
+WordPress Plugin Booking Calendar 4.1.4 - Cross-Site Request Forgery                  | php/webapps/27399.txt
+WordPress Plugin Booking Calendar 6.2 - SQL Injection                                 | php/webapps/40189.txt
+WordPress Plugin Booking Calendar 8.4.3 - (Authenticated) SQL Injection               | php/webapps/46377.txt
+WordPress Plugin Booking Calendar Contact Form 1.0.2 - Multiple Vulnerabilities       | php/webapps/37003.txt
+WordPress Plugin Booking Calendar Contact Form 1.0.23 - Multiple Vulnerabilities      | php/webapps/39423.txt
+WordPress Plugin Booking Calendar Contact Form 1.1.23 - Shortcode SQL Injection       | php/webapps/39319.txt
+WordPress Plugin Booking Calendar Contact Form 1.1.23 - SQL Injection                 | php/webapps/39309.txt
+WordPress Plugin Booking Calendar Contact Form 1.1.24 - addslashes SQL Injection      | php/webapps/39342.txt
+WordPress Plugin Booking Calendar Contact Form 1.1.24 - Multiple Vulnerabilities      | php/webapps/39341.txt
+WordPress Plugin Booking System (Booking Calendar) - 'booking_form_id' SQL Injection  | php/webapps/39197.txt
+WordPress Plugin BookX 1.7 - 'bookx_export.php' Local File Inclusion                  | php/webapps/39251.txt
+WordPress Plugin BP Group Documents 1.2.1 - Multiple Vulnerabilities                  | php/webapps/31768.txt
+WordPress Plugin Brandfolder 3.0 - Local/Remote File Inclusion                        | php/webapps/39591.txt
+WordPress Plugin BSK PDF Manager - '/wp-admin/admin.php' Multiple SQL Injections      | php/webapps/39240.txt
+WordPress Plugin bSuite 4.0.7 - Multiple HTML Injection Vulnerabilities               | php/webapps/35971.txt
+WordPress Plugin BuddyPress 1.2.10 / WordPress Theme DEV Blogs Mu 1.2.6 (WordPress 3. | php/webapps/36166.txt
+WordPress Plugin BuddyPress 1.9.1 - Privilege Escalation                              | php/webapps/31571.txt
+WordPress Plugin Buddypress 6.2.0 - Persistent Cross-Site Scripting                   | php/webapps/49061.txt
+WordPress Plugin BuddyPress Activity Plus 1.5 - Cross-Site Request Forgery            | php/webapps/37629.txt
+WordPress Plugin BuddyPress Plugin 1.5.x < 1.5.5 - SQL Injection                      | php/webapps/18690.txt
+WordPress Plugin Bulk Delete 5.5.3 - Privilege Escalation                             | php/webapps/39521.txt
+WordPress Plugin Bulk Delete Users by Email 1.0 - Cross-Site Request Forgery          | php/webapps/34572.txt
+Wordpress Plugin BulletProof Security 5.1 - Sensitive Information Disclosure          | php/webapps/50382.py
+WordPress Plugin Business Intelligence - SQL Injection (Metasploit)                   | php/webapps/36600.txt
+WordPress Plugin cab-fare-calculator 1.0.3 - Local File Inclusion                     | php/webapps/50843.txt
+WordPress Plugin Calculated Fields Form 1.0.10 - SQL Injection                        | php/webapps/36230.txt
+WordPress Plugin Caldera Forms 1.5.9.1 - Cross-Site Scripting                         | php/webapps/44489.txt
+WordPress Plugin Candidate Application Form 1.0 - Arbitrary File Download             | php/webapps/37754.txt
+Wordpress Plugin Canto 1.3.0 - Blind SSRF (Unauthenticated)                           | multiple/webapps/49189.txt
+WordPress Plugin Car Park Booking - SQL Injection                                     | php/webapps/43012.txt
+WordPress Plugin Car Rental System 2.5 - SQL Injection                                | php/webapps/41920.txt
+WordPress Plugin Cart66 1.5.1.14 - Multiple Vulnerabilities                           | php/webapps/28959.txt
+WordPress Plugin Cart66 Lite eCommerce 1.5.1.17 - Blind SQL Injection                 | php/webapps/35459.txt
+WordPress Plugin CataBlog 1.6 - 'admin.php' Cross-Site Scripting                      | php/webapps/37177.txt
+Wordpress Plugin Catch Themes Demo Import 1.6.1 - Remote Code Execution (RCE) (Authen | php/webapps/50580.py
+WordPress Plugin Category Grid View Gallery - 'ID' Cross-Site Scripting               | php/webapps/38625.txt
+WordPress Plugin Cerber Security_ Antispam & Malware Scan 8.0 - Multiple Bypass Vulne | php/webapps/46497.txt
+WordPress Plugin CevherShare 2.0 - SQL Injection                                      | php/webapps/17891.txt
+WordPress Plugin Cforms 14.7 - Remote Code Execution                                  | php/webapps/35879.txt
+WordPress Plugin cformsII 11.5/13.1 - 'lib_ajax.php' Multiple Cross-Site Scripting Vu | php/webapps/34946.txt
+WordPress Plugin Chained Quiz 1.0.8 - 'answer' SQL Injection                          | php/webapps/45221.txt
+WordPress Plugin chenpress - Arbitrary File Upload                                    | php/webapps/37522.txt
+WordPress Plugin ChopSlider 3.4 - 'id' SQL Injection                                  | php/webapps/48457.txt
+WordPress Plugin church_admin - 'id' Cross-Site Scripting                             | php/webapps/37483.txt
+WordPress Plugin church_admin 0.800 - Persistent Cross-Site Scripting                 | php/webapps/37112.txt
+WordPress Plugin Cimy Counter - Full Path Disclosure / Redirector / Cross-Site Script | php/webapps/14057.txt
+WordPress Plugin Cimy Counter 0.9.4 - HTTP Response Splitting / Cross-Site Scripting  | php/webapps/34195.txt
+WordPress Plugin ClickBank Ads 1.7 - Cross-Site Request Forgery                       | php/webapps/36959.txt
+WordPress Plugin ClickDesk Live Support 2.0 - 'cdwidget' Cross-Site Scripting         | php/webapps/36338.txt
+WordPress Plugin Cloudsafe365 - 'file' Remote File Disclosure                         | php/webapps/37681.txt
+WordPress Plugin CM Download Manager 2.0.0 - Code Injection                           | php/webapps/35324.txt
+WordPress Plugin CMS Tree Page View 1.4 - Cross-Site Request Forgery / Privilege Esca | php/webapps/43485.txt
+WordPress Plugin cnhk-Slideshow - Arbitrary File Upload                               | php/webapps/39190.php
+WordPress Plugin CodeArt Google MP3 Player - File Disclosure Download                 | php/webapps/35460.txt
+WordPress Plugin Collision Testimonials 3.0 - SQL Injection                           | php/webapps/17729.txt
+WordPress Plugin Colorbox Lightbox v1.1.1 - Persistent Cross-Site Scripting (Authenti | multiple/webapps/48919.txt
+WordPress Plugin ComicPress Manager 1.4.9 - 'lang' Cross-Site Scripting               | php/webapps/35393.txt
+WordPress Plugin Comment Rating 2.9.20 - 'path' Cross-Site Scripting                  | php/webapps/36487.txt
+WordPress Plugin Comment Rating 2.9.23 - Multiple Vulnerabilities                     | php/webapps/16221.txt
+WordPress Plugin Comment Rating 2.9.32 - Multiple Vulnerabilities                     | php/webapps/24552.txt
+WordPress Plugin CommentLuv - '_ajax_nonce' Cross-Site Scripting                      | php/webapps/38296.txt
+WordPress Plugin Comments Import & Export < 2.0.4 - CSV Injection                     | php/webapps/44940.txt
+WordPress Plugin Community Events 1.2.1 - SQL Injection                               | php/webapps/17798.txt
+WordPress Plugin Community Events 1.3.5 - SQL Injection                               | php/webapps/36805.txt
+WordPress Plugin Complete Gallery Manager 3.3.3 - Arbitrary File Upload               | php/webapps/28377.txt
+WordPress Plugin Contact Form 1.7.14 - Reflected Cross-Site Scripting (XSS)           | php/webapps/50344.txt
+WordPress Plugin Contact Form 2.7.5 - SQL Injection                                   | php/webapps/17980.txt
+WordPress Plugin Contact Form 7 to Database Extension 2.10.32 - CSV Injection         | php/webapps/44367.txt
+WordPress Plugin Contact Form Builder 1.0.67 - Cross-Site Request Forgery / Local Fil | php/webapps/46734.txt
+WordPress Plugin Contact Form Builder 1.6.1 - Cross-Site Scripting (XSS)              | php/webapps/50734.txt
+WordPress Plugin Contact Form Check Tester 1.0.2 - Broken Access Control              | php/webapps/50703.txt
+WordPress Plugin Contact Form Entries 1.1.6 - Cross Site Scripting (XSS) (Unauthentic | php/webapps/50617.txt
+WordPress Plugin Contact Form Generator 2.0.1 - Multiple Cross-Site Request Forgery V | php/webapps/38086.html
+WordPress Plugin Contact Form Maker 1.12.20 - SQL Injection                           | php/webapps/44854.txt
+WordPress Plugin Contact Form Maker 1.13.1 - Cross-Site Request Forgery               | php/webapps/46661.html
+WordPress Plugin Contact Form Manager - Cross-Site Request Forgery / Cross-Site Scrip | php/webapps/41483.html
+WordPress Plugin Contact Form to Email 1.3.24 - Stored Cross Site Scripting (XSS) (Au | php/webapps/50524.txt
+WordPress Plugin contact-form-7 5.1.6 - Remote File Upload                            | php/webapps/48062.txt
+WordPress Plugin Content Flow 3D 1.0.0 - Arbitrary File Upload                        | php/webapps/19036.php
+WordPress Plugin Content Timeline - SQL Injection                                     | php/webapps/42794.txt
+WordPress Plugin Contus HD FLV Player 1.3 - SQL Injection                             | php/webapps/17678.txt
+WordPress Plugin Contus Video Gallery - 'upload1.php' Arbitrary File Upload           | php/webapps/37373.php
+WordPress Plugin Cookie Law Bar 1.2.1 - 'clb_bar_msg' Stored Cross-Site Scripting (XS | php/webapps/49905.txt
+WordPress Plugin Copperleaf Photolog 0.16 - SQL Injection                             | php/webapps/11458.txt
+WordPress Plugin CopySafe PDF Protection - Arbitrary File Upload                      | php/webapps/39254.html
+WordPress Plugin CopySafe Web Protect < 2.6 - Cross-Site Request Forgery              | php/webapps/41846.html
+WordPress Plugin Corner Ad 1.0.7 - Cross-Site Scripting                               | php/webapps/41376.txt
+WordPress Plugin Count Per Day - 'daytoshow' Cross-Site Scripting                     | php/webapps/38359.txt
+WordPress Plugin Count Per Day - Multiple Vulnerabilities                             | php/webapps/18355.txt
+WordPress Plugin Count per Day 2.17 - SQL Injection                                   | php/webapps/17857.txt
+WordPress Plugin Count Per Day 3.2.3 - Cross-Site Scripting                           | php/webapps/20862.txt
+WordPress Plugin Count Per Day 3.2.5 - 'counter.php' Cross-Site Scripting             | php/webapps/24859.rb
+WordPress Plugin Count Per Day 3.4 - SQL Injection                                    | php/webapps/37707.txt
+WordPress Plugin Count Per Day 3.5.4 - Persistent Cross-Site Scripting                | php/webapps/40206.txt
+WordPress Plugin Couponer 1.2 - SQL Injection                                         | php/webapps/17759.txt
+WordPress Plugin CP Blocks 1.0.14 - Stored Cross Site Scripting (XSS)                 | php/webapps/50724.txt
+WordPress Plugin CP Contact Form with Paypal 1.1.5 - Multiple Vulnerabilities         | php/webapps/37603.txt
+WordPress Plugin CP Image Store with Slideshow 1.0.5 - Arbitrary File Download        | php/webapps/37559.txt
+WordPress Plugin CP Multi View Event Calendar 1.01 - SQL Injection                    | php/webapps/35073.txt
+WordPress Plugin CP Multi View Event Calendar 1.1.7 - SQL Injection                   | php/webapps/37560.txt
+WordPress Plugin CP Polls 1.0.8 - Multiple Vulnerabilities                            | php/webapps/39513.txt
+WordPress Plugin CP Reservation Calendar 1.1.6 - SQL Injection                        | php/webapps/38187.txt
+WordPress Plugin cp-multi-view-calendar 1.1.4 - SQL Injection                         | php/webapps/36243.txt
+WordPress Plugin Crawl Rate Tracker 2.0.2 - SQL Injection                             | php/webapps/17755.txt
+WordPress Plugin Crayon Syntax Highlighter - 'wp_load' Remote File Inclusion          | php/webapps/37946.txt
+WordPress Plugin Creative Contact Form - Arbitrary File Upload (Metasploit)           | php/remote/36811.rb
+WordPress Plugin Creative Contact Form 0.9.7 - Arbitrary File Upload                  | php/webapps/34922.txt
+WordPress Plugin Current Book 1.0.1 - 'Book Title' Persistent Cross-Site Scripting    | php/webapps/50127.txt
+WordPress Plugin Curtain 1.0.2 - Cross-site Request Forgery (CSRF)                    | php/webapps/50842.txt
+WordPress Plugin Custom Content Type Manager 0.9.5.13-pl - Arbitrary File Upload      | php/webapps/19058.txt
+WordPress Plugin Custom Global Variables 1.0.5 - 'name' Stored Cross-Site Scripting ( | php/webapps/49406.txt
+WordPress Plugin Custom Pages 0.5.0.1 - Local File Inclusion                          | php/webapps/17119.txt
+WordPress Plugin Custom Searchable Data System - Unauthenticated Data M]odification   | php/webapps/48213.txt
+WordPress Plugin custom tables - 'key' Cross-Site Scripting                           | php/webapps/37482.txt
+WordPress Plugin CYSTEME Finder 1.3 - Arbitrary File Disclosure/Arbitrary File Upload | php/webapps/40295.txt
+WordPress Plugin Daily Maui Photo Widget 0.2 - Multiple Cross-Site Scripting Vulnerab | php/webapps/35673.txt
+WordPress Plugin Database Backup < 5.2 - Remote Code Execution (Metasploit)           | php/remote/47187.rb
+WordPress Plugin Database Backups 1.2.2.6 - 'Database Backup Download' CSRF           | php/webapps/49984.html
+WordPress Plugin DB Backup - Arbitrary File Download                                  | php/webapps/35378.txt
+WordPress Plugin Delightful Downloads Jquery File Tree 1.6.6 - Path Traversal         | php/webapps/49693.php
+WordPress Plugin Developer Formatter - Cross-Site Request Forgery                     | php/webapps/24294.txt
+WordPress Plugin Dexs PM System - (Authenticated) Persistent Cross-Site Scripting     | php/webapps/28970.txt
+WordPress Plugin Dharma Booking 2.38.3 - Remote File Inclusion                        | php/webapps/39592.txt
+WordPress Plugin Disclosure Policy 1.0 - Remote File Inclusion                        | php/webapps/17865.txt
+WordPress Plugin Disqus 2.7.5 - Cross-Site Request Forgery (Admin Persistent) / Cross | php/webapps/34336.html
+WordPress Plugin DM Albums 1.9.2 - Remote File Disclosure                             | php/webapps/9048.txt
+WordPress Plugin DM Albums 1.9.2 - Remote File Inclusion                              | php/webapps/9043.txt
+WordPress Plugin dmsguestbook 1.7.0 - Multiple Vulnerabilities                        | php/webapps/5035.txt
+WordPress Plugin Domain Check 1.0.16 - Reflected Cross-Site Scripting (XSS) (Authenti | php/webapps/50697.txt
+WordPress Plugin Donation 1.0 - SQL Injection                                         | php/webapps/17763.txt
+WordPress Plugin Double Opt-In for Download 2.0.9 - SQL Injection                     | php/webapps/39896.txt
+WordPress Plugin Download - 'dl_id' SQL Injection                                     | php/webapps/5326.txt
+Wordpress Plugin Download From Files 1.48 - Arbitrary File Upload                     | php/webapps/50287.py
+WordPress Plugin Download Manager 0.2 - Arbitrary File Upload                         | php/webapps/6127.html
+WordPress Plugin Download Manager 2.5 - Cross-Site Request Forgery                    | php/webapps/47251.txt
+WordPress Plugin Download Manager 2.7.2 - Privilege Escalation                        | php/webapps/36301.txt
+WordPress Plugin Download Manager 2.7.4 - Remote Code Execution                       | php/webapps/35533.py
+WordPress Plugin Download Manager 2.9.93 - Cross-Site Scripting                       | php/webapps/47350.txt
+WordPress Plugin Download Manager Free & Pro 2.5.8 - Persistent Cross-Site Scripting  | php/webapps/30105.txt
+WordPress Plugin Download Manager Free 2.7.94 & Pro 4 - (Authenticated) Persistent Cr | php/webapps/37622.txt
+WordPress Plugin Download Monitor - 'dlsearch' Cross-Site Scripting                   | php/webapps/37787.txt
+Wordpress Plugin Download Monitor WordPress V 4.4.4 - SQL Injection (Authenticated)   | php/webapps/50695.py
+WordPress Plugin drag and drop file upload 0.1 - Arbitrary File Upload                | php/webapps/19057.txt
+WordPress Plugin Drag and Drop File Upload Contact Form 1.3.3.2 - Remote Code Executi | php/webapps/48520.txt
+WordPress Plugin DS FAQ 1.3.2 - SQL Injection                                         | php/webapps/17683.txt
+WordPress Plugin DukaPress 2.5.2 - Directory Traversal                                | php/webapps/35346.txt
+WordPress Plugin Duplicate Page 4.4.1 - Stored Cross-Site Scripting (XSS)             | php/webapps/50256.txt
+WordPress Plugin Duplicator - Cross-Site Scripting                                    | php/webapps/38676.txt
+WordPress Plugin Duplicator 0.5.14 - SQL Injection / Cross-Site Request Forgery       | php/webapps/36735.txt
+WordPress Plugin Duplicator 0.5.8 - Privilege Escalation                              | php/webapps/36112.txt
+WordPress Plugin Duplicator 1.2.32 - Cross-Site Scripting                             | php/webapps/44288.txt
+Wordpress Plugin Duplicator 1.3.26 - Unauthenticated Arbitrary File Read              | php/webapps/50420.py
+Wordpress Plugin Duplicator 1.3.26 - Unauthenticated Arbitrary File Read (Metasploit) | php/webapps/49288.rb
+WordPress Plugin Duplicator 1.4.6 - Unauthenticated Backup Download                   | php/webapps/50992.txt
+WordPress Plugin Duplicator 1.4.7 - Information Disclosure                            | php/webapps/50993.txt
+WordPress Plugin Dynamic Widgets 1.5.1 - 'themes.php' Cross-Site Scripting            | php/webapps/37162.txt
+WordPress Plugin DZS Video Gallery 3.1.3 - Remote File Disclosure / Local File Disclo | php/webapps/30063.txt
+WordPress Plugin DZS Videogallery < 8.60 - Multiple Vulnerabilities                   | php/webapps/39553.txt
+WordPress Plugin DZS Zoomsounds 6.45 - Arbitrary File Read (Unauthenticated)          | php/webapps/50564.txt
+WordPress Plugin dzs-videogallery - Arbitrary File Upload                             | php/webapps/29834.txt
+WordPress Plugin DZS-VideoGallery - Cross-Site Scripting / Command Injection          | php/webapps/39250.txt
+WordPress Plugin dzs-zoomsounds 2.0 - Arbitrary File Upload                           | php/webapps/37166.php
+WordPress Plugin dzs-zoomsounds 6.60 - Remote Code Execution (RCE) (Unauthenticated)  | php/webapps/50753.py
+WordPress Plugin E-Commerce 3.4 - Arbitrary File Upload                               | php/webapps/6867.pl
+WordPress Plugin E-Commerce 3.8.4 - SQL Injection                                     | php/webapps/17613.php
+WordPress Plugin E-Commerce 3.8.6 - SQL Injection                                     | php/webapps/17832.txt
+WordPress Plugin Easy Career Openings - 'jobid' SQL Injection                         | php/webapps/38870.txt
+WordPress Plugin Easy Contact Form 1.1.7 - 'Name' Stored Cross-Site Scripting (XSS)   | php/webapps/49427.txt
+WordPress Plugin Easy Contact Form Lite 1.0.7 - SQL Injection                         | php/webapps/17680.txt
+WordPress Plugin Easy Contact Forms Export 1.1.0 - Information Disclosure             | php/webapps/19013.txt
+WordPress Plugin Easy Cookie Policy 1.6.2 - Broken Access Control to Stored XSS       | php/webapps/50849.txt
+WordPress Plugin Easy Modal 2.0.17 - SQL Injection                                    | php/webapps/42431.txt
+WordPress Plugin Easy Social Icons 1.2.2 - Cross-Site Request Forgery                 | php/webapps/36161.txt
+WordPress Plugin Easy Testimonials 3.2 - Cross-Site Scripting                         | php/webapps/45900.txt
+WordPress Plugin Easy Webinar - Blind SQL Injection                                   | php/webapps/22300.txt
+WordPress Plugin Easy2Map 1.24 - SQL Injection                                        | php/webapps/37534.txt
+WordPress Plugin eBook Download 1.1 - Directory Traversal                             | php/webapps/39575.txt
+WordPress Plugin Eco-annu - 'eid' SQL Injection                                       | php/webapps/38019.txt
+WordPress Plugin EditorMonkey 2.5 - 'FCKeditor' Arbitrary File Upload                 | php/webapps/17284.txt
+WordPress Plugin Effective Lead Management 3.0.0 - Persistent Cross-Site Scripting    | php/webapps/20270.txt
+WordPress Plugin Elementor 3.6.2 - Remote Code Execution (RCE) (Authenticated)        | php/webapps/50882.py
+WordPress Plugin Email NewsLetter 8.0 - 'option' Information Disclosure               | php/webapps/37356.txt
+WordPress Plugin Email Subscribers & Newsletters 3.4.7 - Information Disclosure       | php/webapps/43872.html
+WordPress Plugin Email Subscribers & Newsletters 4.2.2 - 'hash' SQL Injection (Unauth | php/webapps/48699.sh
+WordPress Plugin Email Subscribers & Newsletters 4.2.2 - Unauthenticated File Downloa | php/webapps/48698.txt
+WordPress Plugin Enable Media Replace - Multiple Vulnerabilities                      | php/webapps/16144.txt
+WordPress Plugin Encrypted Contact Form 1.0.4 - Cross-Site Request Forgery            | php/webapps/37264.txt
+WordPress Plugin Enigma 2 Bridge - 'boarddir' Remote File Inclusion                   | php/webapps/3051.txt
+WordPress Plugin ENL NewsLetter - '/wp-admin/admin.php' SQL Injection                 | php/webapps/39253.txt
+WordPress Plugin Error Log Viewer 1.1.1 - Arbitrary File Clearing (Authenticated)     | php/webapps/50746.txt
+WordPress Plugin eShop 6.2.8 - Multiple Cross-Site Scripting Vulnerabilities          | php/webapps/36038.txt
+WordPress Plugin Evarisk - 'uploadPhotoApres.php' Arbitrary File Upload               | php/webapps/37399.php
+WordPress Plugin Evarisk 5.1.3.6 - SQL Injection                                      | php/webapps/17738.txt
+WordPress Plugin Event Easy Calendar - Multiple Cross-Site Request Forgery Vulnerabil | php/webapps/38753.html
+WordPress Plugin Event List < 0.7.8 - SQL Injection                                   | php/webapps/42173.txt
+WordPress Plugin Event Registration 5.32 - SQL Injection                              | php/webapps/15513.txt
+WordPress Plugin Event Registration 5.4.3 - SQL Injection                             | php/webapps/17751.txt
+WordPress Plugin Event Registration 5.44 - SQL Injection                              | php/webapps/17814.txt
+WordPress Plugin Event Tickets 4.10.7.1 - CSV Injection                               | php/webapps/47335.txt
+WordPress Plugin Eventify - Simple Events 1.7.f SQL Injection                         | php/webapps/17794.txt
+Wordpress Plugin EventON Calendar 3.0.5 - Reflected Cross-Site Scripting              | php/webapps/49130.py
+WordPress Plugin Events - SQL Injection                                               | php/webapps/10929.txt
+WordPress Plugin Events Calendar - 'event_id' SQL Injection                           | php/webapps/43479.txt
+WordPress Plugin Events Calendar - SQL Injection                                      | php/webapps/44785.txt
+WordPress Plugin Events Manager Extended - Persistent Cross-Site Scripting            | php/webapps/14923.txt
+WordPress Plugin Export Users to CSV 1.1.1 - CSV Injection                            | php/webapps/45206.txt
+WordPress Plugin Extra User Details 0.4.2 - Privilege Escalation                      | php/webapps/39489.py
+WordPress Plugin EZ SQL Reports < 4.11.37 - Multiple Vulnerabilities                  | php/webapps/38176.txt
+WordPress Plugin Facebook Opengraph Meta 1.0 - SQL Injection                          | php/webapps/17773.txt
+WordPress Plugin Facebook Promotions 1.3.3 - SQL Injection                            | php/webapps/17737.txt
+WordPress Plugin Facebook Survey 1.0 - SQL Injection                                  | php/webapps/22853.txt
+WordPress Plugin Fancy Gallery 1.2.4 - Arbitrary File Upload                          | php/webapps/19398.txt
+WordPress Plugin Fancybox 3.0.2 - Persistent Cross-Site Scripting                     | php/webapps/36087.txt
+WordPress Plugin Fast Secure Contact Form 3.0.3.1 - 'index.php' Cross-Site Scripting  | php/webapps/36050.txt
+WordPress Plugin FB Gorilla - 'game_play.php' SQL Injection                           | php/webapps/39283.txt
+WordPress Plugin FCChat Widget 2.1.7 - 'path' Cross-Site Scripting                    | php/webapps/35289.txt
+WordPress Plugin FCChat Widget 2.2.x - 'upload.php' Arbitrary File Upload             | php/webapps/37370.php
+WordPress Plugin Feature Slideshow 1.0.6 - 'src' Cross-Site Scripting                 | php/webapps/35285.txt
+WordPress Plugin Featured Comments - Cross-Site Request Forgery                       | php/webapps/39213.txt
+WordPress Plugin Featured Content 0.0.1 - 'listid' Cross-Site Scripting               | php/webapps/35264.txt
+WordPress Plugin Featurific For WordPress 1.6.2 - 'snum' Cross-Site Scripting         | php/webapps/36339.txt
+WordPress Plugin FeedList 2.61.01 - 'handler_image.php' Cross-Site Scripting          | php/webapps/34973.txt
+WordPress Plugin Feedweb - 'wp_post_id' Cross-Site Scripting                          | php/webapps/38414.txt
+WordPress Plugin FeedWordPress 2015.0426 - SQL Injection                              | php/webapps/37067.txt
+WordPress Plugin fGallery 2.4.1 - 'fimrss.php' SQL Injection                          | php/webapps/4993.txt
+WordPress Plugin File Groups 1.1.2 - SQL Injection                                    | php/webapps/17677.txt
+WordPress Plugin File Manager 3.0.1 - Cross-Site Request Forgery                      | php/webapps/41488.html
+WordPress Plugin File Upload 4.3.2 - Stored Cross-Site Scripting                      | php/webapps/44443.txt
+WordPress Plugin File Upload 4.3.3 - Stored Cross-Site Scripting (PoC)                | php/webapps/44444.txt
+WordPress Plugin Filedownload 0.1 - 'download.php' Remote File Disclosure             | php/webapps/17858.txt
+WordPress Plugin Filterable Portfolio Gallery 1.0 - 'title' Stored Cross-Site Scripti | php/webapps/50458.txt
+WordPress Plugin Finder - 'order' Cross-Site Scripting                                | php/webapps/37677.txt
+WordPress Plugin Firestats - Remote Configuration File Download                       | php/webapps/14308.txt
+WordPress Plugin Firestats 1.0.2 - Multiple Cross-Site Scripting / Authentication Byp | php/webapps/33367.txt
+WordPress Plugin Firestats 1.0.2 - Multiple Cross-Site Scripting / Authentication Byp | php/webapps/33368.html
+WordPress Plugin Firestats 1.6.5 - Multiple Cross-Site Scripting Vulnerabilities      | php/webapps/34294.txt
+WordPress Plugin FireStorm Professional Real Estate 2.06.01 - SQL Injection           | php/webapps/22071.txt
+WordPress Plugin Firewall 2 1.3 - Cross-Site Request Forgery / Cross-Site Scripting   | php/webapps/41841.html
+WordPress Plugin Fitness Calculators 1.9.5 - Cross-Site Request Forgery (CSRF)        | php/webapps/50325.html
+WordPress Plugin FlagEm - 'cID' Cross-Site Scripting                                  | php/webapps/38674.txt
+WordPress Plugin flash-album-gallery - 'facebook.php' Cross-Site Scripting            | php/webapps/36383.txt
+WordPress Plugin flash-album-gallery - 'flagshow.php' Cross-Site Scripting            | php/webapps/36444.txt
+WordPress Plugin Flexible Custom Post Type - 'id' Cross-Site Scripting                | php/webapps/36317.txt
+WordPress Plugin Flip Book - 'PHP.php' Arbitrary File Upload                          | php/webapps/37452.txt
+WordPress Plugin FLV Player - 'id' SQL Injection                                      | php/webapps/38012.txt
+WordPress Plugin fMoblog 2.1 - 'id' SQL Injection                                     | php/webapps/8229.txt
+WordPress Plugin Font Uploader 1.2.4 - Arbitrary File Upload                          | php/webapps/18994.php
+WordPress Plugin FooGallery 1.8.12 - Persistent Cross-Site Scripting                  | php/webapps/47516.txt
+WordPress Plugin Form Maker 1.12.20 - CSV Injection                                   | php/webapps/44559.txt
+WordPress Plugin Form Maker 1.12.24 - SQL Injection                                   | php/webapps/44853.txt
+WordPress Plugin Form Maker 1.13.3 - SQL Injection                                    | php/webapps/46958.txt
+WordPress Plugin Form Maker 5.4.1 - 's' SQL Injection (Authenticated)                 | php/webapps/48509.txt
+WordPress Plugin Formcraft - SQL Injection                                            | php/webapps/30002.txt
+WordPress Plugin Forum 1.7.8 - SQL Injection                                          | php/webapps/17684.txt
+WordPress Plugin Forum Server 1.6.5 - SQL Injection                                   | php/webapps/16235.txt
+WordPress Plugin Forum Server 1.7 - SQL Injection                                     | php/webapps/17828.txt
+WordPress Plugin Foxypress - 'Uploadify.php' Arbitrary Code Execution (Metasploit)    | php/webapps/19100.rb
+WordPress Plugin Foxypress 0.4.1.1 < 0.4.2.1 - Arbitrary File Upload                  | php/webapps/18991.php
+WordPress Plugin foxypress 0.4.2.5 - Multiple Vulnerabilities                         | php/webapps/22374.txt
+WordPress Plugin Free Counter 1.1 - Persistent Cross-Site Scripting                   | php/webapps/37132.txt
+WordPress Plugin Freshmail 1.5.8 - 'shortcode.php' SQL Injection                      | php/webapps/36942.txt
+WordPress Plugin Freshmail 1.5.8 - SQL Injection                                      | multiple/webapps/36930.txt
+WordPress Plugin Front End Upload 0.5.3 - Arbitrary File Upload                       | php/webapps/19008.php
+WordPress Plugin Front End Upload 0.5.4.4 - Arbitrary '.PHP' File Upload              | php/webapps/20083.txt
+WordPress Plugin Front File Manager 0.1 - Arbitrary File Upload                       | php/webapps/19012.txt
+WordPress Plugin Frontend Upload - Arbitrary File Upload                              | php/webapps/31570.txt
+WordPress Plugin Frontend Uploader 1.3.2 - Stored Cross Site Scripting (XSS) (Unauthe | php/webapps/50655.txt
+WordPress Plugin Fuctweb CapCC 1.0 - 'plugins.php' SQL Injection                      | php/webapps/33813.html
+WordPress Plugin Fuctweb CapCC 1.0 CAPTCHA - Security Bypass                          | php/webapps/33372.html
+WordPress Plugin FuneralPress 1.1.6 - Persistent Cross-Site Scripting                 | php/webapps/24914.txt
+WordPress Plugin G-Lock Double Opt-in Manager - SQL Injection                         | php/webapps/37563.html
+WordPress Plugin Gallery - 'filename_1' Arbitrary File Access                         | php/webapps/38209.txt
+WordPress Plugin Gallery 3.06 - Arbitrary File Upload                                 | php/webapps/18998.php
+WordPress Plugin Gallery Objects 0.4 - SQL Injection                                  | php/webapps/34105.txt
+WordPress Plugin GB Gallery Slideshow - '/wp-admin/admin-ajax.php' SQL Injection      | php/webapps/39282.txt
+WordPress Plugin GD Star Rating - 'votes' SQL Injection                               | php/webapps/35835.txt
+WordPress Plugin GD Star Rating 1.9.10 - SQL Injection                                | php/webapps/17973.txt
+WordPress Plugin GD Star Rating 1.9.16 - 'tpl_section' Cross-Site Scripting           | php/webapps/37193.txt
+WordPress Plugin GD Star Rating 1.9.7 - 'wpfn' Cross-Site Scripting                   | php/webapps/35373.txt
+WordPress Plugin Generic - Arbitrary File Upload                                      | php/webapps/37501.rb
+WordPress Plugin Ghost 0.5.5 - Unrestricted Export Download                           | php/webapps/39752.txt
+WordPress Plugin Gift Voucher 1.0.5 - (Authenticated) 'template_id' SQL Injection     | php/webapps/45255.txt
+WordPress Plugin GigPress 2.1.10 - Persistent Cross-Site Scripting                    | php/webapps/16232.txt
+WordPress Plugin GigPress 2.3.8 - SQL Injection                                       | php/webapps/37109.txt
+WordPress Plugin Gigya Socialize 1.0/1.1.x - Cross-Site Scripting                     | php/webapps/34085.txt
+WordPress Plugin Global Content Blocks 1.2 - SQL Injection                            | php/webapps/17687.txt
+WordPress Plugin Global Content Blocks 2.1.5 - Cross-Site Request Forgery             | php/webapps/41487.html
+WordPress Plugin Global Flash Gallery - 'swfupload.php' Arbitrary File Upload         | php/webapps/39059.txt
+WordPress Plugin Glossary - SQL Injection                                             | php/webapps/18055.txt
+Wordpress Plugin Good LMS 2.1.4 - 'id' Unauthenticated SQL Injection                  | php/webapps/49033.txt
+WordPress Plugin Google Document Embedder - Arbitrary File Disclosure (Metasploit)    | php/webapps/23970.rb
+WordPress Plugin Google Document Embedder 2.5.14 - SQL Injection                      | php/webapps/35371.txt
+WordPress Plugin Google Document Embedder 2.5.16 - 'mysql_real_escpae_string' Bypass  | php/webapps/35447.txt
+WordPress Plugin Google Drive 2.2 - Remote Code Execution                             | php/webapps/44435.txt
+WordPress Plugin Google FeedBurner FeedSmith 2.2 - Cross-Site Request Forgery         | php/webapps/30637.js
+WordPress Plugin Google Map < 4.0.4 - SQL Injection                                   | php/webapps/44883.txt
+WordPress Plugin Google Maps via Store Locator 2.7.1 < 3.0.1 - Multiple Vulnerabiliti | php/webapps/18989.php
+WordPress Plugin Google Review Slider 6.1 - 'tid' SQL Injection                       | php/webapps/47567.txt
+WordPress Plugin Googmonify 0.8.1 - Cross-Site Scripting / Cross-Site Request Forgery | php/webapps/37906.txt
+WordPress Plugin GoURL.io < 1.4.14 - File Upload                                      | php/webapps/47312.html
+WordPress Plugin GraceMedia Media Player 1.0 - Local File Inclusion                   | php/webapps/46537.txt
+WordPress Plugin GRAND FlAGallery 1.57 - 'flagshow.php' Cross-Site Scripting          | php/webapps/36434.txt
+WordPress Plugin GRAND Flash Album Gallery 0.55 - Multiple Vulnerabilities            | php/webapps/16947.txt
+WordPress Plugin GRAND Flash Album Gallery 1.71 - 'admin.php' Cross-Site Scripting    | php/webapps/37161.txt
+WordPress Plugin grapefile 1.1 - Arbitrary File Upload                                | php/webapps/17760.txt
+WordPress Plugin Gravity Forms 1.8.19 - Arbitrary File Upload                         | php/webapps/39969.php
+WordPress Plugin Gwolle Guestbook 1.5.3 - Remote File Inclusion                       | php/webapps/38861.txt
+WordPress Plugin HB Audio Gallery Lite 1.0.0 - Arbitrary File Download                | php/webapps/39589.txt
+WordPress Plugin HD FLV Player - 'uploadVideo.php' Arbitrary File Upload              | php/webapps/37377.php
+WordPress Plugin HD Webplayer 1.1 - SQL Injection                                     | php/webapps/20918.txt
+WordPress Plugin HDW Player - '/wp-admin/admin.php' SQL Injection                     | php/webapps/39280.txt
+WordPress Plugin Helpful 2.4.11 - SQL Injection                                       | php/webapps/48307.txt
+WordPress Plugin History Collection 1.1.1 - Arbitrary File Download                   | php/webapps/37254.txt
+WordPress Plugin Hms Testimonials 2.0.10 - Multiple Vulnerabilities                   | php/webapps/27531.txt
+WordPress Plugin Hospital Management System - SQL Injection                           | php/webapps/42802.txt
+WordPress Plugin Hotel Listing 3 - 'Multiple' Cross-Site Scripting (XSS)              | php/webapps/50476.txt
+WordPress Plugin HS Brand Logo Slider 2.1 - 'logoupload' File Upload                  | php/webapps/48913.txt
+WordPress Plugin HTML5 AV Manager 0.2.7 - Arbitrary File Upload                       | php/webapps/18990.php
+WordPress Plugin Huge-IT Image Gallery 1.0.1 - (Authenticated) SQL Injection          | php/webapps/34524.txt
+WordPress Plugin Huge-IT Image Gallery 1.8.9 - Multiple Vulnerabilities               | php/webapps/39807.txt
+WordPress Plugin Huge-IT Slider 2.7.5 - Multiple Vulnerabilities                      | php/webapps/37361.txt
+WordPress Plugin Huge-IT Video Gallery 2.0.4 - SQL Injection                          | php/webapps/42082.txt
+WordPress Plugin Hybrid Composer 1.4.6 - Improper Access Restrictions                 | php/webapps/47154.py
+WordPress Plugin IBPS Online Exam 1.0 - SQL Injection / Cross-Site Scripting          | php/webapps/42351.txt
+WordPress Plugin iCopyright(R) Article Tools 1.1.4 - SQL Injection                    | php/webapps/17749.txt
+WordPress Plugin iFrame Admin Pages 0.1 - 'main_page.php' Cross-Site Scripting        | php/webapps/37179.txt
+WordPress Plugin IGIT Posts Slider Widget 1.0 - 'src' Cross-Site Scripting            | php/webapps/35392.txt
+WordPress Plugin iLive 1.0.4 - Cross-Site Scripting                                   | php/webapps/47036.txt
+WordPress Plugin Image Export 1.1.0 - Arbitrary File Disclosure                       | php/webapps/39584.txt
+WordPress Plugin image Gallery with Slideshow 1.5 - Multiple Vulnerabilities          | php/webapps/17761.txt
+WordPress Plugin Image Manager - Arbitrary File Upload                                | php/webapps/10325.txt
+Wordpress Plugin ImageMagick-Engine 1.7.4 - Remote Code Execution (RCE) (Authenticate | php/webapps/51025.txt
+WordPress Plugin IMDb Profile Widget 1.0.8 - Local File Inclusion                     | php/webapps/39621.txt
+WordPress Plugin iMember360 3.8.012 < 3.9.001 - Multiple Vulnerabilities              | php/webapps/33076.txt
+WordPress Plugin Import CSV 1.0 - Directory Traversal                                 | php/webapps/39576.txt
+WordPress Plugin Import Export WordPress Users 1.3.1 - CSV Injection                  | php/webapps/47303.txt
+WordPress Plugin InBoundio Marketing 1.0 - Arbitrary File Upload                      | php/webapps/36478.php
+WordPress Plugin IndiaNIC FAQs Manager 1.0 - Blind SQL Injection                      | php/webapps/24868.rb
+WordPress Plugin IndiaNIC FAQs Manager 1.0 - Multiple Vulnerabilities                 | php/webapps/24867.html
+WordPress Plugin IndiaNIC Testimonial - Multiple Vulnerabilities                      | php/webapps/28054.txt
+WordPress Plugin InfiniteWP - Client Authentication Bypass (Metasploit)               | php/webapps/48047.rb
+WordPress Plugin InfiniteWP Client 1.9.4.5 - Authentication Bypass                    | php/webapps/47939.py
+WordPress Plugin InfusionSoft - Arbitrary File Upload (Metasploit)                    | php/remote/34925.rb
+WordPress Plugin Inline Gallery 0.3.9 - 'do' Cross-Site Scripting                     | php/webapps/35418.txt
+WordPress Plugin Insert or Embed Articulate Content into WordPress - Remote Code Exec | php/webapps/46981.txt
+WordPress Plugin Insert PHP 3.3.1 - PHP Code Injection                                | php/webapps/41308.txt
+WordPress Plugin Instagram Feed 1.4.6.2 - Cross-Site Request Forgery                  | php/webapps/40795.html
+WordPress Plugin Integrator 1.32 - 'redirect_to' Cross-Site Scripting                 | php/webapps/37016.txt
+WordPress Plugin International Sms For Contact Form 7 Integration V1.2 - Cross Site S | php/webapps/50719.txt
+WordPress Plugin Invit0r - 'ofc_upload_image.php' Arbitrary File Upload               | php/webapps/37403.php
+WordPress Plugin IP-Logger 3.0 - SQL Injection                                        | php/webapps/17673.txt
+WordPress Plugin IP2Location Country Blocker 2.26.7 - Stored Cross Site Scripting (XS | php/webapps/50709.txt
+Wordpress Plugin iQ Block Country 1.2.13 - Arbitrary File Deletion via Zip Slip (Auth | php/webapps/50830.txt
+WordPress Plugin Is-human 1.4.2 - Remote Command Execution                            | php/webapps/17299.txt
+WordPress Plugin iThemes Security < 7.0.3 - SQL Injection                             | php/webapps/44943.txt
+WordPress Plugin IWantOneButton 3.0.1 - Multiple Vulnerabilities                      | php/webapps/16236.txt
+WordPress Plugin jetpack - 'sharedaddy.php' ID SQL Injection                          | php/webapps/18126.txt
+WordPress Plugin Jetpack 9.1 - Cross Site Scripting (XSS)                             | php/webapps/50735.txt
+WordPress Plugin Jibu Pro 1.7 - Cross-Site Scripting                                  | php/webapps/45305.txt
+WordPress Plugin Job Manager 0.7.22 - Persistent Cross-Site Scripting                 | php/webapps/37738.txt
+WordPress Plugin Job Manager 4.1.0 - Cross-Site Scripting                             | php/webapps/45031.txt
+WordPress Plugin Job Script by Scubez - Remote Code Execution                         | php/webapps/39848.py
+WordPress Plugin JoomSport 3.3 - SQL Injection                                        | php/webapps/47210.txt
+WordPress Plugin jQuery Mega Menu 1.0 - Local File Inclusion                          | php/webapps/16250.txt
+WordPress Plugin jRSS Widget 1.1.1 - 'url' Information Disclosure                     | php/webapps/34977.txt
+WordPress Plugin Js-appointment 1.5 - SQL Injection                                   | php/webapps/17724.txt
+WordPress Plugin JTRT Responsive Tables 4.1 - SQL Injection                           | php/webapps/43110.txt
+WordPress Plugin JW Player for Flash & HTML5 Video - Cross-Site Request Forgery       | php/webapps/39212.txt
+WordPress Plugin KenBurner Slider - 'admin-ajax.php' Arbitrary File Download          | php/webapps/39291.txt
+WordPress Plugin Kento Post View Counter 2.8 - Cross-Site Request Forgery / Cross-Sit | php/webapps/39705.txt
+WordPress Plugin Kish Guest Posting 1.0 - Arbitrary File Upload                       | php/webapps/18412.php
+WordPress Plugin KittyCatfish 2.2 - SQL Injection                                     | php/webapps/41919.txt
+WordPress Plugin KN Fix Your Title 1.0.1 - 'Separator' Stored Cross-Site Scripting (X | php/webapps/50143.txt
+WordPress Plugin Knews Multilingual Newsletters - Cross-Site Scripting                | php/webapps/37484.txt
+WordPress Plugin KNR Author List Widget 2.0.0 - SQL Injection                         | php/webapps/17791.txt
+WordPress Plugin Landing Pages 1.8.4 - Multiple Vulnerabilities                       | php/webapps/37108.txt
+WordPress Plugin Lanoba Social 1.0 - 'action' Cross-Site Scripting                    | php/webapps/36326.txt
+WordPress Plugin Lazy Content Slider 3.4 - Cross-Site Request Forgery (Add Catetory)  | php/webapps/40070.txt
+WordPress Plugin Lazy SEO 1.1.9 - Arbitrary File Upload                               | php/webapps/28452.txt
+WordPress Plugin Lazyest Gallery 1.0.26 - 'image' Cross-Site Scripting                | php/webapps/35435.txt
+WordPress Plugin LB Mixed Slideshow - 'upload.php' Arbitrary File Upload              | php/webapps/37418.php
+WordPress Plugin Lead Octopus Power - 'id' SQL Injection                              | php/webapps/39269.txt
+WordPress Plugin Leaflet Maps Marker 0.0.1 - 'leaflet_layer.php?id' Cross-Site Script | php/webapps/37191.txt
+WordPress Plugin Leaflet Maps Marker 0.0.1 - 'leaflet_marker.php?id' Cross-Site Scrip | php/webapps/37192.txt
+WordPress Plugin LeagueManager 3.7 - Multiple Cross-Site Scripting Vulnerabilities    | php/webapps/37190.txt
+WordPress Plugin LeagueManager 3.8 - SQL Injection                                    | php/webapps/24789.rb
+WordPress Plugin LeagueManager 3.9.11 - SQL Injection                                 | php/webapps/37182.txt
+WordPress Plugin LearnDash 2.5.3 - Arbitrary File Upload                              | php/webapps/43461.txt
+WordPress Plugin LearnDash LMS 3.1.2 - Reflective Cross-Site Scripting                | php/webapps/48030.txt
+WordPress Plugin Learning Management System - 'course_id' SQL Injection               | php/webapps/43901.txt
+WordPress Plugin LearnPress 3.2.6.7 - 'current_items' SQL Injection (Authenticated)   | php/webapps/50137.txt
+WordPress Plugin LearnPress 3.2.6.8 - Privilege Escalation                            | php/webapps/50138.txt
+WordPress Plugin Learnpress 4.1.4.1 - Arbitrary Image Renaming                        | php/webapps/50706.txt
+WordPress Plugin leenk.me 2.5.0 - Cross-Site Request Forgery / Cross-Site Scripting   | php/webapps/39704.txt
+WordPress Plugin LifterLMS 4.21.0 - Stored Cross-Site Scripting (XSS)                 | php/webapps/49912.txt
+WordPress Plugin Like Button 1.6.0 - Authentication Bypass                            | php/webapps/47078.txt
+WordPress Plugin Like Dislike Counter 1.2.3 - SQL Injection                           | php/webapps/34553.txt
+WordPress Plugin Limit Login Attempts Reloaded 2.7.4 - Login Limit Bypass             | php/webapps/46672.js
+WordPress Plugin Link Library 5.2.1 - SQL Injection                                   | php/webapps/17887.txt
+WordPress Plugin litespeed cache 3.6 - 'server_ip' Cross-Site Scripting               | php/webapps/49374.txt
+WordPress Plugin Live Chat Unlimited 2.8.3 - Cross-Site Scripting                     | php/webapps/47037.txt
+WordPress Plugin Livesig 0.4 - Remote File Inclusion                                  | php/webapps/17864.txt
+WordPress Plugin Localize My Post 1.0 - Local File Inclusion                          | php/webapps/45439.txt
+WordPress Plugin Loco Translate 2.2.1 - Local File Inclusion                          | php/webapps/46619.txt
+WordPress Plugin Login Widget With ShortCode 3.1.1 - Multiple Vulnerabilities         | php/webapps/34762.txt
+WordPress Plugin Lytebox - 'wp-lytebox' Local File Inclusion                          | php/webapps/8791.txt
+WordPress Plugin Mac Photo Gallery 2.7 - Arbitrary File Upload                        | php/webapps/19056.txt
+WordPress Plugin Mac Photo Gallery 3.0 - Arbitrary File Download                      | php/webapps/41566.txt
+WordPress Plugin Mail Masta 1.0 - Local File Inclusion                                | php/webapps/40290.txt
+WordPress Plugin Mail Masta 1.0 - Local File Inclusion (2)                            | php/webapps/50226.py
+WordPress Plugin Mail Masta 1.0 - SQL Injection                                       | php/webapps/41438.txt
+WordPress Plugin Mail On Update - Cross-Site Request Forgery                          | php/webapps/38517.html
+WordPress Plugin MailChimp Subscribe Forms 1.1 - Remote Code Execution                | php/webapps/37111.txt
+WordPress Plugin Mailing List - Arbitrary File Download                               | php/webapps/18276.txt
+WordPress Plugin Mailing List 1.3.2 - Remote File Inclusion                           | php/webapps/17866.txt
+WordPress Plugin MailPoet Newsletters 2.6.8 - 'wysija-newsletters' Arbitrary File Upl | php/remote/33991.rb
+Wordpress Plugin Maintenance Mode by SeedProd 5.1.1 - Persistent Cross-Site Scripting | php/webapps/48724.txt
+WordPress Plugin Marketplace 2.4.0 - Arbitrary File Download                          | php/webapps/36466.txt
+WordPress Plugin Marketplace 2.4.0 - Remote Code Execution (Add Admin)                | php/webapps/36490.py
+WordPress Plugin Marketplace Plugin 1.5.0 < 1.6.1 - Arbitrary File Upload             | php/webapps/18988.php
+WordPress Plugin MasterStudy LMS 2.7.5 - Unauthenticated Admin Account Creation       | php/webapps/50752.txt
+WordPress Plugin Mathjax Latex 1.1 - Cross-Site Request Forgery                       | php/webapps/24889.txt
+WordPress Plugin MDC Private Message 1.0.0 - Persistent Cross-Site Scripting          | php/webapps/37907.txt
+WordPress Plugin Media File Manager 1.4.2 - Directory Traversal / Cross-Site Scriptin | php/webapps/45809.txt
+WordPress Plugin Media Holder - SQL Injection                                         | php/webapps/6842.txt
+WordPress Plugin Media Library Assistant 2.81 - Local File Inclusion                  | php/webapps/48315.txt
+WordPress Plugin Media Library Categories - Multiple Cross-Site Scripting Vulnerabili | php/webapps/37189.txt
+WordPress Plugin Media Library Categories 1.0.6 - SQL Injection                       | php/webapps/17628.txt
+WordPress Plugin Media-Tags 3.2.0.2 - Stored Cross-Site Scripting (XSS)               | php/webapps/50454.txt
+WordPress Plugin Mediatricks Viva Thumbs - Multiple Information Disclosure Vulnerabil | php/webapps/35133.txt
+WordPress Plugin Membership Simplified 1.58 - Arbitrary File Download                 | php/webapps/41622.py
+WordPress Plugin Memphis Document Library 3.1.5 - Arbitrary File Download             | php/webapps/39593.txt
+WordPress Plugin Menu Creator 1.1.7 - SQL Injection                                   | php/webapps/17689.txt
+WordPress Plugin Metronet Tag Manager 1.2.7 - Cross-Site Request Forgery              | php/webapps/44632.html
+WordPress Plugin MF Gig Calendar - Cross-Site Scripting                               | php/webapps/37829.txt
+WordPress Plugin Mimetic Books 0.2.13 - 'Default Publisher ID field' Stored Cross-Sit | php/webapps/50139.txt
+WordPress Plugin mingle forum 1.0.26 - Multiple Vulnerabilities                       | php/webapps/15943.txt
+WordPress Plugin Mingle Forum 1.0.31 - SQL Injection                                  | php/webapps/17894.txt
+WordPress Plugin Mingle Forum 1.0.33 - 'admin.php' Multiple Cross-Site Scripting Vuln | php/webapps/37194.txt
+WordPress Plugin Mini Mail Dashboard Widget 1.36 - Remote File Inclusion              | php/webapps/17868.txt
+WordPress Plugin mini mail Dashboard widget 1.42 - Persistent Cross-Site Scripting    | php/webapps/20358.py
+WordPress Plugin miniBB - SQL Injection / Multiple Cross-Site Scripting Vulnerabiliti | php/webapps/38639.txt
+WordPress Plugin MiwoFTP 1.0.5 - Arbitrary File Download (1)                          | php/webapps/36774.txt
+WordPress Plugin MiwoFTP 1.0.5 - Arbitrary File Download (2)                          | php/webapps/36801.txt
+WordPress Plugin MiwoFTP 1.0.5 - Cross-Site Request Forgery / Arbitrary File Creation | php/webapps/36763.txt
+WordPress Plugin MiwoFTP 1.0.5 - Cross-Site Request Forgery / Arbitrary File Deletion | php/webapps/36761.txt
+WordPress Plugin MiwoFTP 1.0.5 - Multiple Cross-Site Request Forgery / Cross-Site Scr | php/webapps/36762.txt
+WordPress Plugin MM Duplicate 1.2 - SQL Injection                                     | php/webapps/17707.txt
+WordPress Plugin MM Forms Community 1.2.3 - SQL Injection                             | php/webapps/17725.txt
+WordPress Plugin MM Forms Community 2.2.6 - Arbitrary File Upload                     | php/webapps/18997.php
+Wordpress Plugin Modern Events Calendar 5.16.2 - Event export (Unauthenticated)       | php/webapps/50084.py
+Wordpress Plugin Modern Events Calendar 5.16.2 - Remote Code Execution (Authenticated | php/webapps/50082.py
+WordPress Plugin Modern Events Calendar V 6.1 - SQL Injection (Unauthenticated)       | php/webapps/50687.py
+WordPress Plugin Monsters Editor for WP Super Edit - Arbitrary File Upload            | php/webapps/37654.txt
+WordPress Plugin MoodThingy Widget 0.8.7 - Blind SQL Injection                        | php/webapps/19572.txt
+WordPress Plugin More Fields 2.1 - Cross-Site Request Forgery                         | php/webapps/39507.txt
+WordPress Plugin Mortgage Calculators WP 1.52 - Stored Cross-Site Scripting (XSS) (Au | php/webapps/50685.txt
+WordPress Plugin Motopress Hotel Booking Lite 4.2.4 - SQL Injection                   | php/webapps/50869.txt
+WordPress Plugin Motopress Hotel Booking Lite 4.2.4 - Stored Cross-Site Scripting (XS | php/webapps/50951.txt
+Wordpress Plugin MStore API 2.0.6 - Arbitrary File Upload                             | php/webapps/50379.py
+WordPress Plugin mukioplayer4wp - 'cid' SQL Injection                                 | php/webapps/38755.txt
+WordPress Plugin Multi-Scheduler 1.0.0 - Cross-Site Request Forgery (Delete User)     | php/webapps/48532.txt
+WordPress Plugin Multisite Post Duplicator 0.9.5.1 - Cross-Site Request Forgery       | php/webapps/40908.html
+WordPress Plugin My Calendar 2.4.10 - Multiple Vulnerabilities                        | php/webapps/38648.txt
+WordPress Plugin My Category Order 2.8 - SQL Injection                                | php/webapps/9150.txt
+WordPress Plugin myflash 1.00 - 'wppath' Remote File Inclusion                        | php/webapps/3828.txt
+WordPress Plugin mygallery 1.4b4 - Remote File Inclusion                              | php/webapps/3814.txt
+WordPress Plugin myLDlinker - SQL Injection                                           | php/webapps/14441.txt
+WordPress Plugin mySTAT 2.6 - SQL Injection                                           | php/webapps/17740.txt
+WordPress Plugin Mz-jajak 2.1 - SQL Injection                                         | php/webapps/20416.txt
+WordPress Plugin N-Media Website Contact Form - Arbitrary File Upload (Metasploit)    | php/remote/36810.rb
+WordPress Plugin N-Media Website Contact Form with File Upload 1.3.4 - Arbitrary File | php/webapps/36738.txt
+WordPress Plugin N-Media Website Contact Form with File Upload 1.3.4 - Arbitrary File | php/webapps/36979.sh
+WordPress Plugin N-Media Website Contact Form with File Upload 1.5 - Local File Inclu | php/webapps/36952.txt
+WordPress Plugin Netroics Blog Posts Grid 1.0 - Stored Cross-Site Scripting (XSS)     | php/webapps/51008.txt
+WordPress Plugin Network Publisher 5.0.1 - 'networkpub_key' Cross-Site Scripting      | php/webapps/37174.txt
+WordPress Plugin NewsLetter 1.5 - Remote File Disclosure                              | php/webapps/19018.txt
+WordPress Plugin NewsLetter Manager 1.0 - Multiple Cross-Site Scripting Vulnerabiliti | php/webapps/37180.txt
+WordPress Plugin NewsLetter Meenews 5.1 - 'idnews' Cross-Site Scripting               | php/webapps/36340.txt
+WordPress Plugin NewStatPress 0.9.8 - Multiple Vulnerabilities                        | php/webapps/37107.txt
+WordPress Plugin NewStatPress 1.2.4 - Cross-Site Scripting                            | php/webapps/41486.txt
+WordPress Plugin NEX-Forms < 3.0 - SQL Injection                                      | php/webapps/36800.txt
+WordPress Plugin Nextend Facebook Connect 1.4.59 - Cross-Site Scripting               | php/webapps/35439.txt
+WordPress Plugin NextGEN Gallery - 'jqueryFileTree.php' Directory Traversal           | php/webapps/39100.txt
+WordPress Plugin NextGEN Gallery - 'test-head' Cross-Site Scripting                   | php/webapps/38178.txt
+WordPress Plugin NextGEN Gallery - 'upload.php' Arbitrary File Upload                 | php/webapps/38585.pl
+WordPress Plugin NextGEN Gallery - Full Path Disclosure                               | php/webapps/38314.txt
+WordPress Plugin NextGEN Gallery 1.5.1 - Cross-Site Scripting                         | php/webapps/12098.txt
+WordPress Plugin NextGEN Gallery 1.9.1 - 'photocrati_ajax' Arbitrary File Upload      | php/webapps/39237.txt
+WordPress Plugin NextGEN Smooth Gallery 0.12 - Blind SQL Injection                    | php/webapps/14541.txt
+WordPress Plugin Ninja Forms 2.7.7 - Authentication Bypass                            | php/webapps/39301.html
+WordPress Plugin Ninja Forms 2.9.36 < 2.9.42 - File Upload (Metasploit)               | multiple/webapps/41692.rb
+WordPress Plugin Ninja Forms 3.3.13 - CSV Injection                                   | php/webapps/45234.txt
+WordPress Plugin Ninja Forms 3.3.17 - Cross-Site Scripting                            | php/webapps/45880.txt
+WordPress Plugin Ninja Tables 4.1.7 - Stored Cross-Site Scripting (XSS)               | php/webapps/50455.txt
+WordPress Plugin Nmedia WordPress Member Conversation 1.35.0 - 'doupload.php' Arbitra | php/webapps/37353.php
+WordPress Plugin NOSpamPTI - Blind SQL Injection                                      | php/webapps/28485.txt
+WordPress Plugin Occasions - Cross-Site Request Forgery                               | php/webapps/38393.html
+WordPress Plugin Occasions 1.0.4 - Cross-Site Request Forgery                         | php/webapps/24858.html
+WordPress Plugin Ocim MP3 - SQL Injection                                             | php/webapps/39498.txt
+WordPress Plugin OdiHost NewsLetter 1.0 - SQL Injection                               | php/webapps/17681.txt
+WordPress Plugin Olimometer 2.56 - SQL Injection                                      | php/webapps/40804.txt
+WordPress Plugin Omni Secure Files 0.1.13 - Arbitrary File Upload                     | php/webapps/19009.php
+WordPress Plugin OneSignal 1.17.5 - 'subdomain' Persistent Cross-Site Scripting       | linux/webapps/47136.txt
+WordPress Plugin Online Hotel Booking System Pro 1.0 - SQL Injection                  | php/webapps/41182.txt
+WordPress Plugin OPS Old Post Spinner 2.2.1 - Local File Inclusion                    | php/webapps/16251.txt
+WordPress Plugin oQey Gallery 0.4.8 - SQL Injection                                   | php/webapps/17779.txt
+WordPress Plugin oQey Headers 0.3 - SQL Injection                                     | php/webapps/17730.txt
+WordPress Plugin oQey-Gallery 0.2 - 'tbpv_domain' Cross-Site Scripting                | php/webapps/35288.txt
+WordPress Plugin Order Export Import for WooCommerce - Order Information Disclosure   | php/webapps/40391.txt
+WordPress Plugin ORGanizer - Multiple Vulnerabilities                                 | php/webapps/37411.txt
+WordPress Plugin Page Flip Image Gallery 0.2.2 - Remote File Disclosure               | php/webapps/7543.txt
+WordPress Plugin page-flip-image-gallery - Arbitrary File Upload                      | php/webapps/30084.php
+WordPress Plugin Paid Business Listings 1.0.2 - Blind SQL Injection                   | php/webapps/19481.txt
+WordPress Plugin Paid Downloads 2.01 - SQL Injection                                  | php/webapps/17797.txt
+WordPress Plugin Paid Memberships Pro 1.7.14.2 - Directory Traversal                  | php/webapps/35303.txt
+WordPress Plugin Participants Database 1.5.4.8 - SQL Injection                        | php/webapps/33613.txt
+WordPress Plugin Participants Database < 1.7.5.10 - Cross-Site Scripting              | php/webapps/42618.txt
+WordPress Plugin Pay with Tweet 1.1 - Multiple Vulnerabilities                        | php/webapps/18330.txt
+WordPress Plugin Payments Plugin | GetPaid 2.4.6 - HTML Injection                     | php/webapps/50246.txt
+WordPress Plugin PayPal Checkout Payment Gateway 1.6.8 - Parameter Tampering          | php/webapps/46632.txt
+WordPress Plugin Paypal Currency Converter Basic For WooCommerce - File Read          | php/webapps/37253.txt
+WordPress Plugin PDF & Print Button Joliprint 1.3.0 - Multiple Cross-Site Scripting V | php/webapps/37176.txt
+WordPress Plugin Perfect Survey - 1.5.1 - SQLi (Unauthenticated)                      | php/webapps/50766.py
+WordPress Plugin Peter's Math Anti-Spam 0.1.6 - Audio CAPTCHA Security Bypass         | php/webapps/31029.pl
+WordPress Plugin Peugeot Music - Arbitrary File Upload                                | php/webapps/44737.txt
+WordPress Plugin Photo album - SQL Injection                                          | php/webapps/5135.txt
+WordPress Plugin Photo Album Plus 4.1.1 - SQL Injection                               | php/webapps/17983.txt
+WordPress Plugin Photo Gallery 1.2.5 - Unrestricted Arbitrary File Upload             | php/webapps/35916.txt
+WordPress Plugin Photo Gallery 1.5.34 - Cross-Site Scripting                          | php/webapps/47372.txt
+WordPress Plugin Photo Gallery 1.5.34 - Cross-Site Scripting (2)                      | php/webapps/47373.txt
+WordPress Plugin Photo Gallery 1.5.34 - SQL Injection                                 | php/webapps/47371.txt
+WordPress Plugin Photocart Link 1.6 - Local File Inclusion                            | php/webapps/39623.txt
+WordPress Plugin Photoracer 1.0 - 'id' SQL Injection                                  | php/webapps/8961.txt
+WordPress Plugin Photoracer 1.0 - Multiple Vulnerabilities                            | php/webapps/17731.txt
+WordPress Plugin Photoracer 1.0 - SQL Injection                                       | php/webapps/17720.txt
+WordPress Plugin PhotoSmash Galleries - 'bwbps-uploader.php' Arbitrary File Upload    | php/webapps/38872.php
+WordPress Plugin PhotoSmash Galleries 1.0.x - 'action' Cross-Site Scripting           | php/webapps/35429.txt
+WordPress Plugin PHP Event Calendar - 'cid' SQL Injection                             | php/webapps/38018.txt
+WordPress Plugin PHP Speedy 0.5.2 - 'admin_container.php' Remote Code Execution       | php/webapps/16273.php
+WordPress Plugin PHPFreeChat - 'url' Cross-Site Scripting                             | php/webapps/37485.txt
+WordPress Plugin PHPMailer 4.6 - Host Header Command Injection (Metasploit)           | php/remote/42024.rb
+WordPress Plugin Pica Photo Gallery 1.0 - Arbitrary File Upload                       | php/webapps/19055.txt
+WordPress Plugin PICA Photo Gallery 1.0 - Remote File Disclosure                      | php/webapps/19016.txt
+WordPress Plugin PICA Photo Gallery 1.0 - SQL Injection                               | php/webapps/41569.txt
+WordPress Plugin PictPress 0.91 - Remote File Disclosure                              | php/webapps/4695.txt
+WordPress Plugin Picture Gallery 1.4.2 - 'Edit Content URL' Stored Cross-Site Scripti | php/webapps/50187.txt
+WordPress Plugin Picturesurf Gallery - 'upload.php' Arbitrary File Upload             | php/webapps/37371.php
+Wordpress Plugin PicUploader 1.0 - Remote File Upload                                 | php/webapps/48238.txt
+WordPress Plugin Pie Register - 'wp-login.php' Multiple Cross-Site Scripting Vulnerab | php/webapps/38643.txt
+WordPress Plugin Pie Register 2.0.13 - Privilege Escalation                           | php/webapps/35823.txt
+WordPress Plugin Pie Register 3.7.1.4 - Admin Privilege Escalation (Unauthenticated)  | php/webapps/50395.txt
+WordPress Plugin Pie Register < 3.0.9 - Blind SQL Injection                           | php/webapps/44867.txt
+WordPress Plugin Pixarbay Images 2.3 - Multiple Vulnerabilities                       | php/webapps/35846.txt
+WordPress Plugin Placester 0.1 - 'ajax_action' Cross-Site Scripting                   | php/webapps/35562.txt
+WordPress Plugin Plainview Activity Monitor 20161228 - (Authenticated) Command Inject | php/webapps/45274.html
+WordPress Plugin Plainview Activity Monitor 20161228 - Remote Code Execution (RCE) (A | php/webapps/50110.py
+WordPress Plugin Plg Novana - 'id' SQL Injection                                      | php/webapps/38048.txt
+WordPress Plugin podPress - 'playerID' Cross-Site Scripting                           | php/webapps/38376.txt
+WordPress Plugin Polls 1.2.4 - SQL Injection (PoC)                                    | php/remote/44229.txt
+WordPress Plugin Polls Widget 1.0.7 - SQL Injection                                   | php/webapps/38902.txt
+WordPress Plugin Poll_ Survey_ Questionnaire and Voting system 1.5.2 - 'date_answers' | php/webapps/50052.txt
+WordPress Plugin Popular Posts 5.3.2 - Remote Code Execution (RCE) (Authenticated)    | php/webapps/50129.py
+WordPress Plugin Popup 1.10.4 - Reflected Cross-Site Scripting (XSS)                  | php/webapps/50346.txt
+WordPress Plugin Popup Anything 2.0.3 - 'Multiple' Stored Cross-Site Scripting (XSS)  | php/webapps/50479.txt
+WordPress Plugin Popup Builder 3.49 - Persistent Cross-Site Scripting                 | php/webapps/47518.txt
+WordPress Plugin Popup Builder 3.69.6 - Multiple Stored Cross Site Scripting          | php/webapps/49231.txt
+WordPress Plugin Popup by Supsystic 1.7.6 - Cross-Site Request Forgery                | php/webapps/41485.html
+WordPress Plugin Popup Maker 1.16.5 - Stored Cross-Site Scripting (Authenticated)     | php/webapps/50876.txt
+WordPress Plugin Portable phpMyAdmin - Authentication Bypass                          | php/webapps/23356.txt
+WordPress Plugin Post Grid 2.1.1 - Cross Site Scripting (XSS)                         | php/webapps/50705.txt
+WordPress Plugin post highlights 2.2 - SQL Injection                                  | php/webapps/17790.txt
+WordPress Plugin Post Recommendations - 'abspath' Remote File Inclusion               | php/webapps/37506.php
+WordPress Plugin postie 1.4.3 - Persistent Cross-Site Scripting                       | php/webapps/20360.py
+WordPress Plugin Postie 1.9.40 - Persistent Cross-Site Scripting                      | php/webapps/47925.txt
+WordPress Plugin Powerhouse Museum Collection Image Grid 0.9.1.1 - 'tbpv_username' Cr | php/webapps/35287.txt
+Wordpress Plugin Powie's WHOIS Domain Check 0.9.31 - Persistent Cross-Site Scripting  | php/webapps/48656.txt
+WordPress Plugin Premium Gallery Manager - Arbitrary File Upload                      | php/webapps/39111.php
+WordPress Plugin Premium Gallery Manager - Configuration Access                       | php/webapps/34538.txt
+WordPress Plugin Premium SEO Pack 1.9.1.3 - wp_options Overwrite                      | php/webapps/39978.php
+WordPress Plugin Pretty Link - Cross-Site Scripting                                   | php/webapps/38324.txt
+WordPress Plugin Pretty Link 1.4.56 - Multiple Cross-Site Scripting Vulnerabilities   | php/webapps/36233.txt
+WordPress Plugin Pretty Link 1.5.2 - 'pretty-bar.php' Cross-Site Scripting            | php/webapps/36408.txt
+WordPress Plugin Pretty Link Lite 1.4.56 - Multiple SQL Injections                    | php/webapps/35893.txt
+WordPress Plugin Pretty Link Lite 1.5.2 - SQL Injection / Cross-Site Scripting        | php/webapps/37196.txt
+WordPress Plugin Processing Embed 0.5 - 'pluginurl' Cross-Site Scripting              | php/webapps/35066.txt
+WordPress Plugin Product Catalog 8 1.2.0 - SQL Injection                              | php/webapps/40783.txt
+WordPress Plugin Product Slider for WooCommerce 1.13.21 - Cross Site Scripting (XSS)  | php/webapps/50704.txt
+WordPress Plugin ProfilePress 3.1.3 - Privilege Escalation (Unauthenticated)          | php/webapps/50242.sh
+WordPress Plugin Profiles 2.0 RC1 - SQL Injection                                     | php/webapps/17739.txt
+WordPress Plugin ProPlayer 4.7.7 - SQL Injection                                      | php/webapps/17616.txt
+WordPress Plugin ProPlayer 4.7.9.1 - SQL Injection                                    | php/webapps/25605.txt
+WordPress Plugin PureHTML 1.0.0 - SQL Injection                                       | php/webapps/17758.txt
+WordPress Plugin Pyrmont 2.x - SQL Injection                                          | php/webapps/10535.txt
+WordPress Plugin Q and A (Focus Plus) FAQ 1.3.9.7 - Multiple Vulnerabilities          | php/webapps/39806.txt
+WordPress Plugin Quick Contact Form 6.0 - Persistent Cross-Site Scripting             | php/webapps/28808.txt
+WordPress Plugin Quick Page/Post Redirect 5.0.3 - Multiple Vulnerabilities            | php/webapps/32867.txt
+WordPress Plugin Quick Paypal Payments 3.0 - Presistant Cross-Site Scripting          | php/webapps/29020.txt
+WordPress Plugin Quiz And Survey Master 4.5.4/4.7.8 - Cross-Site Request Forgery      | php/webapps/40934.html
+WordPress Plugin Quizlord 2.0 - Cross-Site Scripting                                  | php/webapps/45307.txt
+WordPress Plugin Rating-Widget 1.3.1 - Multiple Cross-Site Scripting Vulnerabilities  | php/webapps/35476.txt
+WordPress Plugin RB Agency 2.4.7 - Local File Disclosure                              | php/webapps/40333.txt
+WordPress Plugin RBX Gallery 2.1 - Arbitrary File Upload                              | php/webapps/19019.php
+WordPress Plugin Real3D FlipBook - Multiple Vulnerabilities                           | php/webapps/40055.py
+WordPress Plugin Really Simple Guest Post 1.0.6 - Local File Inclusion                | php/webapps/37209.txt
+WordPress Plugin Realty - Blind SQL Injection                                         | php/webapps/29021.txt
+WordPress Plugin Recent Backups 0.7 - Arbitrary File Download                         | php/webapps/37752.txt
+WordPress Plugin Recip.ly 1.1.7 - 'uploadImage.php' Arbitrary File Upload             | php/webapps/35265.php
+WordPress Plugin Recipes Blog - 'id' SQL Injection                                    | php/webapps/31228.txt
+WordPress Plugin ReDi Restaurant Reservation 21.0307 - 'Comment' Stored Cross-Site Sc | php/webapps/49903.txt
+WordPress Plugin Redirect 404 to Parent 1.3.0 - Reflected Cross-Site Scripting        | php/webapps/50350.txt
+WordPress Plugin Reflex Gallery - Arbitrary File Upload (Metasploit)                  | php/remote/36809.rb
+WordPress Plugin Reflex Gallery 3.1.3 - Arbitrary File Upload                         | php/webapps/36374.txt
+WordPress Plugin RegistrationMagic V 5.0.1.5 - SQL Injection (Authenticated)          | php/webapps/50686.py
+WordPress Plugin Related Sites 2.1 - Blind SQL Injection                              | php/webapps/9054.txt
+WordPress Plugin Relevanssi - 'category_name' SQL Injection                           | php/webapps/39109.txt
+WordPress Plugin Relevanssi 2.7.2 - Persistent Cross-Site Scripting                   | php/webapps/16233.txt
+WordPress Plugin Relevanssi 4.0.4 - Reflected Cross-Site Scripting                    | php/webapps/44366.txt
+WordPress Plugin Relocate Upload 0.14 - Remote File Inclusion                         | php/webapps/17869.txt
+WordPress Plugin Responsive Cookie Consent 1.7 / 1.6 / 1.5 - (Authenticated) Persiste | php/webapps/44563.txt
+WordPress Plugin Responsive Thumbnail Slider - Arbitrary File Upload (Metasploit)     | php/remote/45099.rb
+WordPress Plugin Responsive Thumbnail Slider 1.0 - Arbitrary File Upload              | php/webapps/37998.txt
+WordPress Plugin Rest Google Maps < 7.11.18 - SQL Injection                           | php/webapps/48918.sh
+WordPress Plugin Resume Submissions & Job Postings 2.5.1 - Unrestricted Arbitrary Fil | php/webapps/19791.txt
+WordPress Plugin RevSlider 3.0.95 - Arbitrary File Upload / Execution (Metasploit)    | php/remote/36957.rb
+WordPress Plugin Rich Widget - Arbitrary File Upload                                  | php/webapps/37653.txt
+WordPress Plugin Ripe HD FLV Player - SQL Injection                                   | php/webapps/24229.txt
+WordPress Plugin RobotCPA V5 - Local File Inclusion                                   | php/webapps/37252.txt
+WordPress Plugin RokBox Plugin - '/wp-content/plugins/wp_rokbox/jwplayer/jwplayer.swf | php/webapps/38133.txt
+WordPress Plugin RokIntroScroller - 'thumb.php' Multiple Vulnerabilities              | php/webapps/38767.txt
+WordPress Plugin RokMicroNews - 'thumb.php' Multiple Vulnerabilities                  | php/webapps/38768.txt
+WordPress Plugin RokNewsPager - 'thumb.php' Multiple Vulnerabilities                  | php/webapps/38756.txt
+WordPress Plugin RokStories - 'thumb.php' Multiple Vulnerabilities                    | php/webapps/38757.txt
+WordPress Plugin RSS Feed Reader 0.1 - 'rss_url' Cross-Site Scripting                 | php/webapps/35261.txt
+WordPress Plugin RSS for Yandex Turbo 1.29 - Stored Cross-Site Scripting (XSS)        | php/webapps/49778.txt
+WordPress Plugin RSVPMaker 2.5.4 - Persistent Cross-Site Scripting                    | php/webapps/20474.txt
+WordPress Plugin S3Bubble Cloud Video With Adverts & Analytics 0.7 - Arbitrary File D | php/webapps/37494.txt
+WordPress Plugin Sabai Discuss - Cross-Site Scripting                                 | php/webapps/42317.txt
+WordPress Plugin Safe Search - 'v1' Cross-Site Scripting                              | php/webapps/35067.txt
+WordPress Plugin School Management System - SQL Injection                             | php/webapps/42804.txt
+WordPress Plugin Schreikasten 0.14.13 - Cross-Site Scripting                          | php/webapps/19294.txt
+WordPress Plugin SCORM Cloud 1.0.6.6 - SQL Injection                                  | php/webapps/17793.txt
+WordPress Plugin SE HTML5 Album Audio Player 1.1.0 - Directory Traversal              | php/webapps/37274.txt
+WordPress Plugin Search Meter 2.13.2 - CSV injection                                  | php/webapps/48197.txt
+WordPress Plugin SearchAutocomplete 1.0.8 - SQL Injection                             | php/webapps/17767.txt
+WordPress Plugin Secure Copy Content Protection and Content Locking 2.8.1 - SQL-Injec | php/webapps/50733.py
+WordPress Plugin Securimage-WP - 'siwp_test.php' Cross-Site Scripting                 | php/webapps/38510.txt
+WordPress Plugin Security Audit 1.0.0 - Stored Cross Site Scripting (XSS)             | php/webapps/50723.txt
+WordPress Plugin Select All Categories and Taxonomies 1.3.1 - Reflected Cross-Site Sc | php/webapps/50349.txt
+WordPress Plugin Sell Download 1.0.16 - Local File Disclosure                         | php/webapps/38868.txt
+WordPress Plugin Sell Downloads 1.0.86 - Cross-Site Scripting                         | php/webapps/47369.txt
+WordPress Plugin SendIt 1.5.9 - Blind SQL Injection                                   | php/webapps/17716.txt
+WordPress Plugin SEO by Yoast 1.7.3.3 - Blind SQL Injection                           | php/webapps/36413.txt
+WordPress Plugin SEO Tools 3.0 - 'file' Directory Traversal                           | php/webapps/34975.txt
+WordPress Plugin SEO Watcher - 'ofc_upload_image.php' Arbitrary PHP Code Execution    | php/webapps/38782.php
+WordPress Plugin Sermon Browser 0.43 - Cross-Site Scripting / SQL Injection           | php/webapps/35657.php
+WordPress Plugin SermonBrowser 0.43 - SQL Injection                                   | php/webapps/17214.php
+WordPress Plugin Service Finder Booking < 3.2 - Local File Disclosure                 | php/webapps/43475.txt
+WordPress Plugin Sexy Add Template - Cross-Site Request Forgery                       | php/webapps/37837.html
+WordPress Plugin SfBrowser 1.4.5 - Arbitrary File Upload                              | php/webapps/19054.txt
+WordPress Plugin SH Slideshow 3.1.4 - SQL Injection                                   | php/webapps/17748.txt
+WordPress Plugin Share and Follow 1.80.3 - 'admin.php' Cross-Site Scripting           | php/webapps/37202.txt
+WordPress Plugin Shareaholic 7.6.0.3 - Cross-Site Scripting                           | php/webapps/36674.txt
+WordPress Plugin Sharebar 1.2.1 - SQL Injection / Cross-Site Scripting                | php/webapps/37201.txt
+WordPress Plugin ShiftThis NewsLetter - SQL Injection                                 | php/webapps/31096.txt
+WordPress Plugin Shopp - Multiple Vulnerabilities                                     | php/webapps/37934.txt
+WordPress Plugin Shopping Cart 3.0.4 - Unrestricted Arbitrary File Upload             | php/webapps/35730.html
+WordPress Plugin Shopping Cart for WordPress - '/wp-content/plugins/levelfourstorefro | php/webapps/38158.txt
+WordPress Plugin Shopping Cart for WordPress - '/wp-content/plugins/levelfourstorefro | php/webapps/38159.txt
+WordPress Plugin Shopping Cart for WordPress - '/wp-content/plugins/levelfourstorefro | php/webapps/38160.txt
+WordPress Plugin ShortCode 0.2.3 - Local File Inclusion                               | php/webapps/34436.txt
+WordPress Plugin Simple Add Pages or Posts 1.6 - Cross-Site Request Forgery           | php/webapps/39384.txt
+WordPress Plugin Simple Ads Manager - Information Disclosure                          | php/webapps/36615.txt
+WordPress Plugin Simple Ads Manager - Multiple SQL Injections                         | php/webapps/36613.txt
+WordPress Plugin Simple Ads Manager 2.5.94 - Arbitrary File Upload                    | php/webapps/36614.txt
+WordPress Plugin Simple Ads Manager 2.9.4.116 - SQL Injection                         | php/webapps/39133.php
+WordPress Plugin Simple Backup 2.7.11 - Multiple Vulnerabilities                      | php/webapps/39883.txt
+WordPress Plugin Simple Download Button ShortCode 1.0 - Remote File Disclosure        | php/webapps/19020.txt
+WordPress Plugin Simple Fields 0.2 - 0.3.5 - Local/Remote File Inclusion / Remote Cod | php/webapps/44425.txt
+WordPress Plugin Simple File List 4.2.2 - Arbitrary File Upload                       | php/webapps/48979.py
+WordPress Plugin Simple File List 4.2.2 - Remote Code Execution                       | php/webapps/48449.py
+WordPress Plugin Simple Forum 1.10 < 1.11 - SQL Injection                             | php/webapps/5127.txt
+WordPress Plugin Simple Forum 2.0 < 2.1 - SQL Injection                               | php/webapps/5126.txt
+WordPress Plugin Simple Gmail Login - Stack Trace Information Disclosure              | php/webapps/38111.txt
+WordPress Plugin Simple Image Manipulator 1.0 - Arbitrary File Download               | php/webapps/37753.txt
+Wordpress Plugin Simple Job Board 2.9.3 - Authenticated File Read (Metasploit)        | php/webapps/49450.rb
+Wordpress Plugin Simple Job Board 2.9.3 - Local File Inclusion                        | php/webapps/50721.py
+WordPress Plugin Simple Membership 3.8.4 - Cross-Site Request Forgery                 | php/webapps/47182.html
+WordPress Plugin Simple Photo Gallery 1.7.8 - Blind SQL Injection                     | php/webapps/37113.txt
+WordPress Plugin Simple Post 1.1 - 'Text field' Stored Cross-Site Scripting (XSS)     | php/webapps/50150.txt
+WordPress Plugin Simple Share Buttons Adder 4.4 - Multiple Vulnerabilities            | php/webapps/33896.txt
+WordPress Plugin Simple:Press 4.3.0 - SQL Injection                                   | php/webapps/14198.txt
+WordPress Plugin Simple:Press Forum - Arbitrary File Upload                           | php/webapps/37682.txt
+WordPress Plugin simplemail 1.0.6 - Persistent Cross-Site Scripting                   | php/webapps/20361.py
+WordPress Plugin Simply Poll 1.4.1 - Multiple Vulnerabilities                         | php/webapps/24850.txt
+WordPress Plugin Simply Poll 1.4.1 - SQL Injection                                    | php/webapps/40971.txt
+WordPress Plugin Single Personal Message 1.0.3 - SQL Injection                        | php/webapps/40870.txt
+WordPress Plugin Sirv 1.3.1 - SQL Injection                                           | php/webapps/40772.txt
+WordPress Plugin Site Editor 1.1.1 - Local File Inclusion                             | php/webapps/44340.txt
+WordPress Plugin Site Import 1.0.1 - Local/Remote File Inclusion                      | php/webapps/39558.txt
+WordPress Plugin Skysa App Bar - 'idnews' Cross-Site Scripting                        | php/webapps/36363.txt
+WordPress Plugin Sliced Invoices 3.8.2 - 'post' SQL Injection                         | php/webapps/47540.txt
+WordPress Plugin Slider by Soliloquy 2.6.2 - 'title' Stored Cross Site Scripting (XSS | php/webapps/50563.txt
+WordPress Plugin Slider REvolution 3.0.95 / Showbiz Pro 1.7.1 - Arbitrary File Upload | php/webapps/35385.pl
+WordPress Plugin Slider REvolution 4.1.4 - Arbitrary File Download                    | php/webapps/36554.txt
+WordPress Plugin Slider Templatic Tevolution < 2.3.6 - Arbitrary File Upload          | php/webapps/40976.txt
+WordPress Plugin Slideshow - Multiple Cross-Site Scripting Vulnerabilities            | php/webapps/37948.txt
+WordPress Plugin Slideshow Gallery 1.1.x - 'border' Cross-Site Scripting              | php/webapps/36631.txt
+WordPress Plugin Slideshow Gallery 1.4.6 - Arbitrary File Upload                      | php/webapps/34514.txt
+WordPress Plugin Slideshow Gallery 1.4.6 - Arbitrary File Upload                      | php/webapps/34681.py
+WordPress Plugin Smart Flv - 'jwplayer.swf' Multiple Cross-Site Scripting Vulnerabili | php/webapps/38331.txt
+WordPress Plugin Smart Google Code Inserter < 3.5 - Authentication Bypass / SQL Injec | php/webapps/43420.txt
+Wordpress Plugin Smart Product Review 1.0.4 - Arbitrary File Upload                   | php/webapps/50533.py
+WordPress Plugin Smart Slider-3 3.5.0.8 - 'name' Stored Cross-Site Scripting (XSS)    | php/webapps/49958.txt
+WordPress Plugin Sniplets 1.1.2 - Remote File Inclusion / Cross-Site Scripting / Remo | php/webapps/5194.txt
+WordPress Plugin social discussions 6.1.1 - Multiple Vulnerabilities                  | php/webapps/22158.txt
+WordPress Plugin Social Media Widget by Acurax 3.2.5 - Cross-Site Request Forgery     | php/webapps/43484.txt
+WordPress Plugin Social Slider 5.6.5 - SQL Injection                                  | php/webapps/17617.txt
+WordPress Plugin Social Stream 1.5.15 - wp_options Overwrite                          | php/webapps/39946.php
+WordPress Plugin Social Warfare < 3.5.3 - Remote Code Execution                       | php/webapps/46794.py
+WordPress Plugin SocialFit - 'msg' Cross-Site Scripting                               | php/webapps/37481.txt
+WordPress Plugin Sodahead Polls 2.0.2 - Multiple Cross-Site Scripting Vulnerabilities | php/webapps/35475.txt
+WordPress Plugin Soliloquy Lite 2.5.6 - Persistent Cross-Site Scripting               | php/webapps/47517.txt
+WordPress Plugin SolveMedia 1.1.0 - Cross-Site Request Forgery                        | php/webapps/24364.txt
+WordPress Plugin Soundcloud Is Gold 2.1 - 'width' Cross-Site Scripting                | php/webapps/37203.txt
+WordPress Plugin SP Client Document Manager 2.4.1 - SQL Injection                     | php/webapps/35313.txt
+WordPress Plugin SP Project & Document Manager 2.5.3 - Blind SQL Injection            | php/webapps/36576.txt
+Wordpress Plugin SP Project & Document Manager 4.21 - Remote Code Execution (RCE) (Au | php/webapps/50115.py
+WordPress Plugin SpamBam - Key Calculation Security Bypass                            | php/webapps/31030.pl
+WordPress Plugin Spellchecker 3.1 - '/general.php' Local/Remote File Inclusion        | php/webapps/35607.txt
+WordPress Plugin Spicy Blogroll - Local File Inclusion                                | php/webapps/26804.txt
+WordPress Plugin spider Calendar - Multiple Vulnerabilities                           | php/webapps/21715.txt
+WordPress Plugin Spider Catalog 1.1 - HTML Code Injection / Cross-Site Scripting      | php/webapps/22463.txt
+WordPress Plugin Spider Catalog 1.4.6 - Multiple Vulnerabilities                      | php/webapps/25724.txt
+WordPress Plugin Spider Event Calendar 1.3.0 - Multiple Vulnerabilities               | php/webapps/25723.txt
+WordPress Plugin Spider Event Calendar 1.5.51 - Blind SQL Injection                   | php/webapps/41857.txt
+WordPress Plugin Spider Facebook - 'facebook.php' SQL Injection                       | php/webapps/39300.txt
+WordPress Plugin Spider Video Player - 'theme' SQL Injection                          | php/webapps/38458.txt
+WordPress Plugin Spiffy XSPF Player - 'playlist_id' SQL Injection                     | php/webapps/38441.txt
+WordPress Plugin Spreadsheet 0.6 - SQL Injection                                      | php/webapps/5486.txt
+WordPress Plugin stafflist 3.1.2 - SQLi (Authenticated)                               | php/webapps/50928.txt
+WordPress Plugin Stop Spammers 2021.8 - 'log' Reflected Cross-site Scripting (XSS)    | php/webapps/49880.txt
+WordPress Plugin Stripe Payments 2.0.39 - 'AcceptStripePayments-settings[currency_cod | php/webapps/49354.txt
+WordPress Plugin Strong Testimonials 2.40.1 - Persistent Cross-Site Scripting         | php/webapps/48076.txt
+WordPress Plugin st_newsletter - 'stnl_iframe.php' SQL Injection                      | php/webapps/6777.txt
+WordPress Plugin st_newsletter - SQL Injection                                        | php/webapps/5053.txt
+WordPress Plugin Subscribe to Comments 2.0 - Multiple Cross-Site Scripting Vulnerabil | php/webapps/33373.txt
+WordPress Plugin Super CAPTCHA 2.2.4 - SQL Injection                                  | php/webapps/17728.txt
+WordPress Plugin SuperForms 4.9 - Arbitrary File Upload                               | php/webapps/49490.txt
+WordPress Plugin Support Board 1.2.3 - Cross-Site Scripting                           | php/webapps/45619.txt
+WordPress Plugin SupportEzzy Ticket System 1.2.5 - Persistent Cross-Site Scripting    | php/webapps/35218.txt
+WordPress Plugin Supsystic Backup 2.3.9 - Local File Inclusion                        | php/webapps/49545.txt
+WordPress Plugin Supsystic Contact Form  1.7.18 - 'label' Stored Cross-Site Scripting | php/webapps/50460.txt
+WordPress Plugin Supsystic Contact Form 1.7.5 - Multiple Vulnerabilities              | php/webapps/49544.txt
+WordPress Plugin Supsystic Data Tables Generator 1.9.96 - Multiple Vulnerabilities    | php/webapps/49543.txt
+WordPress Plugin Supsystic Digital Publications 1.6.9 - Multiple Vulnerabilities      | php/webapps/49542.txt
+WordPress Plugin Supsystic Membership 1.4.7 - 'sidx' SQL injection                    | php/webapps/49540.txt
+WordPress Plugin Supsystic Newsletter 1.5.5 - 'sidx' SQL injection                    | php/webapps/49539.txt
+WordPress Plugin Supsystic Pricing Table 1.8.7 - Multiple Vulnerabilities             | php/webapps/49533.txt
+WordPress Plugin Supsystic Ultimate Maps 1.1.12 - 'sidx' SQL injection                | php/webapps/49532.txt
+WordPress Plugin Survey & Poll 1.5.7.3 - 'sss_params' SQL Injection                   | php/webapps/45411.txt
+WordPress Plugin Survey & Poll 1.5.7.3 - 'sss_params' SQL Injection (2)               | php/webapps/50269.py
+WordPress Plugin Survey and Poll 1.1 - Blind SQL Injection                            | php/webapps/36054.txt
+WordPress Plugin Swim Team 1.44.10777 - Arbitrary File Download                       | php/webapps/37601.txt
+WordPress Plugin Symposium 0.64 - SQL Injection                                       | php/webapps/17679.txt
+WordPress Plugin Symposium 14.10 - SQL Injection                                      | php/webapps/35505.txt
+WordPress Plugin TablePress 1.14 - CSV Injection                                      | php/webapps/50270.txt
+WordPress Plugin TagGator - 'tagid' SQL Injection                                     | php/webapps/37063.txt
+WordPress Plugin Tagged Albums - 'id' SQL Injection                                   | php/webapps/38023.txt
+WordPress Plugin TagNinja 1.0 - 'id' Cross-Site Scripting                             | php/webapps/35300.txt
+WordPress Plugin Tagregator 0.6 - Cross-Site Scripting                                | php/webapps/45225.txt
+WordPress Plugin TaxoPress 3.0.7.1 - Stored Cross-Site Scripting (XSS) (Authenticated | php/webapps/50442.txt
+WordPress Plugin Tera Charts (tera-charts) - '/charts/treemap.php?fn' Directory Trave | php/webapps/39256.txt
+WordPress Plugin Tera Charts (tera-charts) - '/charts/zoomabletreemap.php?fn' Directo | php/webapps/39257.txt
+WordPress Plugin Terillion Reviews - Profile Id HTML Injection                        | php/webapps/38373.txt
+WordPress Plugin Testimonial Slider and Showcase 2.2.6 - Stored Cross-Site Scripting  | php/webapps/51007.txt
+WordPress Plugin The True Ranker 2.2.2 - Arbitrary File Read (Unauthenticated)        | php/webapps/50624.py
+WordPress Plugin The Welcomizer 1.3.9.4 - 'twiz-index.php' Cross-Site Scripting       | php/webapps/36445.txt
+WordPress Plugin TheCartPress 1.1.1 - Remote File Inclusion                           | php/webapps/17860.txt
+WordPress Plugin TheCartPress 1.3.9 - Multiple Vulnerabilities                        | php/webapps/36860.txt
+WordPress Plugin TheCartPress 1.4.7 - Multiple Vulnerabilities                        | php/webapps/38869.txt
+Wordpress Plugin TheCartPress 1.5.3.6 - Privilege Escalation (Unauthenticated)        | php/webapps/50378.py
+WordPress Plugin TheCartPress 1.6 - 'OptionsPostsList.php' Cross-Site Scripting       | php/webapps/36481.txt
+WordPress Plugin ThinkIT 0.1 - Multiple Vulnerabilities                               | php/webapps/27751.txt
+WordPress Plugin Thinkun Remind 1.1.3 - Remote File Disclosure                        | php/webapps/19021.txt
+WordPress Plugin ThreeWP Email Reflector 1.13 - Persistent Cross-Site Scripting       | php/webapps/20365.py
+WordPress Plugin Time Capsule 1.21.16 - Authentication Bypass                         | php/webapps/47941.py
+WordPress Plugin TimThumb 1.32 - Remote Code Execution                                | php/webapps/17602.txt
+WordPress Plugin TinyBrowser - Arbitrary File Upload                                  | php/webapps/12692.txt
+WordPress Plugin TinyMCE Thumbnail Gallery 1.0.7 - Remote File Disclosure             | php/webapps/19022.txt
+WordPress Plugin Token Manager - 'tid' Cross-Site Scripting                           | php/webapps/37836.txt
+WordPress Plugin Top Quark Architecture 2.10 - Arbitrary File Upload                  | php/webapps/19053.txt
+WordPress Plugin Total Upkeep 1.14.9 - Database and Files Backup Download             | multiple/webapps/49252.txt
+WordPress Plugin Track That Stat 1.0.8 - Cross-Site Scripting                         | php/webapps/37204.txt
+WordPress Plugin Traffic Analyzer - 'aoid' Cross-Site Scripting                       | php/webapps/38439.txt
+WordPress Plugin Traffic Analyzer 3.4.2 - Blind SQL Injection                         | php/webapps/36677.txt
+WordPress Plugin TranslatePress 2.0.8 - Stored Cross-Site Scripting (XSS) (Authentica | php/webapps/50343.txt
+WordPress Plugin Trashbin 0.1 - 'mtb_undelete' Cross-Site Scripting                   | php/webapps/33366.txt
+WordPress Plugin Tribulant Newsletters 4.6.4.2 - File Disclosure / Cross-Site Scripti | php/webapps/42129.txt
+WordPress Plugin Tune Library 1.5.4 - SQL Injection                                   | php/webapps/36802.txt
+WordPress Plugin Tune Library 2.17 - SQL Injection                                    | php/webapps/17816.txt
+WordPress Plugin Tutor LMS 1.5.3 - Cross-Site Request Forgery (Add User)              | php/webapps/48151.txt
+WordPress Plugin Tutor.1.5.3 - Local File Inclusion                                   | php/webapps/48058.txt
+WordPress Plugin tutor.1.5.3 - Persistent Cross-Site Scripting                        | php/webapps/48059.txt
+WordPress Plugin Tweet Old Post 3.2.5 - SQL Injection                                 | php/webapps/17789.txt
+WordPress Plugin Twitget 3.3.1 - Multiple Vulnerabilities                             | php/webapps/32868.txt
+WordPress Plugin Twitter Feed - 'url' Cross-Site Scripting                            | php/webapps/35084.txt
+WordPress Plugin Typebot 1.4.3 - Stored Cross Site Scripting (XSS) (Authenticated)    | php/webapps/50593.txt
+WordPress Plugin TYPO3 't3m_cumulus_tagcloud' Extension 1.0 - HTML Injection / Cross- | multiple/webapps/33937.txt
+WordPress Plugin ucan post 1.0.09 - Persistent Cross-Site Scripting                   | php/webapps/18390.txt
+WordPress Plugin Ultimate Addons for Beaver Builder 1.2.4.1 - Authentication Bypass   | php/webapps/47832.py
+WordPress Plugin Ultimate Form Builder Lite < 1.3.7 - SQL Injection                   | php/webapps/44884.txt
+WordPress Plugin Ultimate Maps 1.2.4 - Reflected Cross-Site Scripting (XSS)           | php/webapps/50345.txt
+WordPress Plugin Ultimate Membership Pro 3.3 - SQL Injection                          | php/webapps/40042.php
+WordPress Plugin Ultimate Product Catalog 3.8.1 - Privilege Escalation                | php/webapps/39974.html
+WordPress Plugin Ultimate Product Catalog 3.8.6 - Arbitrary File Upload               | php/webapps/40012.txt
+WordPress Plugin Ultimate Product Catalog 3.9.8 - do_shortcode via ajax Blind SQL Inj | php/webapps/40174.txt
+WordPress Plugin Ultimate Product Catalog 4.2.24 - PHP Object Injection               | php/webapps/43065.py
+WordPress Plugin Ultimate Product Catalogue - SQL Injection (1)                       | php/webapps/36823.txt
+WordPress Plugin Ultimate Product Catalogue - SQL Injection (2)                       | php/webapps/36824.txt
+WordPress Plugin Ultimate Product Catalogue 3.1.2 - Multiple Persistent Cross-Site Sc | php/webapps/36907.txt
+WordPress Plugin Ultimate Product Catalogue 4.2.2 - SQL Injection                     | php/webapps/42263.txt
+WordPress Plugin Ultimate Profile Builder 2.3.3 - Cross-Site Request Forgery          | php/webapps/36958.txt
+WordPress Plugin Ultimate WordPress Auction Plugin 1.0 - Cross-Site Request Forgery   | php/webapps/26240.txt
+WordPress Plugin ultimate-member 2.1.3 - Local File Inclusion                         | php/webapps/48065.txt
+WordPress Plugin UnGallery 1.5.8 - Local File Disclosure                              | php/webapps/17704.txt
+WordPress Plugin Unite Gallery Lite 1.4.6 - Multiple Vulnerabilities                  | php/webapps/37705.txt
+WordPress Plugin Upload File - 'wp-uploadfile.php' SQL Injection                      | php/webapps/31836.txt
+WordPress Plugin Uploader - 'blog' Cross-Site Scripting                               | php/webapps/38355.txt
+WordPress Plugin Uploader - Arbitrary File Upload                                     | php/webapps/38163.txt
+WordPress Plugin Uploader 1.0 - 'num' Cross-Site Scripting                            | php/webapps/35255.txt
+WordPress Plugin Uploadify Integration 0.9.6 - Multiple Cross-Site Scripting Vulnerab | php/webapps/37070.txt
+WordPress Plugin UPM Polls 1.0.3 - SQL Injection                                      | php/webapps/17627.txt
+WordPress Plugin UPM Polls 1.0.4 - Blind SQL Injection                                | php/webapps/18231.txt
+WordPress Plugin User Login Log 2.2.1 - Cross-Site Scripting                          | php/webapps/41484.txt
+WordPress Plugin User Meta 1.1.1 - Arbitrary File Upload                              | php/webapps/19052.txt
+WordPress Plugin User Meta Manager 3.4.6 - Blind SQL Injection                        | php/webapps/39410.txt
+WordPress Plugin User Meta Manager 3.4.6 - Information Disclosure                     | php/webapps/39420.txt
+WordPress Plugin User Meta Manager 3.4.6 - Privilege Escalation                       | php/webapps/39411.txt
+WordPress Plugin User Photo Component - Arbitrary File Upload                         | php/webapps/16181.txt
+WordPress Plugin User Role Editor 3.12 - Cross-Site Request Forgery                   | php/webapps/25721.txt
+WordPress Plugin User Role Editor < 4.25 - Privilege Escalation                       | php/webapps/44595.rb
+WordPress Plugin Usernoise 3.7.8 - Persistent Cross-Site Scripting                    | php/webapps/27403.txt
+WordPress Plugin UserPro 4.9.32 - Cross-Site Scripting                                | php/webapps/47304.txt
+WordPress Plugin Userpro < 4.9.17.1 - Authentication Bypass                           | php/webapps/43117.txt
+WordPress Plugin UserPro < 4.9.21 - User Registration Privilege Escalation            | php/webapps/46083.txt
+WordPress Plugin Users Ultra 1.5.50 - Blind SQL Injection                             | php/webapps/38855.txt
+WordPress Plugin Users Ultra 1.5.50 - Persistent Cross-Site Scripting                 | php/webapps/38856.txt
+WordPress Plugin Users Ultra 1.5.50 - Unrestricted Arbitrary File Upload              | php/webapps/38750.md
+WordPress Plugin Video Gallery 2.5 - Multiple Vulnerabilities                         | php/webapps/34161.txt
+WordPress Plugin Video Gallery 2.7 - SQL Injection                                    | php/webapps/37744.txt
+WordPress Plugin Video Gallery 2.7.0 - SQL Injection                                  | php/webapps/36058.txt
+WordPress Plugin Video Gallery 2.8 - Arbitrary Mail Relay                             | php/webapps/37106.txt
+WordPress Plugin Video Gallery 2.8 - Multiple Cross-Site Request Forgery Vulnerabilit | php/webapps/36610.txt
+WordPress Plugin Video Gallery 2.8 - SQL Injection                                    | php/webapps/36751.txt
+WordPress Plugin Video Lead Form - 'errMsg' Cross-Site Scripting                      | php/webapps/38066.txt
+WordPress Plugin Video Player 1.5.16 - SQL Injection                                  | php/webapps/40137.html
+WordPress Plugin video-synchro-pdf 1.7.4 - Local File Inclusion                       | php/webapps/50844.txt
+WordPress Plugin Videos sync PDF 1.7.4 - Stored Cross Site Scripting (XSS)            | php/webapps/50874.txt
+WordPress Plugin VideoWhisper 4.27.3 - Multiple Vulnerabilities                       | php/webapps/31986.txt
+WordPress Plugin VideoWhisper Video Conference Integration 4.91.8 - Arbitrary File Up | php/webapps/36618.txt
+WordPress Plugin VideoWhisper Video Presentation 1.1 - SQL Injection                  | php/webapps/17771.txt
+WordPress Plugin VideoWhisper Video Presentation 3.17 - 'vw_upload.php' Arbitrary Fil | php/webapps/37357.php
+WordPress Plugin VideoWhisper Video Presentation 3.31.17 - Arbitrary File Upload      | php/webapps/36617.txt
+WordPress Plugin Videox7 UGC 2.5.3.2 - 'listid' Cross-Site Scripting                  | php/webapps/35257.txt
+WordPress Plugin visitors-app 0.3 - 'user-agent' Stored Cross-Site Scripting (XSS)    | php/webapps/49972.txt
+WordPress Plugin Visual Slide Box Builder 3.2.9 - SQLi                                | php/webapps/50980.txt
+WordPress Plugin Vodpod Video Gallery 3.1.5 - 'vodpod_gallery_thumbs.php' Cross-Site  | php/webapps/34976.txt
+WordPress Plugin W3 Total Cache - 'admin.php' Cross-Site Request Forgery              | php/webapps/39304.txt
+WordPress Plugin W3 Total Cache - PHP Code Execution (Metasploit)                     | php/remote/25137.rb
+WordPress Plugin W3 Total Cache - Unauthenticated Arbitrary File Read (Metasploit)    | php/webapps/49317.rb
+WordPress Plugin Wappointment 2.2.4 - Stored Cross-Site Scripting (XSS)               | php/webapps/50333.txt
+WordPress Plugin WassUp 1.4.3 - 'to_date' SQL Injection                               | php/webapps/5017.php
+WordPress Plugin WassUp Real Time Analytics 1.9 - Persistent Cross-Site Scripting     | php/webapps/40733.txt
+WordPress Plugin WatuPRO 5.5.1 - SQL Injection                                        | php/webapps/42291.txt
+WordPress Plugin WebDorado Gallery 1.3.29 - SQL Injection                             | php/webapps/41966.txt
+WordPress Plugin Webdorado Spider Event Calendar 1.4.9 - SQL Injection                | php/webapps/36061.php
+WordPress Plugin Weblizar 8.9 - Backdoor                                              | php/webapps/50969.txt
+WordPress Plugin Webplayer - 'id' SQL Injection                                       | php/webapps/38047.txt
+WordPress Plugin Website FAQ 1.0 - SQL Injection                                      | php/webapps/19400.txt
+WordPress Plugin Wechat Broadcast 1.2.0 - Local File Inclusion                        | php/webapps/45438.txt
+WordPress Plugin Welcart e-Commerce 2.0.0 - 'search[order_column][0]' SQL injection   | php/webapps/49531.txt
+WordPress Plugin WF Cookie Consent 1.1.3 - Cross-Site Scripting                       | php/webapps/44585.txt
+WordPress Plugin White Label CMS 1.5 - Cross-Site Request Forgery / Persistent Cross- | php/webapps/22156.txt
+WordPress Plugin WHIZZ < 1.1.1 - Cross-Site Request Forgery                           | php/webapps/41845.txt
+WordPress Plugin WHOIS 1.4.2 3 - 'domain' Cross-Site Scripting                        | php/webapps/36488.txt
+WordPress Plugin WhyDoWork AdSense - 'options-general.php' Cross-Site Request Forgery | php/webapps/39270.txt
+WordPress Plugin Windows Desktop and iPhone Photo Uploader - Arbitrary File Upload    | php/webapps/36691.txt
+WordPress Plugin Wisechat 2.6.3 - Reverse Tabnabbing                                  | php/webapps/46247.txt
+WordPress Plugin WonderPlugin Audio Player 2.0 - Blind SQL Injection / Cross-Site Scr | php/webapps/36086.txt
+WordPress Plugin Woo Import Export 1.0 - Arbitrary File Deletion                      | php/webapps/44520.html
+WordPress Plugin WooCommerce - GloBee (cryptocurrency) Payment Gateway 1.1.1 - Paymen | php/webapps/46414.php
+WordPress Plugin WooCommerce 2.0/3.0 - Directory Traversal                            | php/webapps/43196.txt
+WordPress Plugin WooCommerce Booster Plugin 5.4.3 - Authentication Bypass             | php/webapps/50299.py
+WordPress Plugin WooCommerce CardGate Payment Gateway 3.1.15 - Payment Process Bypass | php/webapps/48134.php
+WordPress Plugin WooCommerce Product Feed 2.2.18 - Cross-Site Scripting               | php/webapps/47327.txt
+WordPress Plugin WooCommerce Store Exporter 1.7.5 - Multiple Cross-Site Scripting Vul | php/webapps/34424.txt
+WordPress Plugin WooCommerce Store Toolkit 1.5.5 - Privilege Escalation               | php/webapps/39421.py
+WordPress Plugin WOOF Products Filter for WooCommerce 1.2.3 - Persistent Cross-Site S | php/webapps/48088.txt
+WordPress Plugin Woopra Analytics - 'ofc_upload_image.php' Arbitrary PHP Code Executi | php/webapps/38783.php
+WordPress Plugin Wordfence Security - Cross-Site Scripting                            | php/webapps/37970.html
+WordPress Plugin Wordfence Security - Multiple Vulnerabilities                        | php/webapps/39317.txt
+WordPress Plugin Wordfence.7.4.5 - Local File Disclosure                              | php/webapps/48061.txt
+WordPress Plugin WordPress Download Manager 2.9.60 - Cross-Site Request Forgery       | php/webapps/43487.txt
+WordPress Plugin Wordspew - SQL Injection                                             | php/webapps/5039.txt
+WordPress Plugin wordTube 1.43 - 'wpPATH' Remote File Inclusion                       | php/webapps/3825.txt
+WordPress Plugin Work The Flow - Arbitrary File Upload (Metasploit)                   | php/remote/36812.rb
+WordPress Plugin Work The Flow File Upload 2.5.2 - Arbitrary File Upload              | php/webapps/36640.txt
+WordPress Plugin Work-The-Flow 1.2.1 - Arbitrary File Upload                          | php/webapps/33003.txt
+WordPress Plugin Wow Forms 2.1 - SQL Injection                                        | php/webapps/41922.txt
+WordPress Plugin Wow Viral Signups 2.1 - SQL Injection                                | php/webapps/41921.txt
+WordPress Plugin WP Advanced Comment 0.10 - Persistent Cross-Site Scripting           | php/webapps/39548.txt
+WordPress Plugin WP Ajax Calendar 1.0 - 'example.php' Cross-Site Scripting            | php/webapps/35704.txt
+WordPress Plugin WP Ajax Recent Posts 1.0.1 - 'do' Cross-Site Scripting               | php/webapps/35663.txt
+WordPress Plugin WP BackupPlus - Database and Files Backup Download                   | php/webapps/34124.txt
+WordPress Plugin WP Bannerize 2.8.7 - 'ajax_sorter.php' SQL Injection                 | php/webapps/36193.txt
+WordPress Plugin WP Cleanfix - Cross-Site Request Forgery                             | php/webapps/38520.html
+WordPress Plugin WP Comment Remix 1.4.3 - SQL Injection                               | php/webapps/6747.php
+WordPress Plugin WP Content Source Control - 'download.php' Directory Traversal       | php/webapps/39287.txt
+Wordpress Plugin WP Courses < 2.0.29 - Broken Access Controls leading to Courses Cont | php/webapps/48910.txt
+WordPress Plugin WP Customize Login 1.1 - 'Change Logo Title' Stored Cross-Site Scrip | php/webapps/50174.txt
+WordPress Plugin WP E-Commerce - Multiple Vulnerabilities                             | php/webapps/39063.txt
+WordPress Plugin WP E-Commerce 3.8.6 - 'cart_messages[]' Cross-Site Scripting         | php/webapps/36018.txt
+WordPress Plugin WP E-Commerce Shop Styling 2.5 - Arbitrary File Download             | php/webapps/37530.txt
+WordPress Plugin WP Easy Poll 1.1.3 - Cross-Site Scripting / Cross-Site Request Forge | php/webapps/38915.txt
+WordPress Plugin WP Easy Slideshow 1.0.3 - Multiple Vulnerabilities                   | php/webapps/36612.txt
+WordPress Plugin WP EasyCart - Unrestricted Arbitrary File Upload (Metasploit)        | php/webapps/36043.rb
+WordPress Plugin WP Fastest Cache 0.8.4.8 - Blind SQL Injection                       | php/webapps/38678.txt
+WordPress Plugin WP Featured Post with Thumbnail 3.0 - 'src' Cross-Site Scripting     | php/webapps/35262.txt
+WordPress Plugin WP Feed - 'nid' SQL Injection                                        | php/webapps/38624.txt
+WordPress Plugin WP Forum Server 1.7.3 - '/fs-admin/fs-admin.php' Multiple Cross-Site | php/webapps/37195.txt
+WordPress Plugin WP Google Maps 8.1.11 - Stored Cross-Site Scripting (XSS)            | php/webapps/50051.txt
+Wordpress Plugin WP Guppy 1.1 - WP-JSON API Sensitive Information Disclosure          | php/webapps/50540.sh
+WordPress Plugin WP Jobs < 1.5 - SQL Injection                                        | php/webapps/42172.txt
+WordPress Plugin WP Learn Manager 1.1.2 - Stored Cross-Site Scripting (XSS)           | php/webapps/50086.txt
+WordPress Plugin WP Live Chat Support 6.2.03 - Persistent Cross-Site Scripting        | php/webapps/40190.txt
+WordPress Plugin WP Live.php 1.2.1 - 's' Cross-Site Scripting                         | php/webapps/36483.txt
+WordPress Plugin WP Membership 1.2.3 - Multiple Vulnerabilities                       | php/webapps/37074.txt
+WordPress Plugin WP Mobile Detector 3.5 - Arbitrary File Upload                       | php/webapps/39891.txt
+WordPress Plugin WP Mobile Edition - Local File Inclusion                             | php/webapps/37244.txt
+WordPress Plugin WP Mobile Edition 2.7 - Remote File Disclosure                       | php/webapps/36733.txt
+WordPress Plugin WP Photo Album - 'photo' SQL Injection                               | php/webapps/31776.txt
+WordPress Plugin WP Photo Album 1.5.1 - 'id' Cross-Site Scripting                     | php/webapps/35674.txt
+WordPress Plugin WP Prayer version 1.6.1 - 'prayer_messages' Stored Cross-Site Script | php/webapps/49921.txt
+WordPress Plugin WP Private Messages - 'msgid' SQL Injection                          | php/webapps/38606.txt
+WordPress Plugin WP Private Messages 1.0.1 - SQL Injection (1)                        | php/webapps/40940.txt
+WordPress Plugin WP Private Messages 1.0.1 - SQL Injection (2)                        | php/webapps/41180.txt
+WordPress Plugin WP PRO Advertising System 4.6.18 - SQL Injection                     | php/webapps/39893.php
+WordPress Plugin WP Publication Archive 2.0.1 - 'file' Information Disclosure         | php/webapps/35263.txt
+WordPress Plugin WP Rss Poster - '/wp-admin/admin.php' SQL Injection                  | php/webapps/39252.txt
+WordPress Plugin WP Security Audit Log 3.1.1 - Sensitive Information Disclosure       | php/webapps/44371.txt
+WordPress Plugin WP Sitemap Page 1.6.2 - Persistent Cross-Site Scripting              | php/webapps/48093.txt
+WordPress Plugin WP Sitemap Page 1.6.4 - Stored Cross-Site Scripting (XSS)            | php/webapps/50268.txt
+WordPress Plugin WP Statistics 13.0.7 - Time-Based Blind SQL Injection (Unauthenticat | php/webapps/49894.sh
+WordPress Plugin WP Super Cache - PHP Remote Code Execution                           | php/webapps/38494.txt
+WordPress Plugin WP Super Cache 1.7.1 - Remote Code Execution (Authenticated)         | php/webapps/49718.txt
+Wordpress Plugin WP Super Edit 2.5.4 - Remote File Upload                             | php/webapps/49839.txt
+WordPress Plugin WP Support Plus Responsive Ticket System 2.0 - Multiple Vulnerabilit | php/webapps/34589.txt
+WordPress Plugin WP Support Plus Responsive Ticket System 7.1.3 - Privilege Escalatio | php/webapps/41006.txt
+WordPress Plugin WP Support Plus Responsive Ticket System 7.1.3 - SQL Injection       | php/webapps/40939.txt
+WordPress Plugin WP Survey And Quiz Tool 1.2.1 - Cross-Site Scripting                 | php/webapps/34974.txt
+WordPress Plugin WP Symposium 14.11 - Arbitrary File Upload                           | php/webapps/35543.py
+WordPress Plugin WP Symposium 14.11 - Arbitrary File Upload (Metasploit)              | php/remote/35778.rb
+WordPress Plugin WP Symposium 15.1 - '&show=' SQL Injection                           | php/webapps/37080.txt
+WordPress Plugin WP Symposium 15.1 - 'get_album_item.php' SQL Injection               | php/webapps/37824.txt
+WordPress Plugin WP Symposium 15.1 - Blind SQL Injection                              | php/webapps/37822.txt
+WordPress Plugin WP Symposium Pro 2021.10 - 'wps_admin_forum_add_name' Stored Cross-S | php/webapps/50514.txt
+WordPress Plugin WP Symposium Pro Social Network Plugin 15.12 - Multiple Vulnerabilit | php/webapps/39202.txt
+WordPress Plugin WP to Twitter - Authentication Bypass                                | php/webapps/39302.html
+WordPress Plugin WP User Frontend 3.5.25 - SQLi (Authenticated)                       | php/webapps/50772.py
+WordPress Plugin WP User Frontend < 2.3.11 - Unrestricted Arbitrary File Upload       | php/webapps/39422.py
+WordPress Plugin WP Vault 0.8.6.6 - Local File Inclusion                              | php/webapps/40850.txt
+WordPress Plugin WP Visitor Statistics 4.7 - SQL Injection                            | php/webapps/50619.py
+WordPress Plugin WP with Spritz 1.0 - Remote File Inclusion                           | php/webapps/44544.php
+WordPress Plugin wp-autoyoutube - Blind SQL Injection                                 | php/webapps/18353.txt
+WordPress Plugin WP-Cal 0.3 - 'editevent.php' SQL Injection                           | php/webapps/4992.txt
+WordPress Plugin WP-Client 3.8.7 - Persistent Cross-Site Scripting                    | php/webapps/38803.txt
+WordPress Plugin WP-Cumulus 1.20 - Full Path Disclosure / Cross-Site Scripting        | php/webapps/10228.txt
+WordPress Plugin WP-Cumulus 1.x - 'tagcloud.swf' Cross-Site Scripting                 | php/webapps/33371.txt
+WordPress Plugin WP-DB Backup 1.6/1.7 - 'edit.php' Directory Traversal                | php/webapps/28382.txt
+WordPress Plugin WP-FaceThumb 0.1 - 'pagination_wp_facethum' Cross-Site Scripting     | php/webapps/37155.txt
+WordPress Plugin WP-FeedStats 2.1 - HTML Injection                                    | php/webapps/30403.txt
+WordPress Plugin WP-Filebase Download Manager 0.2.9 - SQL Injection                   | php/webapps/17808.txt
+WordPress Plugin wp-FileManager - 'path' Arbitrary File Download                      | php/webapps/38515.txt
+WordPress Plugin wp-FileManager - Arbitrary File Download                             | php/webapps/25440.txt
+WordPress Plugin Wp-FileManager 1.2 - Arbitrary File Upload                           | php/webapps/4844.txt
+WordPress Plugin Wp-FileManager 6.8 - RCE                                             | php/webapps/49178.sh
+WordPress Plugin WP-Footnotes 2.2 - Multiple Remote Vulnerabilities                   | php/webapps/31092.txt
+WordPress Plugin WP-Forum 1.7.4 - SQL Injection                                       | php/webapps/4939.txt
+WordPress Plugin WP-Forum 1.7.8 - SQL Injection                                       | php/webapps/7738.txt
+WordPress Plugin WP-Forum 2.3 - SQL Injection / Blind SQL Injection                   | php/webapps/10488.txt
+WordPress Plugin wp-gpx-map 1.1.21 - Arbitrary File Upload                            | php/webapps/19050.txt
+WordPress Plugin Wp-ImageZoom - 'file' Remote File Disclosure                         | php/webapps/37419.txt
+WordPress Plugin Wp-ImageZoom 1.1.0 - Multiple Vulnerabilities                        | php/webapps/37243.txt
+WordPress Plugin WP-Paginate 2.1.3 - 'preset' Stored XSS                              | php/webapps/49355.txt
+WordPress Plugin wp-people 2.0 - 'wp-people-popup.php' SQL Injection                  | php/webapps/31230.txt
+WordPress Plugin WP-phpList 2.10.2 - 'unsubscribeemail' Cross-Site Scripting          | php/webapps/33365.txt
+WordPress Plugin WP-Polls 2.x - Incorrect Flood Filter                                | php/webapps/10256.txt
+WordPress Plugin WP-PostRatings 1.86 - 'postratings_image' Cross-Site Scripting       | php/webapps/49333.txt
+WordPress Plugin WP-Predict 1.0 - Blind SQL Injection                                 | php/webapps/19715.txt
+WordPress Plugin WP-Property - Arbitrary '.PHP' File Upload (Metasploit)              | php/remote/23651.rb
+WordPress Plugin WP-Property 1.35.0 - Arbitrary File Upload                           | php/webapps/18987.php
+WordPress Plugin WP-Realty - 'listing_id' SQL Injection                               | php/webapps/38808.txt
+WordPress Plugin WP-SendSms 1.0 - Multiple Vulnerabilities                            | php/webapps/26124.txt
+WordPress Plugin WP-SlimStat 0.9.2 - Cross-Site Scripting                             | php/webapps/30762.txt
+WordPress Plugin WP-SpamFree Spam Plugin - SQL Injection                              | php/webapps/17970.txt
+WordPress Plugin WP-StarsRateBox 1.1 - 'j' SQL Injection                              | php/webapps/35634.txt
+WordPress Plugin WP-Stats-Dashboard 2.6.5.1 - Multiple Cross-Site Scripting Vulnerabi | php/webapps/36051.txt
+WordPress Plugin WP-Syntax 0.9.1 - Remote Command Execution                           | php/webapps/9431.txt
+WordPress Plugin wp-Table 1.43 - 'inc_dir' Remote File Inclusion                      | php/webapps/3824.txt
+WordPress Plugin WP-Table Reloaded - 'id' Cross-Site Scripting                        | php/webapps/38251.txt
+WordPress Plugin WP-Testimonials < 3.4.1 - SQL Injection                              | php/webapps/42166.txt
+WordPress Plugin wp-topbar 4.02 - Multiple Vulnerabilities                            | php/webapps/21393.txt
+WordPress Plugin WP-UserOnline 2.87.6 - Stored Cross-Site Scripting (XSS)             | php/webapps/50988.txt
+Wordpress Plugin WP-UserOnline 2.88.0 - Stored Cross Site Scripting (XSS)             | php/webapps/51020.txt
+WordPress Plugin WP24 Domain Check 1.6.2 - 'fieldnameDomain' Stored Cross Site Script | php/webapps/49377.txt
+WordPress Plugin WPAMS - SQL Injection                                                | php/webapps/42805.txt
+WordPress Plugin WPCHURCH - SQL Injection                                             | php/webapps/42800.txt
+WordPress Plugin wpDataTables 1.5.3 - Arbitrary File Upload                           | php/webapps/35341.py
+WordPress Plugin wpDataTables 1.5.3 - SQL Injection                                   | php/webapps/35340.txt
+Wordpress Plugin wpDiscuz 7.0.4 - Arbitrary File Upload (Unauthenticated)             | php/webapps/49962.sh
+WordPress Plugin wpDiscuz 7.0.4 - Remote Code Execution (Unauthenticated)             | php/webapps/49967.py
+Wordpress Plugin wpDiscuz 7.0.4 - Unauthenticated Arbitrary File Upload (Metasploit)  | php/webapps/49401.rb
+WordPress Plugin WPEasyStats 1.8 - Remote File Inclusion                              | php/webapps/17862.txt
+WordPress Plugin WPForms 1.5.8.2 - Persistent Cross-Site Scripting                    | php/webapps/48245.txt
+Wordpress Plugin WPForms 1.6.3.1 - Persistent Cross Site Scripting (Authenticated)    | php/webapps/49069.txt
+WordPress Plugin WPFront Notification Bar 1.9.1.04012 - Stored Cross-Site Scripting ( | php/webapps/50120.txt
+WordPress Plugin WPGraphQL 0.2.3 - Multiple Vulnerabilities                           | php/webapps/46886.py
+WordPress Plugin WPGraphQL 1.3.5 - Denial of Service                                  | php/dos/49807.py
+WordPress Plugin WPGYM - SQL Injection                                                | php/webapps/42801.txt
+WordPress Plugin WPHRM - SQL Injection                                                | php/webapps/42924.txt
+WordPress Plugin WPML 3.1.9 - Multiple Vulnerabilities                                | php/webapps/36414.txt
+WordPress Plugin WPsc MijnPress - 'rwflush' Cross-Site Scripting                      | php/webapps/37123.txt
+WordPress Plugin WPSchoolPress 2.1.16 - 'Multiple' Cross Site Scripting (XSS)         | php/webapps/50520.txt
+WordPress Plugin wpSS - 'ss_handler.php' SQL Injection                                | php/webapps/39279.txt
+WordPress Plugin wpStoreCart 2.5.27-2.5.29 - Arbitrary File Upload                    | php/webapps/19023.php
+WordPress Plugin WPTF Image Gallery 1.03 - Arbitrary File Download                    | php/webapps/37751.txt
+WordPress Plugin wptouch - SQL Injection                                              | php/webapps/18039.txt
+WordPress Plugin WPtouch 1.9.27 - URL redirection                                     | php/webapps/17423.txt
+WordPress Plugin WPwizz AdWizz Plugin 1.0 - 'link' Cross-Site Scripting               | php/webapps/35561.txt
+WordPress Plugin Wysija Newsletters - Multiple SQL Injections                         | php/webapps/38297.txt
+WordPress Plugin XCloner 3.1.0 - Cross-Site Request Forgery                           | php/webapps/32701.txt
+Wordpress Plugin XCloner 4.2.12 - Remote Code Execution (Authenticated)               | php/webapps/50077.py
+WordPress Plugin Xerte Online - 'save.php' Arbitrary File Upload                      | php/webapps/38157.txt
+WordPress Plugin Xhanch My Twitter - Cross-Site Request Forgery                       | php/webapps/39303.txt
+WordPress Plugin Xorbin Analog Flash Clock - 'widgetUrl' Cross-Site Scripting         | php/webapps/38608.txt
+WordPress Plugin Xorbin Digital Flash Clock - 'widgetUrl' Cross-Site Scripting        | php/webapps/38621.txt
+WordPress Plugin Yahoo Answer - Multiple Cross-Site Scripting Vulnerabilities         | php/webapps/37086.txt
+WordPress Plugin Yet Another Related Posts 4.2.4 - Cross-Site Request Forgery         | php/webapps/36954.txt
+WordPress Plugin Yoast Google Analytics 3.2.4 - 404 Error Page Cross-Site Scripting   | php/webapps/33390.txt
+WordPress Plugin yolink Search 1.1.4 - SQL Injection                                  | php/webapps/17757.txt
+WordPress Plugin YOP Polls 6.2.7 - Stored Cross Site Scripting (XSS)                  | php/webapps/50066.txt
+WordPress Plugin YouSayToo auto-publishing 1.0 - 'submit' Cross-Site Scripting        | php/webapps/36620.txt
+WordPress Plugin YT-Audio 1.7 - 'v' Cross-Site Scripting                              | php/webapps/35394.txt
+WordPress Plugin Z-Vote 1.1 - SQL Injection                                           | php/webapps/16218.txt
+WordPress Plugin Zarzadzonie Kontem - 'ajaxfilemanager.php' Script Arbitrary File Upl | php/webapps/38050.txt
+Wordpress Plugin Zephyr Project Manager 3.2.42 - Multiple SQLi                        | php/webapps/51024.txt
+WordPress Plugin Zingiri 2.2.3 - 'ajax_save_name.php' Remote Code Execution           | php/webapps/18111.php
+WordPress Plugin Zingiri Forums - 'language' Local File Inclusion                     | php/webapps/38101.txt
+WordPress Plugin Zingiri Web Shop - 'path' Arbitrary File Upload                      | php/webapps/38046.txt
+WordPress Plugin Zingiri Web Shop 2.2.0 - Remote File Inclusion                       | php/webapps/17867.txt
+WordPress Plugin Zingiri Web Shop 2.4.0 - Multiple Cross-Site Scripting Vulnerabiliti | php/webapps/18787.txt
+WordPress Plugin Zingiri Web Shop 2.4.2 - Persistent Cross-Site Scripting             | php/webapps/18806.txt
+WordPress Plugin Zingiri Web Shop 2.4.3 - 'uploadfilexd.php' Arbitrary File Upload    | php/webapps/37406.php
+WordPress Plugin zM Ajax Login & Register 1.0.9 - Local File Inclusion                | php/webapps/37200.txt
+WordPress Plugin Zotpress 4.4 - SQL Injection                                         | php/webapps/17778.txt
+Wordpress Theme Accesspress Social Icons 1.7.9 - SQL injection (Authenticated)        | php/webapps/49115.txt
+WordPress Theme Acento - 'view-pdf.php?File' Arbitrary File Download                  | php/webapps/34578.txt
+WordPress Theme Ambience - 'src' Cross-Site Scripting                                 | php/webapps/38568.txt
+WordPress Theme Amplus - Cross-Site Request Forgery                                   | php/webapps/29669.txt
+WordPress Theme Antioch - 'download.php' Arbitrary File Download                      | php/webapps/39299.txt
+WordPress Theme Archin 3.2 - Configuration Access                                     | php/webapps/21646.py
+WordPress Theme Area53 - Arbitrary File Upload                                        | php/webapps/29068.txt
+WordPress Theme Atahualpa 3.6.7 - 's' Cross-Site Scripting                            | php/webapps/36178.txt
+WordPress Theme Authentic - 'download.php' Arbitrary File Download                    | php/webapps/39297.txt
+WordPress Theme Beauty & Clean 1.0.8 - Arbitrary File Upload                          | php/webapps/39552.txt
+WordPress Theme Black-LetterHead 1.5 - 'index.php' Cross-Site Scripting               | php/webapps/36187.txt
+WordPress Theme Bonus 1.0 - 's' Cross-Site Scripting                                  | php/webapps/36287.txt
+WordPress Theme CherryFramework 3.1.4 - Backup File Download                          | php/webapps/45896.txt
+WordPress Theme Chocolate WP - Multiple Vulnerabilities                               | php/webapps/38237.txt
+WordPress Theme classipress 3.1.4 - Persistent Cross-Site Scripting                   | php/webapps/18053.txt
+WordPress Theme Clockstone (and other CMSMasters Themes) - Arbitrary File Upload      | php/webapps/23494.txt
+WordPress Theme Colormix - Multiple Vulnerabilities                                   | php/webapps/38487.txt
+WordPress Theme Cover WP 1.6.5 - 's' Cross-Site Scripting                             | php/webapps/36183.txt
+WordPress Theme Creative Multi-Purpose 9.1.3 - Persistent Cross-Site Scripting        | php/webapps/39892.php
+WordPress Theme CStar Design - 'id' SQL Injection                                     | php/webapps/38064.txt
+WordPress Theme Curvo - Cross-Site Request Forgery / Arbitrary File Upload            | php/webapps/29211.txt
+WordPress Theme Daily Deal - Arbitrary File Upload                                    | php/webapps/38811.txt
+WordPress Theme Dailyedition-mouss - 'id' SQL Injection                               | php/webapps/38022.txt
+WordPress Theme Dandelion - Arbitrary File Upload                                     | php/webapps/31424.txt
+WordPress Theme DesignFolio Plus 1.2 - Arbitrary File Upload                          | php/webapps/36372.txt
+WordPress Theme Diary/Notebook Site5 - Email Spoofing                                 | php/webapps/19862.pl
+WordPress Theme Dimension - Cross-Site Request Forgery                                | php/webapps/29668.txt
+WordPress Theme Elegance - '/elegance/lib/scripts/dl-skin.php' Local File Disclosure  | php/webapps/39333.html
+WordPress Theme Elegant Grunge 1.0.3 - 's' Cross-Site Scripting                       | php/webapps/36181.txt
+WordPress Theme Enfold 4.8.3 - Reflected Cross-Site Scripting (XSS)                   | php/webapps/50427.txt
+WordPress Theme Epic - 'download.php' Arbitrary File Download                         | php/webapps/39298.txt
+WordPress Theme Euclid 1.x - Cross-Site Request Forgery                               | php/webapps/29667.txt
+WordPress Theme EvoLve 1.2.5 - 's' Cross-Site Scripting                               | php/webapps/36182.txt
+WordPress Theme F8 Lite 4.2.1 - 's' Cross-Site Scripting                              | php/webapps/36180.txt
+WordPress Theme Felici - 'Uploadify.php' Arbitrary File Upload                        | php/webapps/39135.php
+WordPress Theme flashnews - Multiple Input Validation Vulnerabilities                 | php/webapps/38290.txt
+WordPress Theme Fruitful 3.8 - Persistent Cross-Site Scripting                        | php/webapps/48083.txt
+WordPress Theme GeoPlaces3 - Arbitrary File Upload                                    | php/webapps/37956.txt
+WordPress Theme Highlight Premium - Cross-Site Request Forgery / Arbitrary File Uploa | php/webapps/29525.txt
+WordPress Theme Holding Pattern - Arbitrary File Upload (Metasploit)                  | linux/webapps/41698.rb
+WordPress Theme Hybrid 0.9 - 'cpage' Cross-Site Scripting                             | php/webapps/36179.txt
+WordPress Theme Infocus - '/infocus/lib/scripts/dl-skin.php' Local File Disclosure    | php/webapps/39211.txt
+WordPress Theme Kakao - 'ID' SQL Injection                                            | php/webapps/38017.txt
+WordPress Theme Kernel - Arbitrary File Upload                                        | php/webapps/29482.php
+WordPress Theme Kiddo - Arbitrary File Upload                                         | php/webapps/39090.php
+WordPress Theme LineNity 1.20 - Local File Inclusion                                  | php/webapps/32861.txt
+WordPress Theme Live Wire 2.3.1 - Multiple Vulnerabilities                            | php/webapps/35603.txt
+WordPress Theme Madebymilk - 'id' SQL Injection                                       | php/webapps/38041.txt
+WordPress Theme Magazine Basic - 'id' SQL Injection                                   | php/webapps/38057.txt
+WordPress Theme Make A Statement (MaS) - Cross-Site Request Forgery                   | php/webapps/29670.txt
+WordPress Theme Morning Coffee 3.5 - 'index.php' Cross-Site Scripting                 | php/webapps/36186.txt
+WordPress Theme Nest - 'codigo' SQL Injection                                         | php/webapps/38102.txt
+WordPress Theme Newspaper 6.7.1 - Privilege Escalation                                | php/webapps/39894.php
+WordPress Theme NexosReal Estate 1.7 - 'search_order' SQL Injection                   | php/webapps/48682.txt
+WordPress Theme Persuasion 2.x - Arbitrary File Download / File Deletion              | php/webapps/30443.txt
+WordPress Theme Photocrati 4.x - SQL Injection / Cross-Site Scripting                 | php/webapps/36242.txt
+WordPress Theme Pinboard - 'tab' Cross-Site Scripting                                 | php/webapps/38301.txt
+WordPress Theme Pixiv Custom Theme 2.1.5 - 'cpage' Cross-Site Scripting               | php/webapps/36185.txt
+WordPress Theme Purity - Multiple Cross-Site Scripting Vulnerabilities                | php/webapps/37827.txt
+WordPress Theme Real Estate 2.8.9 - Cross-Site Scripting                              | php/webapps/47184.txt
+WordPress Theme RedLine 1.65 - 's' Cross-Site Scripting                               | php/webapps/36191.txt
+WordPress Theme Redoable 1.2 - 'header.php?s' Cross-Site Scripting                    | php/webapps/30050.html
+WordPress Theme SAICO 1.0 < 1.0.2 - Arbitrary File Upload                             | php/webapps/29150.txt
+WordPress Theme ShopperPress - SQL Injection / Cross-Site Scripting                   | php/webapps/37636.txt
+WordPress Theme SiteMile Project 2.0.9.5 - Multiple Vulnerabilities                   | php/webapps/39536.txt
+WordPress Theme Suco - 'themify-ajax.php' Arbitrary File Upload                       | php/webapps/38848.php
+WordPress Theme Switchblade 1.3 - Arbitrary File Upload                               | php/webapps/29330.txt
+WordPress Theme The Gazette Edition 2.9.4 - Multiple Vulnerabilities                  | php/webapps/35608.txt
+WordPress Theme Think Responsive 1.0 - Arbitrary File Upload                          | php/webapps/29332.txt
+WordPress Theme This Way - 'upload_settings_image.php' Arbitrary File Upload          | php/webapps/38820.php
+WordPress Theme Toolbox - 'mls' SQL Injection                                         | php/webapps/38077.txt
+WordPress Theme Trending 0.1 - 'cpage' Cross-Site Scripting                           | php/webapps/36195.txt
+WordPress Theme Uncode 1.3.1 - Arbitrary File Upload                                  | php/webapps/39895.php
+WordPress Theme Urban City - 'download.php' Arbitrary File Download                   | php/webapps/39296.txt
+WordPress Theme Web Minimalist 1.1 - 'index.php' Cross-Site Scripting                 | php/webapps/36184.txt
+WordPress Theme White-Label Framework 2.0.6 - Cross-Site Scripting                    | php/webapps/38105.txt
+Wordpress Theme Wibar 1.1.8 - 'Brand Component' Stored Cross Site Scripting           | php/webapps/49107.txt
+WordPress Theme Wp-ImageZoom - 'id' SQL Injection                                     | php/webapps/38063.txt
+WordPress Theme Zoner Real Estate - 4.1.1 Persistent Cross-Site Scripting             | php/webapps/47436.txt
