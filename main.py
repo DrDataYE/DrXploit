@@ -54,6 +54,7 @@ from exploits import Presta_wdoptionpanel
 from exploits import Presta_wg24themeadministration
 from exploits import cartabandonmentproOld
 # ------------Wordpress-------------
+from exploits import Wp_mobile_detector
 from exploits import Wp_Membership_For_WooCommerce
 from exploits import Wp_22
 from exploits import Wp_Augmented_Reality
@@ -101,6 +102,8 @@ from exploits import Wp_background_image_cropper
 from BruteForce import Wordpress
 from BruteForce import FTPBruteForce
 # -------------Joomla---------------
+from exploits import Com_Fabrik_Shell
+from exploits import Com_Fabrik_Index
 from exploits import Com_adsmanager
 from exploits import Com_alberghi
 from exploits import Com_CCkJseblod
@@ -231,6 +234,8 @@ def MultiThreadScan(site):
             pass
         Check_CMs = DetectCMS(site)
         if Check_CMs == 'wordpress':
+            i = Wp_mobile_detector.Exploit(site)
+            Rez(site, i)
             i = Wp_Membership_For_WooCommerce.Exploit(site)
             Rez(site, i)
             i = Wp_22.Exploit(site)
@@ -330,6 +335,10 @@ def MultiThreadScan(site):
             Rez(site, i)
             FTPBruteForce.Exploit(site)
         elif Check_CMs == 'joomla':
+            i = Com_Fabrik_Shell.Exploit(site)
+            Rez(site, i)
+            i = Com_Fabrik_Index.Exploit(site)
+            Rez(site, i)
             i = CVE_2015_8562RCEjoomla.Exploit(site)
             Rez(site, i)
             i = CVE_2015_8562RCEjoomla2019.exploit(site)
@@ -536,7 +545,7 @@ if __name__ == "__main__":
         ) as status:
             # for site in domains:
             #     MultiThreadScan(site)
-            with ThreadPoolExecutor(max_workers=20) as executor:
+            with ThreadPoolExecutor(max_workers=30) as executor:
                 results = list(executor.map(MultiThreadScan, domains))
     
     except KeyboardInterrupt:

@@ -54,14 +54,14 @@ def check(reqiuerment):
 		print("\033[1;31m • Bad Host:\033[1;31m", host)
 
 
-print(render("Legions", font="block", colors=["bright_red", "bright_yellow"], align='center'))
-while True:
-	try:
-		file = sys.argv[1] if len(sys.argv) > 1 else input("\033[1;33m○ Enter File name(cpanel.txt):\033[1;37m")
-		for line in open(file, 'r').read().splitlines():
-			th = Thread(target=check, args=[line])
-			th.daemon = True
-			th.start()
-			th.join()
-	except FileNotFoundError:
-		print('\033[1;31m\n  ~ Not Found File.')
+#print(render("Legions", font="block", colors=["bright_red", "bright_yellow"], align='center'))
+#while True:
+#	try:
+#		file = sys.argv[1] if len(sys.argv) > 1 else input("\033[1;33m○ Enter File name(cpanel.txt):\033[1;37m")
+#		for line in open(file, 'r').read().splitlines():
+#			th = Thread(target=check, args=[line])
+#			th.daemon = True
+#			th.start()
+#			th.join()
+#	except FileNotFoundError:
+#		print('\033[1;31m\n  ~ Not Found File.')

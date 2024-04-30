@@ -37,7 +37,6 @@ class Wordpress(object):
                 WpSubmitValue = WpSubmitValue
             thread = []
             usernameWp = self.UserName_Enumeration(site)
-            print(usernameWp)
             if usernameWp == None:
                 username = 'admin'
             else:
@@ -127,18 +126,4 @@ class Wordpress(object):
         
 
 
-def main():
-    # إنشاء مثال على الكلاس Wordpress
-    wordpress_attacker = Wordpress()
-    
-    # تحديد الموقع الذي سيتم اختباره
-    target_site = 'moe-ye.net'
-    
-    # تشغيل دالة الفحص على الهدف
-    result = wordpress_attacker.Run(target_site)
-    
-    # طباعة النتيجة النهائية
-    print(result)
 
-if __name__ == '__main__':
-    main()

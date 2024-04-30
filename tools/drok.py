@@ -117,4 +117,3 @@ def STarTDorking(Dork):
         j.join()
 
 
-STarTDorking("israil")

@@ -60,4 +60,3 @@ def Check(domain, user, password):
             except:
                 pass
             
-print(Check("su-edu.net","admin","admin"))
