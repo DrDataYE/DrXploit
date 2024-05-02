@@ -1,3 +1,4 @@
+import socket
 import requests
 import threading
 from multiprocessing.dummy import Pool
@@ -25,6 +26,8 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv:57.0) Gecko/20100101 F
 
 
 
+user = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv:57.0) Gecko/20100101 Firefox/57.0"}
+
 
 class other():
     def cms(self,i):
@@ -48,41 +51,41 @@ class other():
         #if True:
             with open('CMS/PrestShop.txt','a') as sh:
                 sh.writelines(i+'\n')
-            print bb,('{}{}'+i).format(fb,sb),(']==>'),('{}{}PrestaShop').format(fy,sb)
+            print(('{}{}'+i).format(fb,sb),(']==>'),('{}{}PrestaShop').format(fy,sb))
         elif joo:
         #elif True:
             with open('CMS/Joomla.txt','a') as sh:
                 sh.writelines(i+'\n')
-            print bb,('{}{}'+i).format(fb,sb),(']==>'),('{}{}Joomla').format(fg,sb)
+            print(('{}{}'+i).format(fb,sb),(']==>'),('{}{}Joomla').format(fg,sb))
         elif joo:
         #elif True:
             with open('CMS/Joomla.txt','a') as sh:
                 sh.writelines(i+'\n')
-            print bb,('{}{}'+i).format(fb,sb),(']==>'),('{}{}Joomla').format(fg,sb)
+            print(('{}{}'+i).format(fb,sb),(']==>'),('{}{}Joomla').format(fg,sb))
         elif wor:
         #elif True:
             with open('CMS/WordPress.txt','a') as sh:
                 sh.writelines(i+'\n')
-            print bb,('{}{}'+i).format(fb,sb),(']==>'),('{}{}WordPress').format(fbl,sb)
+            print(('{}{}'+i).format(fb,sb),(']==>'),('{}{}WordPress').format(fbl,sb))
 
         elif druu:
         #elif True:
             with open('CMS/Drupal.txt','a') as sh:
                 sh.writelines(i+'\n')
-            print bb,('{}{}'+i).format(fb,sb),(']==>'),('{}{}Drupal').format(fr,sb)
+            print(('{}{}'+i).format(fb,sb),(']==>'),('{}{}Drupal').format(fr,sb))
 
 
 
         else:
             with open('CMS/Unknown.txt','a') as sh:
                 sh.writelines(i+'\n')
-            print bb,('{}{}'+i).format(fb,sb),(']==>'),('{}{}UnkNown').format(fr,sn)
+            print(('{}{}'+i).format(fb,sb),(']==>'),('{}{}UnkNown').format(fr,sn))
 
     def correct(self,i):
         try:
             pack.cms(i)
         except:
-            print '.'
+            print('.')
     def runcms(self):
         try:
             ThreadPool = Pool(15)
@@ -90,42 +93,41 @@ class other():
         except:
             pass
             
-    def ip(self,i):
-        i = i.rstrip()
-        i = i.replace("http://", "")
-        i = i.replace("https://", "")
-        i = i.replace("/", "")
-        i = i.replace("\n", "")
-        data = socket.gethostbyname(i)
-        ok.append(data)
+    # def ip(self,i):
+    #     i = i.rstrip()
+    #     i = i.replace("http://", "")
+    #     i = i.replace("https://", "")
+    #     i = i.replace("/", "")
+    #     i = i.replace("\n", "")
+    #     data = socket.gethostbyname(i)
+    #     ok.append(data)
 
-    def runip(self):
-        ThreadPool = Pool(15)
-        Threads = ThreadPool.map(pack.ip, ooo)
+    # def runip(self):
+    #     ThreadPool = Pool(15)
+    #     Threads = ThreadPool.map(pack.ip, list)
 
 
 
     def grabber(self):
-        gr = raw_input('\t        '+('{}{} Give me List Servers: ').format(fr,sb))
-        gr = open(gr,'r')
+        gr = [input('\t        '+('{}{} Give me List Servers: ').format(fr,sb))]
         for done in gr:
             remo = []
             page = 1
             while page < 251:
-                bing = "http://www.bing.com/search?q=ip%3A"+done+"+&count=50&first="+str(page)
+                bing = "http://www.bing.com/search?q=ip%3A"+done+"+&count=1&first="+str(page)
                 opene = requests.get(bing,verify=False,headers=headers)
-                read = opene.content
-                findwebs = re.findall('<h2><a href="(.*?)"', read)
+                read = opene.content.decode('utf-8')
+                findwebs = re.findall('''<h2><a href="(.*?)"''', read)
                 for i in findwebs:
                     o = i.split('/')
                     if (o[0]+'//'+o[2]) in remo:
                         pass
                     else:
                         remo.append(o[0]+'//'+o[2])
-                        print '{}[XxX]'.format(fg,sb),(o[0]+'//'+o[2])
+                        print ('{}[XxX]'.format(fg,sb),(o[0]+'//'+o[2]))
                         with open('Sites.txt','a') as s:
                             s.writelines((o[0]+'//'+o[2])+'\n')
-                page = page+50
+                page = page+10
 
 
 

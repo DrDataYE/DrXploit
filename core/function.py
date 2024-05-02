@@ -29,17 +29,20 @@ def read_domains_from_file(file_path):
     Returns:
     list: A list of unique domain names.
     """
-    try:
-        with open(file_path, 'r') as file:
-            # قراءة الأسطر وإزالة الأسطر الفارغة والمكررة
-            domains = set(line.strip() for line in file if line.strip())
-        return list(domains)
-    except FileNotFoundError:
-        print(f"Error: The file '{file_path}' does not exist.")
-        return []
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return []
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r') as file:
+                # قراءة الأسطر وإزالة الأسطر الفارغة والمكررة
+                domains = set(line.strip() for line in file if line.strip())
+            return list(domains)
+        except FileNotFoundError:
+            print(f"Error: The file '{file_path}' does not exist.")
+            return []
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return []
+    else:
+        return [file_path]
 
 
 # coding=utf-8
