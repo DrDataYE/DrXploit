@@ -8,15 +8,15 @@ NC='\033[0m' # لا لون
 
 # دالة للطباعة الملونة
 print_step() {
-    echo -e "[${BLUE}*$1${NC}] "
+    echo -e "[${BLUE}*${NC}] $1"
 }
 
 print_success() {
-    echo -e "[${GREEN}+$1${NC}] "
+    echo -e "[${GREEN}+${NC}] $1"
 }
 
 print_error() {
-    echo -e "[${RED}-$1${NC}] "
+    echo -e "[${RED}-${NC}] $1"
 }
 
 # تحديد النظام المناسب
