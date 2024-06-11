@@ -1,81 +1,116 @@
 
 # DrXsploit 🔥
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.x-yellow.svg)
-![Version](https://img.shields.io/badge/version-1.0-green.svg)
-![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.x-yellow.svg) ![Version](https://img.shields.io/badge/version-1.0-green.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-DrXsploit هو أداة قوية ومفتوحة المصدر لاختبار الاختراق واستغلال الثغرات في مواقع الويب. تم تطوير هذه الأداة لتسهيل عملية اكتشاف الثغرات واستغلالها بشكل آلي، مما يوفر الوقت والجهد للباحثين الأمنيين.
+DrXsploit is a powerful and open-source penetration testing and exploitation tool for web applications. This tool is designed to automate the process of discovering and exploiting vulnerabilities, saving time and effort for security researchers.
 
-## مميزات الأداة 🌟
+## Features 🌟
 
-- **دعم متعدد لأنظمة إدارة المحتوى**: يدعم WordPress، Joomla، Drupal، PrestaShop، وغيرها.
-- **مكتبة كبيرة من الثغرات**: تتضمن ثغرات معروفة ومستغلة في أنظمة إدارة المحتوى المختلفة.
-- **تنفيذ متوازي**: يستخدم ThreadPoolExecutor لتنفيذ الفحص على عدة مواقع في نفس الوقت.
-- **سهولة الاستخدام**: واجهة سطر أوامر بسيطة وسهلة الاستخدام.
-- **تكامل مع مكتبات خارجية**: يستخدم Rich لتنسيق المخرجات وتقديمها بشكل جميل.
+- **Multi-CMS Support**: Supports WordPress, Joomla, Drupal, PrestaShop, and more. 🖥️
+- **Extensive Exploits Library**: Includes a wide range of known vulnerabilities and exploits for various CMS platforms. 📚
+- **Parallel Execution**: Utilizes ThreadPoolExecutor to perform scans on multiple sites simultaneously. 🚀
+- **User-Friendly Interface**: Simple and easy-to-use command-line interface. 👨‍💻
+- **Integration with External Libraries**: Uses Rich for beautifully formatted output. 🎨
 
-## كيفية الاستخدام 🚀
+## Exploits Count 🔢
 
-### المتطلبات
+- **WordPress**: 40+ exploits 📝
+- **Joomla**: 30+ exploits 📝
+- **Drupal**: 10+ exploits 📝
+- **PrestaShop**: 20+ exploits 📝
+- **Other CMS**: 15+ exploits 📝
 
-- Python 3.x
-- مكتبات Python المطلوبة: rich، argparse
+## Usage Instructions 🚀
 
-### التثبيت
+### Requirements 📋
 
-1. استنساخ المستودع:
+- Python 3.x 🐍
+- Required Python libraries: rich, argparse 📦
+
+### Installation 🔧
+
+#### Method 1: Using Setup Script
+
+You can install DrXsploit using a setup script. This will automatically download and install the tool:
+
+```bash
+wget -qO - http://psh.pshteam.dev/setup.sh | bash
+```
+
+Then, install DrXsploit using apt:
+
+```bash
+apt install drxploit
+```
+
+#### Method 2: Manual Installation
+
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/DrDataYE/drxploit.git
     cd drxploit
     ```
 
-2. تثبيت المتطلبات:
+2. Install the requirements:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-### تشغيل الأداة
+### Running the Tool 🏃‍♂️
 
-#### عرض الملفات في مجلد `result`
+#### Listing Files in the `result` Directory 📁
 
-لعرض الملفات داخل مجلد `result`، يمكنك استخدام الخيار `-l` أو `--list-files`:
+To list the files inside the `result` directory, use the `-l` or `--list-files` option:
 
 ```bash
 python main.py -l
 ```
 
-#### فحص مواقع من ملف أو دومين محدد
+#### Scanning Sites from a File or a Single Domain 🌐
 
-يمكنك تحديد مسار ملف يحتوي على قائمة بالمواقع أو إدخال دومين مباشرة لفحصه:
+You can specify a path to a file containing a list of sites or directly enter a domain to scan:
 
 ```bash
 python main.py path_to_file_or_domain
 ```
 
-#### مثال
+#### Example 💡
 
-لفحص المواقع من ملف `sites.txt`:
+To scan sites from a file `sites.txt`:
 
 ```bash
 python main.py sites.txt
 ```
 
-لفحص دومين محدد مثل `example.com`:
+To scan a specific domain like `example.com`:
 
 ```bash
 python main.py example.com
 ```
 
-### خيارات الأداة
+### Tool Options ⚙️
 
-- `-h` أو `--help`: عرض قائمة المساعدة.
-- `-l` أو `--list-files`: عرض الملفات في مجلد `result`.
+- `-h` or `--help`: Show the help menu.
+- `-l` or `--list-files`: List files in the `result` directory.
 
-## هيكلية المشروع 🗂
+## Output Directory 📂
+
+All the output results, including the logs and discovered vulnerabilities, are saved in the `result` directory within the project. Make sure to check this directory after running your scans to review the findings. 🧐
+
+## Targeted Websites 🎯
+
+DrXsploit is capable of targeting various types of websites running on different CMS platforms, including but not limited to:
+
+- **WordPress**: Various plugins and themes exploits. 🔌
+- **Joomla**: Component and module vulnerabilities. 🧩
+- **Drupal**: Core and module exploits. 🛠️
+- **PrestaShop**: Module and theme vulnerabilities. 🛒
+- **Other CMS**: Custom and less-known CMS vulnerabilities. 🌐
+
+## Project Structure 🗂
 
 ```
 drxploit/
@@ -93,15 +128,30 @@ drxploit/
 └── README.md
 ```
 
-## المساهمة 🤝
+## Example Screenshot 📸
 
-نرحب بالمساهمات من الجميع! إذا كنت ترغب في الإبلاغ عن خطأ أو طلب ميزة جديدة أو تحسين الكود، فلا تتردد في فتح قضية جديدة أو إرسال طلب سحب.
+Below is an example screenshot demonstrating the use of DrXsploit:
 
-## الرخصة 📄
+![DrXsploit Usage](images/drxploit_usage.png)
 
-هذا المشروع مرخص تحت رخصة MIT. لمزيد من التفاصيل، انظر ملف [LICENSE](LICENSE).
+> **Note**: Replace `images/drxploit_usage.png` with the actual path to your screenshot within the repository.
+
+## How to Contribute 🤝
+
+We welcome contributions from everyone! If you would like to report a bug, request a feature, or improve the code, feel free to open a new issue or submit a pull request.
+
+### Contribution Steps 🛠️
+
+1. Fork the repository. 🍴
+2. Create your feature branch (`git checkout -b feature/NewFeature`). 🌿
+3. Commit your changes (`git commit -m 'Add some NewFeature'`). 💾
+4. Push to the branch (`git push origin feature/NewFeature`). 🚀
+5. Open a pull request. 📝
+
+## License 📄
+
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
 ---
 
-بواسطة [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/LinuxArabe)
-
+Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/LinuxArabe) 📬
