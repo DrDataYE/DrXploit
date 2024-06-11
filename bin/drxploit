@@ -1,0 +1,66 @@
+#!/bin/bash
+
+# Function to check the system type
+check_system() {
+  if [ -n "$TERMUX_VERSION" ]; then
+    echo "termux"
+  elif [ -n "$ISH_VERSION" ]; then
+    echo "ish"
+  elif [ "$(uname -s)" == "Linux" ]; then
+    echo "linux"
+  else
+    echo "unknown"
+  fi
+}
+
+SYSTEM=$(check_system)
+
+# Get the input argument
+INPUT_ARG="$1"
+
+if [ -z "$INPUT_ARG" ]; then
+  # No input provided, just run the tool
+  INPUT_TYPE="none"
+else
+  # Check if the input is a file or a domain
+  if [ -f "$INPUT_ARG" ]; then
+    INPUT_TYPE="file"
+    INPUT_PATH=$(readlink -f "$INPUT_ARG")
+  else
+    INPUT_TYPE="domain"
+    INPUT_PATH="$INPUT_ARG"
+  fi
+fi
+
+# Execute the command based on the detected system
+case "$SYSTEM" in
+  termux)
+    cd /data/data/com.termux/files/usr/opt/drxploit/
+    if [ "$INPUT_TYPE" == "none" ]; then
+      python3 -B main.py "${@:2}"
+    else
+      python3 -B main.py "$INPUT_PATH" "${@:2}"
+    fi
+    ;;
+  ish)
+    cd /usr/local/opt/drxploit/
+    if [ "$INPUT_TYPE" == "none" ]; then
+      python3 -B main.py "${@:2}"
+    else
+      python3 -B main.py "$INPUT_PATH" "${@:2}"
+    fi
+    ;;
+  linux)
+    cd /usr/opt/drxploit/
+    if [ "$INPUT_TYPE" == "none" ]; then
+      python3 -B main.py "${@:2}"
+    else
+      python3 -B main.py "$INPUT_PATH" "${@:2}"
+    fi
+    ;;
+  *)
+    echo "Unsupported system: $SYSTEM"
+    exit 1
+    ;;
+esac
+
