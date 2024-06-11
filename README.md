@@ -26,7 +26,7 @@ DrXsploit is a powerful and open-source penetration testing and exploitation too
 ### Requirements 📋
 
 - Python 3.x 🐍
-- Required Python libraries: rich, argparse 📦
+- Required Python libraries: rich, argparse, bs4, requests, colorama 📦
 
 ### Installation 🔧
 
