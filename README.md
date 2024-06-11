@@ -35,13 +35,7 @@ DrXsploit is a powerful and open-source penetration testing and exploitation too
 You can install DrXsploit using a setup script. This will automatically download and install the tool:
 
 ```bash
-wget -qO - http://psh.pshteam.dev/setup.sh | bash
-```
-
-Then, install DrXsploit using apt:
-
-```bash
-apt install drxploit
+wget -qO - https://github.com/DrDataYE/DrXploit/setup.sh | bash
 ```
 
 #### Method 2: Manual Installation
@@ -77,6 +71,14 @@ You can specify a path to a file containing a list of sites or directly enter a 
 python main.py path_to_file_or_domain
 ```
 
+#### Adding Email for Important Data 📧
+
+To add an email address for receiving important data:
+
+```bash
+python main.py path_to_file_or_domain -e "your_email@example.com"
+```
+
 #### Example 💡
 
 To scan sites from a file `sites.txt`:
@@ -95,6 +97,8 @@ python main.py example.com
 
 - `-h` or `--help`: Show the help menu.
 - `-l` or `--list-files`: List files in the `result` directory.
+- `-c` or `--list-cms`: List files in the `cms` directory.
+- `-e` or `--email`: Add an email address for receiving important data.
 
 ## Output Directory 📂
 
@@ -155,4 +159,3 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 ---
 
 Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/LinuxArabe) 📬
-
