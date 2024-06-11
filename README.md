@@ -60,7 +60,7 @@ drxploit path_to_file_or_domain
 To add an email address for receiving important data:
 
 ```bash
-drxploit path_to_file_or_domain -e "your_email@example.com"
+drxploit -e "your_email@example.com"
 ```
 
 #### Example 💡
