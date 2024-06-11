@@ -44,7 +44,7 @@ wget -qO - http://psh.pshteam.dev/dsetup.sh | bash
 To list the files inside the `result` directory, use the `-l` or `--list-files` option:
 
 ```bash
-python main.py -l
+drxploit -l
 ```
 
 #### Scanning Sites from a File or a Single Domain 🌐
@@ -52,7 +52,7 @@ python main.py -l
 You can specify a path to a file containing a list of sites or directly enter a domain to scan:
 
 ```bash
-python main.py path_to_file_or_domain
+drxploit path_to_file_or_domain
 ```
 
 #### Adding Email for Important Data 📧
@@ -60,7 +60,7 @@ python main.py path_to_file_or_domain
 To add an email address for receiving important data:
 
 ```bash
-python main.py path_to_file_or_domain -e "your_email@example.com"
+drxploit path_to_file_or_domain -e "your_email@example.com"
 ```
 
 #### Example 💡
@@ -68,13 +68,13 @@ python main.py path_to_file_or_domain -e "your_email@example.com"
 To scan sites from a file `sites.txt`:
 
 ```bash
-python main.py sites.txt
+drxploit sites.txt
 ```
 
 To scan a specific domain like `example.com`:
 
 ```bash
-python main.py example.com
+drxploit example.com
 ```
 
 ### Tool Options ⚙️
