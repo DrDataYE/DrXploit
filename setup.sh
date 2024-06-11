@@ -20,12 +20,12 @@ print_error() {
 }
 
 # تحديد النظام المناسب
-if [ -x "$(command -v apt-get)" ]; then
-    print_step "Detected Linux system"
-    URL="https://github.com/DrDataYE/DrXploit/releases/download/v1.0.0/drxploit_1.0.0_all_linux.deb"
-elif [ -x "$(command -v pkg)" ]; then
+if [ -x "$(command -v pkg)" ]; then
     print_step "Detected Termux system"
     URL="https://github.com/DrDataYE/DrXploit/releases/download/v1.0.0/drxploit_1.0.0_all_termux.deb"
+elif [ -x "$(command -v apt-get)" ]; then
+    print_step "Detected Linux system"
+    URL="https://github.com/DrDataYE/DrXploit/releases/download/v1.0.0/drxploit_1.0.0_all_linux.deb"
 else
     print_error "Unsupported system. Only Linux and Termux are supported."
     exit 1
