@@ -68,13 +68,6 @@ To list the files inside the `result` directory, use the `-l` or `--list-files` 
 ```bash
 python main.py -l
 ```
-#### Listing Files in the `cms` Directory 📁
-
-To list the files inside the `cms` directory, use the `-c` or `--list-cms` option:
-
-```bash
-python main.py -c
-```
 
 #### Scanning Sites from a File or a Single Domain 🌐
 
@@ -102,7 +95,6 @@ python main.py example.com
 
 - `-h` or `--help`: Show the help menu.
 - `-l` or `--list-files`: List files in the `result` directory.
-- `-c` or `--list-cms`: List files in the `cms` directory.
 
 ## Output Directory 📂
 
@@ -163,3 +155,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 ---
 
 Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/LinuxArabe) 📬
+
