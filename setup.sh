@@ -21,33 +21,27 @@ print_error() {
 
 # تحديد النظام المناسب
 if [ -x "$(command -v apt-get)" ]; then
-    print_step "Detected Linux system"
     URL="https://github.com/DrDataYE/DrXploit/releases/download/v1.0.0/drxploit_1.0.0_all_linux.deb"
 elif [ -x "$(command -v pkg)" ]; then
-    print_step "Detected Termux system"
     URL="https://github.com/DrDataYE/DrXploit/releases/download/v1.0.0/drxploit_1.0.0_all_termux.deb"
 else
     print_error "Unsupported system. Only Linux and Termux are supported."
     exit 1
 fi
 
-# تحميل الملف
-print_step "Downloading package from $URL"
-wget $URL -O drxploit.deb
+# تحميل الملف بصمت
+wget $URL -O drxploit.deb &> /dev/null
 
 if [ $? -ne 0 ]; then
     print_error "Failed to download the package"
     exit 1
 fi
 
-print_success "Package downloaded successfully"
-
-# تثبيت الحزمة
-print_step "Installing the package"
+# تثبيت الحزمة بصمت
 if [ -x "$(command -v apt-get)" ]; then
-    sudo dpkg -i drxploit.deb
+    sudo dpkg -i drxploit.deb &> /dev/null
 elif [ -x "$(command -v pkg)" ]; then
-    pkg install ./drxploit.deb
+    pkg install ./drxploit.deb &> /dev/null
 fi
 
 if [ $? -ne 0 ]; then
@@ -55,10 +49,9 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-print_success "Package installed successfully"
+# تنظيف بصمت
+rm drxploit.deb &> /dev/null
 
-# تنظيف
-print_step "Cleaning up"
-rm drxploit.deb
-
-print_success "Installation completed successfully!"
+# رسالة للمستخدم
+echo -e "${GREEN}Installation completed successfully!${NC}"
+echo -e "${BLUE}You can now use the tool by typing:${NC} ${GREEN}drxploit${NC}"
