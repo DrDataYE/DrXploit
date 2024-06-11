@@ -11,6 +11,18 @@ from tools.cms import DetectCMS
 from tools import Sqli
 from rich.progress import Progress
 
+YOUR_Email_For_TAkeAdmin_Exploit = 'drdataye@gmail.com'  # Edit this line with your email Address
+
+# coding=utf-8
+r = '\033[31m'
+g = '\033[32m'
+y = '\033[33m'
+b = '\033[34m'
+m = '\033[35m'
+c = '\033[36m'
+w = '\033[37m'
+
+
 # Importing exploit modules
 from exploits import (
     Presta_1attributewizardpro, Presta_advancedslider, Presta_attributewizardpro,
