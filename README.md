@@ -102,21 +102,16 @@ DrXsploit is capable of targeting various types of websites running on different
 
 Below is an example screenshot demonstrating the use of DrXsploit:
 
-![DrXsploit Usage](images/drxploit_usage.png)
+![DrXsploit Usage](images/drxploit_usaged.jpg)
 
-> **Note**: Replace `images/drxploit_usage.png` with the actual path to your screenshot within the repository.
+
 
 ## How to Contribute 🤝
 
 We welcome contributions from everyone! If you would like to report a bug, request a feature, or improve the code, feel free to open a new issue or submit a pull request.
 
-### Contribution Steps 🛠️
+> **Note**: We have no income, but rather the unethical use of the tool.
 
-1. Fork the repository. 🍴
-2. Create your feature branch (`git checkout -b feature/NewFeature`). 🌿
-3. Commit your changes (`git commit -m 'Add some NewFeature'`). 💾
-4. Push to the branch (`git push origin feature/NewFeature`). 🚀
-5. Open a pull request. 📝
 
 ## License 📄
 
@@ -125,3 +120,5 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 ---
 
 Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/LinuxArabe) 📬
+
+
