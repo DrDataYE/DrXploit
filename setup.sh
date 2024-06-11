@@ -64,5 +64,5 @@ rm drxploit.deb
 print_success "Installation completed successfully!"
 
 # رسالة للمستخدم
-echo -e "${GREEN}Installation completed successfully!${NC}"
-echo -e "${BLUE}You can now use the tool by typing:${NC} ${GREEN}drxploit${NC}"
+print_success "Installation completed successfully!"
+print_success "You can now use the tool by typing: ${GREEN}drxploit${NC}"
