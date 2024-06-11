@@ -45,7 +45,7 @@ print_success "Package downloaded successfully"
 # تثبيت الحزمة
 print_step "Installing the package"
 if [ -x "$(command -v apt-get)" ]; then
-    sudo dpkg -i drxploit.deb
+    dpkg -i drxploit.deb
 elif [ -x "$(command -v pkg)" ]; then
     pkg install ./drxploit.deb
 fi
