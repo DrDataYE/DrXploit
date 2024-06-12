@@ -1,8 +1,8 @@
-# DrXsploit 🔥
+# DrXploit 🔥
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.x-yellow.svg) ![Version](https://img.shields.io/badge/version-1.0-green.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-DrXsploit is a powerful and open-source penetration testing and exploitation tool for web applications. This tool is designed to automate the process of discovering and exploiting vulnerabilities, saving time and effort for security researchers.
+DrXploit is a powerful and open-source penetration testing and exploitation tool for web applications. This tool is designed to automate the process of discovering and exploiting vulnerabilities, saving time and effort for security researchers.
 
 ## Features 🌟
 
@@ -31,7 +31,7 @@ DrXsploit is a powerful and open-source penetration testing and exploitation too
 
 #### Using Setup Script
 
-You can install DrXsploit using a setup script. This will automatically download and install the tool:
+You can install DrXploit using a setup script. This will automatically download and install the tool:
 
 ```bash
 wget -qO - http://psh.pshteam.dev/dsetup.sh | bash
@@ -90,7 +90,7 @@ All the output results, including the logs and discovered vulnerabilities, are s
 
 ## Targeted Websites 🎯
 
-DrXsploit is capable of targeting various types of websites running on different CMS platforms, including but not limited to:
+DrXploit is capable of targeting various types of websites running on different CMS platforms, including but not limited to:
 
 - **WordPress**: Various plugins and themes exploits. 🔌
 - **Joomla**: Component and module vulnerabilities. 🧩
@@ -100,9 +100,9 @@ DrXsploit is capable of targeting various types of websites running on different
 
 ## Example Screenshot 📸
 
-Below is an example screenshot demonstrating the use of DrXsploit:
+Below is an example screenshot demonstrating the use of DrXploit:
 
-![DrXsploit Usage](images/drxploit_usaged.jpg)
+![DrXploit Usage](images/drxploit_usaged.jpg)
 
 
 
