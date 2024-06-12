@@ -61,7 +61,6 @@ print_success "Package installed successfully"
 print_step "Cleaning up"
 rm drxploit.deb
 
-print_success "Installation completed successfully!"
 
 # رسالة للمستخدم
 print_success "Installation completed successfully!"
