@@ -154,17 +154,17 @@ def CheckEmail():
 
 def banner():
     console.print(
-        """
-    (              )
-    )\ )        ( /(             (             )
-    (()/(   (    )\())            )\     (   ( /(
-    /(_))  )(  ((_)\  (   `  )  ((_) (  )\  )\())
-    (_))_  (()\ __((_) )\  /(/(   _   )\((_)(_))/
-    |   \  ((_)\ \/ /((_)((_)_\ | | ((_)(_)| |_
-    | |) || '_| >  < (_-<| '_ \)| |/ _ \| ||  _|
-    |___/ |_|  /_/\_\/__/| .__/ |_|\___/|_| \__|
-                        |_|
-                                By [link=https://github.com/DrDataYE]@DrDataYE[/]
+    """
+ (              )
+ )\ )        ( /(         (             )
+(()/(   (    )\())        )\     (   ( /(
+ /(_))  )(  ((_)\  `  )  ((_) (  )\  )\())
+(_))_  (()\ __((_) /(/(   _   )\((_)(_))/
+ |   \  ((_)\ \/ /((_)_\ | | ((_)(_)| |_
+ | |) || '_| >  < | '_ \)| |/ _ \| ||  _|
+ |___/ |_|  /_/\_\| .__/ |_|\___/|_| \__|
+                  |_|
+                            By [link=https://github.com/DrDataYE]@DrDataYE[/]
     """
     )
     console.print("\n-----------------\n", style="bold")
@@ -493,3 +493,4 @@ if __name__ == "__main__":
         elapsed_time = time.time() - start_time
         console.print("\n\n[[blue]+[/]] Attack stopped by user.", style="bold")
         console.print(f"[[green]+[/]] Elapsed time: {elapsed_time:.2f} seconds", style="bold")
+
