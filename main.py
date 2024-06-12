@@ -117,7 +117,7 @@ def get_Typer():
         list_cms_files()
         sys.exit()
 
-    
+
 
     if args.email:
         email = args.email
@@ -493,4 +493,3 @@ if __name__ == "__main__":
         elapsed_time = time.time() - start_time
         console.print("\n\n[[blue]+[/]] Attack stopped by user.", style="bold")
         console.print(f"[[green]+[/]] Elapsed time: {elapsed_time:.2f} seconds", style="bold")
-
