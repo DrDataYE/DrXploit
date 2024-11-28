@@ -119,6 +119,6 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 
 ---
 
-Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/LinuxArabe) 📬
+Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/NewKali) 📬
 
 
