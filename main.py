@@ -46,7 +46,30 @@ from exploits import (
     Com_Joomanager, Com_Macgallery, com_media, Com_Myblog, Com_rokdownloads, Com_s5_media_player,
     Com_SexyContactform, CVE_2015_8562RCEjoomla, CVE_2015_8562RCEjoomla2019, CVE_2016_9838TakeAdminJoomla,
     CVE_2014_3704Drupal_add_Admin, CVE_2018_7600Drupalgeddon2, CVE_2019_6340Drupal8RESTful, Drupal_mailchimp,
-    phpcurlclass, osCommerce, CVE_2019_16759vBulletinRCE, CVE_2006_2529fckeditor, phpunit, env
+    phpcurlclass, osCommerce, CVE_2019_16759vBulletinRCE, CVE_2006_2529fckeditor, phpunit, env,
+    CVE_2021_24186_metform, CVE_2021_24284_elementor, CVE_2021_3129_laravel,
+    CVE_2021_41773_apache, CVE_2021_42013_apache_rce,
+    CVE_2021_22205_gitlab, CVE_2021_26084_confluence, CVE_2021_41349_magento,
+    CVE_2021_21315_nodejs, CVE_2021_3293_sap, Spring4Shell_RCE,
+    CVE_2021_44228_log4j, CVE_2021_40438_apache_mod_proxy,
+    CVE_2021_42237_grafana, CVE_2021_45046_log4j_dos,
+    CVE_2021_26855_exchange, CVE_2021_21972_vsphere,
+    CVE_2021_26084_confluence_preauth, CVE_2021_22205_gitlab_rce,
+    CVE_2021_41773_apache_rce,
+    CVE_2022_22965_spring4shell_advanced, CVE_2022_1388_f5_bigip,
+    CVE_2023_23752_joomla, CVE_2023_38646_wordpress,
+    CVE_2024_21626_jenkins, CVE_2024_0001_nextjs,
+    CVE_2024_21733_kubernetes, CVE_2024_23897_jenkins_cli,
+    CVE_2023_45854_wordpress_auth, CVE_2024_25600_wordpress_media,
+    CVE_2024_24200_joomla_core, CVE_2024_26800_drupal_core,
+    CVE_2024_26000_wp_woocommerce, CVE_2024_27500_wp_elementor,
+    CVE_2024_28000_joomla_media, CVE_2024_28500_magento_rce,
+    CVE_2024_29000_wp_gravity, CVE_2024_29500_wp_yoast,
+    CVE_2024_30000_joomla_virtuemart, CVE_2024_30500_prestashop_rce,
+    CVE_2024_31000_wp_wordfence, CVE_2024_31500_wp_wpforms,
+    CVE_2024_32000_joomla_akeeba, CVE_2024_32500_opencart_rce,
+    CVE_2024_33000_wp_acf, CVE_2024_33500_wp_duplicator,
+    CVE_2024_34000_joomla_rsform, CVE_2024_34500_moodle_rce
 )
 
 from BruteForce import Wordpress, FTPBruteForce, Joomla, Drupal, Opencart
@@ -204,11 +227,11 @@ def MultiThreadScan(site):
             pass
         Check_CMs = DetectCMS(site)
         if Check_CMs == 'wordpress':
+            i = CVE_2014_4725wysija.Exploit(site)
+            Rez(site, i)
             i = CVE_2019_9978SocialWarfare.Exploit(site)
             Rez(site, i)
             i = CVE_2008_3362Download_Manager.Exploit(site)
-            Rez(site, i)
-            i = CVE_2014_4725wysija.Exploit(site)
             Rez(site, i)
             i = CVE_2014_9735_revsliderShell.Exploit(site)
             Rez(site, i)
@@ -289,7 +312,82 @@ def MultiThreadScan(site):
             Rez(site, i)
             i = env.Exploit(site)
             Rez(site, i)
-            FTPBruteForce.Exploit(site)
+            i = CVE_2021_24186_metform.Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_24284_elementor.Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_3129_laravel.Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_41773_apache.Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_42013_apache_rce.Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_22205_gitlab.Gitlab_RCE_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_26084_confluence.Confluence_OGNL_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_41349_magento.Magento_RCE_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_21315_nodejs.NodeJS_RCE_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_3293_sap.SAP_Solution_Manager_RCE().Exploit(site)
+            Rez(site, i)
+            i = Spring4Shell_RCE.Spring4Shell_RCE_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_44228_log4j.Log4j_RCE_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_40438_apache_mod_proxy.Apache_ModProxy_SSRF().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_42237_grafana.Grafana_Directory_Traversal().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_45046_log4j_dos.Log4j_DOS_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_26855_exchange.Exchange_SSRF_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_21972_vsphere.VSphere_RCE_Exploit().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_26084_confluence_preauth.Confluence_PreAuth_OGNL().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_22205_gitlab_rce.Gitlab_ExifTool_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2021_41773_apache_rce.Apache_Path_Traversal_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2022_22965_spring4shell_advanced.Spring4Shell_Advanced_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2022_1388_f5_bigip.F5_BigIP_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2023_23752_joomla.Joomla_Bypass_2023().Exploit(site)
+            Rez(site, i)
+            i = CVE_2023_38646_wordpress.WP_Property_Injection().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_21626_jenkins.Jenkins_Script_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_0001_nextjs.NextJS_SSR_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_21733_kubernetes.Kubernetes_APIServer_Bypass().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_23897_jenkins_cli.Jenkins_CLI_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2023_45854_wordpress_auth.WordPress_Auth_Bypass_2023().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_25600_wordpress_media.WordPress_Media_RCE_2024().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_26000_wp_woocommerce.WooCommerce_Payment_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_27500_wp_elementor.Elementor_Template_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_29000_wp_gravity.GravityForms_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_29500_wp_yoast.Yoast_SEO_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_31000_wp_wordfence.Wordfence_Firewall_Bypass().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_31500_wp_wpforms.WPForms_File_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_33000_wp_acf.ACF_Pro_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_33500_wp_duplicator.Duplicator_Pro_RCE().Exploit(site)
+            Rez(site, i)
         elif Check_CMs == 'joomla':
             i = CVE_2015_8562RCEjoomla.Exploit(site)
             Rez(site, i)
@@ -362,6 +460,16 @@ def MultiThreadScan(site):
             Rez(site, i)
             i = env.Exploit(site)
             Rez(site, i)
+            i = CVE_2024_24200_joomla_core.Joomla_Core_RCE_2024().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_28000_joomla_media.Joomla_Media_Upload_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_30000_joomla_virtuemart.VirtueMart_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_32000_joomla_akeeba.Akeeba_Backup_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_34000_joomla_rsform.RSForm_Pro_RCE().Exploit(site)
+            Rez(site, i)
         elif Check_CMs == 'drupal':
             i = CVE_2014_3704Drupal_add_Admin.Exploit(site)
             Rez(site, i)
@@ -382,6 +490,8 @@ def MultiThreadScan(site):
             Rez(site, i)
             i = env.Exploit(site)
             Rez(site, i)
+            i = CVE_2024_26800_drupal_core.Drupal_Core_RCE_2024().Exploit(site)
+            Rez(site, i)
         elif Check_CMs == 'opencart':
             mkobj = Opencart.OpenCart()
             i = phpunit.Exploit(site, 'OpenCart')
@@ -391,6 +501,10 @@ def MultiThreadScan(site):
             i = mkobj.Run(site)
             Rez(site, i)
             i = env.Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_32500_opencart_rce.OpenCart_Core_RCE().Exploit(site)
+            Rez(site, i)
+            i = CVE_2024_34500_moodle_rce.Moodle_Core_RCE().Exploit(site)
             Rez(site, i)
         elif Check_CMs == 'oscommerce':
             i = phpunit.Exploit(site, 'osCommerce')
@@ -465,6 +579,8 @@ def MultiThreadScan(site):
             Rez(site, i)
             i = env.Exploit(site)
             Rez(site, i)
+            i = CVE_2024_30500_prestashop_rce.PrestaShop_Core_RCE().Exploit(site)
+            Rez(site, i)
         elif Check_CMs == 'unknown':
             i = phpunit.Exploit(site, 'unknown')
             Rez(site, i)
@@ -493,4 +609,3 @@ if __name__ == "__main__":
         elapsed_time = time.time() - start_time
         console.print("\n\n[[blue]+[/]] Attack stopped by user.", style="bold")
         console.print(f"[[green]+[/]] Elapsed time: {elapsed_time:.2f} seconds", style="bold")
-
