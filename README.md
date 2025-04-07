@@ -14,12 +14,8 @@ DrXploit is a powerful and open-source penetration testing and exploitation tool
 
 ## Exploits Count 🔢
 
-- **WordPress**: 40+ exploits 📝
-- **Joomla**: 30+ exploits 📝
-- **Drupal**: 10+ exploits 📝
-- **PrestaShop**: 20+ exploits 📝
-- **Other CMS**: 15+ exploits 📝
-
+- **SITE**: 158+ exploits 📝
+  
 ## Usage Instructions 🚀
 
 ### Requirements 📋
