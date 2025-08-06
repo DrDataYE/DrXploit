@@ -30,7 +30,11 @@ DrXploit is a powerful and open-source penetration testing and exploitation tool
 You can install DrXploit using a setup script. This will automatically download and install the tool:
 
 ```bash
-wget -qO - http://psh.pshteam.dev/dsetup.sh | bash
+git clone https://github.com/DrDataYE/DrXploit.git
+
+cd DrXploit
+
+bash setup.sh
 ```
 
 ### Running the Tool 🏃‍♂️
