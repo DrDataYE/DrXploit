@@ -193,7 +193,7 @@ def banner():
     console.print("\n-----------------\n", style="bold")
     console.print("[[green]+[/]] DrXsploit v1.0", style="bold")
     console.print("[[green]+[/]] By The [link https://github.com/DrDataYE]@DrDataYE", style="bold")
-    console.print("[[green]+[/]] Telegram [link https://t.me/LinuxArabe]@LinuxArabe", style="bold")
+    console.print("[[green]+[/]] Telegram [link https://t.me/Tryhacking]@Tryhacking", style="bold")
     console.print("[[green]+[/]] By Yemen", style="bold")
     console.print("\n-----------------\n", style="bold")
     console.print(
