@@ -160,6 +160,7 @@ def get_Typer():
     path = args.path_or_domain
 
 def CheckEmail():
+    global YOUR_Email_For_TAkeAdmin_Exploit
     if not os.path.exists('email.txt'):
         console.print("[[red]-[/]] Please provide an email address using the -e option.")
         email = "drdataye@gmail.com"
@@ -177,7 +178,7 @@ def CheckEmail():
 
 def banner():
     console.print(
-    """
+    r"""
  (              )
  )\ )        ( /(         (             )
 (()/(   (    )\())        )\     (   ( /(
