@@ -1,66 +1,92 @@
 #!/bin/bash
 
-# Function to check the system type
-check_system() {
-  if [ -n "$TERMUX_VERSION" ]; then
-    echo "termux"
-  elif [ -n "$ISH_VERSION" ]; then
-    echo "ish"
-  elif [ "$(uname -s)" == "Linux" ]; then
-    echo "linux"
+set -euo pipefail
+
+resolve_link() {
+  local target="$1"
+  if command -v readlink >/dev/null 2>&1; then
+    readlink "$target"
   else
-    echo "unknown"
+    return 1
   fi
 }
 
-SYSTEM=$(check_system)
+SCRIPT_PATH="$0"
+if [ -L "$SCRIPT_PATH" ]; then
+  while true; do
+    local_target="$(resolve_link "$SCRIPT_PATH" 2>/dev/null || true)"
+    if [ -z "$local_target" ]; then
+      break
+    fi
+    if [[ "$local_target" != /* ]]; then
+      SCRIPT_PATH="$(cd "$(dirname "$SCRIPT_PATH")" && cd "$(dirname "$local_target")" && pwd)/$(basename "$local_target")"
+    else
+      SCRIPT_PATH="$local_target"
+    fi
+    if [ ! -L "$SCRIPT_PATH" ]; then
+      break
+    fi
+  done
+fi
 
-# Get the input argument
-INPUT_ARG="$1"
+SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
+BASE_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+INSTALL_DIR="$BASE_DIR/opt/drxploit"
 
-if [ -z "$INPUT_ARG" ]; then
-  # No input provided, just run the tool
-  INPUT_TYPE="none"
+if [ ! -d "$INSTALL_DIR" ]; then
+  echo "DrXploit installation not found in $INSTALL_DIR" >&2
+  exit 1
+fi
+
+VENV_PATH_FILE="$INSTALL_DIR/.venv_path"
+if [ -f "$VENV_PATH_FILE" ]; then
+  IFS= read -r VENV_DIR < "$VENV_PATH_FILE"
 else
-  # Check if the input is a file or a domain
-  if [ -f "$INPUT_ARG" ]; then
-    INPUT_TYPE="file"
-    INPUT_PATH=$(readlink -f "$INPUT_ARG")
-  else
-    INPUT_TYPE="domain"
-    INPUT_PATH="$INPUT_ARG"
+  VENV_DIR="$INSTALL_DIR/.venv"
+fi
+
+if [ -z "$VENV_DIR" ]; then
+  VENV_DIR="$INSTALL_DIR/.venv"
+fi
+
+if [ -d "$VENV_DIR" ]; then
+  if command -v readlink >/dev/null 2>&1 && readlink -f "$VENV_DIR" >/dev/null 2>&1; then
+    VENV_DIR="$(readlink -f "$VENV_DIR")"
+  elif command -v realpath >/dev/null 2>&1; then
+    VENV_DIR="$(realpath "$VENV_DIR")"
   fi
 fi
 
-# Execute the command based on the detected system
-case "$SYSTEM" in
-  termux)
-    cd /data/data/com.termux/files/usr/opt/drxploit/
-    if [ "$INPUT_TYPE" == "none" ]; then
-      python3 -B main.py "${@:2}"
-    else
-      python3 -B main.py "$INPUT_PATH" "${@:2}"
+PYTHON_BIN="$VENV_DIR/bin/python3"
+if [ ! -x "$PYTHON_BIN" ]; then
+  PYTHON_BIN="$VENV_DIR/bin/python"
+fi
+if [ ! -x "$PYTHON_BIN" ]; then
+  PYTHON_BIN="$(command -v python3 || command -v python || true)"
+fi
+
+if [ -z "$PYTHON_BIN" ]; then
+  echo "Python interpreter not found." >&2
+  exit 1
+fi
+
+ARGS=()
+
+if [ "$#" -gt 0 ]; then
+  FIRST_ARG="$1"
+  shift
+  if [ -f "$FIRST_ARG" ]; then
+    if command -v readlink >/dev/null 2>&1 && readlink -f "$FIRST_ARG" >/dev/null 2>&1; then
+      FIRST_ARG="$(readlink -f "$FIRST_ARG")"
+    elif command -v realpath >/dev/null 2>&1; then
+      FIRST_ARG="$(realpath "$FIRST_ARG")"
     fi
-    ;;
-  ish)
-    cd /usr/local/opt/drxploit/
-    if [ "$INPUT_TYPE" == "none" ]; then
-      python3 -B main.py "${@:2}"
-    else
-      python3 -B main.py "$INPUT_PATH" "${@:2}"
-    fi
-    ;;
-  linux)
-    cd /usr/opt/drxploit/
-    if [ "$INPUT_TYPE" == "none" ]; then
-      python3 -B main.py "${@:2}"
-    else
-      python3 -B main.py "$INPUT_PATH" "${@:2}"
-    fi
-    ;;
-  *)
-    echo "Unsupported system: $SYSTEM"
-    exit 1
-    ;;
-esac
+  fi
+  ARGS=("$FIRST_ARG" "$@")
+else
+  ARGS=("$@")
+fi
+
+cd "$INSTALL_DIR"
+exec "$PYTHON_BIN" -B main.py "${ARGS[@]}"
 

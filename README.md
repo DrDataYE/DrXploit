@@ -2,123 +2,126 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.x-yellow.svg) ![Version](https://img.shields.io/badge/version-1.0-green.svg) ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-DrXploit is a powerful and open-source penetration testing and exploitation tool for web applications. This tool is designed to automate the process of discovering and exploiting vulnerabilities, saving time and effort for security researchers.
+DrXploit is an open-source web application security assessment toolkit. It automates the detection and verification of known vulnerabilities across popular CMS platforms, helping security researchers save time during authorized testing.
+
+Use this tool only on systems you own or have explicit permission to test.
 
 ## Features 🌟
 
-- **Multi-CMS Support**: Supports WordPress, Joomla, Drupal, PrestaShop, and more. 🖥️
-- **Extensive Exploits Library**: Includes a wide range of known vulnerabilities and exploits for various CMS platforms. 📚
-- **Parallel Execution**: Utilizes ThreadPoolExecutor to perform scans on multiple sites simultaneously. 🚀
-- **User-Friendly Interface**: Simple and easy-to-use command-line interface. 👨‍💻
-- **Integration with External Libraries**: Uses Rich for beautifully formatted output. 🎨
+- Multi-CMS coverage: WordPress, Joomla, Drupal, PrestaShop, and more.
+- Curated exploit checks: A broad collection of known issues for multiple CMS ecosystems.
+- Parallel execution: ThreadPoolExecutor-based scanning of multiple targets.
+- Simple CLI: Clean, easy-to-use command-line interface.
+- Rich output: Nicely formatted console output via Rich.
 
 ## Exploits Count 🔢
 
-- **SITE**: 158+ exploits 📝
-  
-## Usage Instructions 🚀
+- SITE: 158+ exploits
+
+## Usage 🚀
 
 ### Requirements 📋
 
-- Python 3.x 🐍
-- Required Python libraries: rich, argparse, bs4, requests, colorama 📦
+- Python 3.x
+- Python packages: rich, argparse, bs4, requests, colorama
 
 ### Installation 🔧
 
-#### Using Setup Script
-
-You can install DrXploit using a setup script. This will automatically download and install the tool:
+#### Using setup script
 
 ```bash
 git clone https://github.com/DrDataYE/DrXploit.git
-
 cd DrXploit
-
 bash setup.sh
 ```
 
-### Running the Tool 🏃‍♂️
+> Note: The setup script installs dependencies and configures a launcher.
 
-#### Listing Files in the `result` Directory 📁
+### Uninstallation 🧹
 
-To list the files inside the `result` directory, use the `-l` or `--list-files` option:
+From the project directory:
+
+```bash
+bash uninstall.sh
+```
+
+For system-wide installs (e.g., if setup was run with sudo):
+
+```bash
+sudo bash uninstall.sh
+```
+
+The script removes installed files, the virtual environment, the launcher, and related PATH entries.
+
+### Running 🏃‍♂️
+
+#### List files in the result directory 📁
 
 ```bash
 drxploit -l
 ```
 
-#### Scanning Sites from a File or a Single Domain 🌐
-
-You can specify a path to a file containing a list of sites or directly enter a domain to scan:
+#### Scan from a file or a single domain 🌐
 
 ```bash
 drxploit path_to_file_or_domain
 ```
 
-#### Adding Email for Important Data 📧
-
-To add an email address for receiving important data:
+#### Add an email for important notifications 📧
 
 ```bash
 drxploit -e "your_email@example.com"
 ```
 
-#### Example 💡
+#### Examples 💡
 
-To scan sites from a file `sites.txt`:
+Scan domains from a file:
 
 ```bash
 drxploit sites.txt
 ```
 
-To scan a specific domain like `example.com`:
+Scan a single domain:
 
 ```bash
 drxploit example.com
 ```
 
-### Tool Options ⚙️
+### Options ⚙️
 
-- `-h` or `--help`: Show the help menu.
-- `-l` or `--list-files`: List files in the `result` directory.
-- `-c` or `--list-cms`: List files in the `cms` directory.
-- `-e` or `--email`: Add an email address for receiving important data.
+- -h, --help: Show help.
+- -l, --list-files: List files in the result directory.
+- -c, --list-cms: List files in the cms directory.
+- -e, --email: Set an email address for important data.
 
 ## Output Directory 📂
 
-All the output results, including the logs and discovered vulnerabilities, are saved in the `result` directory within the project. Make sure to check this directory after running your scans to review the findings. 🧐
+All logs and findings are saved to the result directory in the project. Review this folder after scans to inspect results.
 
 ## Targeted Websites 🎯
 
-DrXploit is capable of targeting various types of websites running on different CMS platforms, including but not limited to:
+DrXploit supports multiple CMS platforms, including:
 
-- **WordPress**: Various plugins and themes exploits. 🔌
-- **Joomla**: Component and module vulnerabilities. 🧩
-- **Drupal**: Core and module exploits. 🛠️
-- **PrestaShop**: Module and theme vulnerabilities. 🛒
-- **Other CMS**: Custom and less-known CMS vulnerabilities. 🌐
+- WordPress: Plugin and theme issues.
+- Joomla: Component and module vulnerabilities.
+- Drupal: Core and module checks.
+- PrestaShop: Module and theme vulnerabilities.
+- Other CMS: Custom and lesser-known platforms.
 
 ## Example Screenshot 📸
 
-Below is an example screenshot demonstrating the use of DrXploit:
-
 ![DrXploit Usage](images/drxploit_usaged.jpg)
 
+## Contributing 🤝
 
+Contributions are welcome. Open an issue to report bugs or request features, or submit a pull request.
 
-## How to Contribute 🤝
-
-We welcome contributions from everyone! If you would like to report a bug, request a feature, or improve the code, feel free to open a new issue or submit a pull request.
-
-> **Note**: We have no income, but rather the unethical use of the tool.
-
+> Note: We do not condone unethical use of this tool.
 
 ## License 📄
 
-This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Developed by [DrDataYE](https://github.com/DrDataYE) - [Telegram](https://t.me/Tryhacking) 📬
-
-
+Developed by [DrDataYE](https://github.com/DrDataYE) — [Telegram](https://t.me/Tryhacking) 📬
